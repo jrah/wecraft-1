@@ -1,0 +1,96 @@
+{
+  "contact": {
+    "title": "Contact title",
+    "text": "Contact text",
+    "points": [
+      {
+        "icon": "facebook",
+        "paragraph": "Facebook text paragraph"
+      }
+    ]
+  },
+  "splash": {
+    "title": "How DiversiTea Works",
+    "text": "Each month DiversiTea selects two different teas, packs them into our environmentally friendly package and delivers them directly to your doorstep."
+  },
+  "intro": "There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy.",
+  "icon_splash": {
+    "title": "Have any questions?",
+    "text": "Please feel free to email us below",
+    "anchor": "Email us",
+    "href": "mailto:team@diversitea.co"
+  },
+  "collaborations": {
+    "title": "Recent collaboration",
+    "organisation": [
+      {
+        "name": "Kopan",
+        "image": "/images/uploads/logo-darkgreen.png",
+        "href": "https://kopan.dk"
+      },
+      {
+        "name": "Pura Panela",
+        "image": "/images/uploads/square-brochure-100x100px.png",
+        "href": "http://www.purapanela.com/"
+      },
+      {
+        "name": "A'dren",
+        "image": "/images/uploads/adren_logo-1.png",
+        "href": "http://withadren.com/"
+      },
+      {
+        "name": "Yoki Sheffield",
+        "image": "/images/uploads/yoki240.png",
+        "href": "https://yoki-sheffield.business.site/"
+      }
+    ]
+  },
+  "title": "A better way to find the right tea",
+  "image": "/images/uploads/nik-macmillan-577478-unsplash2-optimised.jpg",
+  "features": {
+    "title": "Our Values",
+    "block": [
+      {
+        "icon": "head",
+        "heading": "Exquisite taste",
+        "paragraph": "Enjoy the finest quality loose leaf teas, freshly sourced from the best tea experts in the UK"
+      },
+      {
+        "icon": "leaf",
+        "heading": "Seasonality",
+        "paragraph": "As the seasons change, each of our tea boxes comes with a new unique flavour."
+      },
+      {
+        "icon": "hand",
+        "heading": "Bio-degradable",
+        "paragraph": "When it comes to our tea, environmental sustainability is a crucial part of our process. "
+      }
+    ]
+  },
+  "options": {
+    "dictionary": {
+      "icon": "quiz",
+      "heading": "Tea Quiz: Personal guide to the world of tea",
+      "paragraph": "There's an infinite array of teas out there. Start exploring with our short Tea Quiz, which will help you find the tea that suits you best. Get custom \ntea recommendations based on your particular flavour preferences."
+    },
+    "quiz": {
+      "icon": "dictionary",
+      "heading": "Tea Dictionary: Peruse our infinite array of teas",
+      "paragraph": "From chocolate cake tea to the finest FTGFOP1 graded black tea, we have collected diverse teas of unparalleled quality. Our tea would make a wonderful gift for yourself or a loved one. Simply browse, pick and brew! "
+    }
+  },
+  "testimonial": [
+    {
+      "quote": "It was incredible. Shockingly so and I am still coming down from it...",
+      "author": "Emma Peel"
+    },
+    {
+      "quote": "Absolutely stunning service & really lovely tea \n",
+      "author": "Lesley Pyne"
+    },
+    {
+      "quote": "Always easy to deal with and the tea is so good",
+      "author": "Debbie Harkness"
+    }
+  ]
+}
