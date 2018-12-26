@@ -17,8 +17,6 @@
               class="no-underline inline-block shadow bg-navy hover:bg-navy-light focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded cursor-pointer my-3">Click Here</a> -->
         </div>
       </div>
-      <div
-        class="overlay"
     </div>
 
   </div>
