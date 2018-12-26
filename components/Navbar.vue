@@ -2,14 +2,10 @@
 
   <div class="absolute pin-t pin-x w-full">
     <div class="container relative z-20 py-4 flex items-center justify-between">
-      <a href="/">
-        <img
-          src="~assets/images/logo.svg"
-          class="w-32 text-white"
-          alt="Logo">
-      </a>
-
-
+      <app-logo
+        :component-name="site.logo.name"
+        :component-text="site.logo.text"
+        :component-type="site.logo.type"/>
       <nav
         :class="{ isOpen: isOpen }"
         class="navMenu--top">
@@ -38,8 +34,12 @@
 </template>
 
 <script>
+import appLogo from '~/components/AppLogo.vue'
 import site from '~/content/site.json'
 export default {
+  components: {
+    appLogo
+  },
   data() {
     return {
       site,
