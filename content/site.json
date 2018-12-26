@@ -10,5 +10,10 @@
       "href": "www.instagram.com/diversiteabox"
     }
   ],
-  "nav": []
+  "nav": [],
+  "logo": {
+    "text": "WeCraft",
+    "name": "logo",
+    "type": "svg"
+  }
 }
