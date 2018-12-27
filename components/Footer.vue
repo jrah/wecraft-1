@@ -1,8 +1,7 @@
 <template>
   <footer>
     <div class="ml-32 m-5 p-8">
-      <div class="items-center flex">
-        <span class="flex lock font-black text-5xl"> {{ site.title }} </span>
+      <div class="items-center flex font-bold text-5xl"> {{ site.title }} </span>
         <ul
           v-if="icons"
           class="pa-0 ma-0 list flex justify-between">
