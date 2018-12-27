@@ -3,13 +3,13 @@
     <app-header/>
 
     <section class="bg-white text-navy">
-      <div class="container p-12 bg-lightest text-navy">
+      <div class="p-12 bg-lightest text-navy">
         <div class="max-w-md m-auto text-center">
           <img
             :src="require(`~/assets/images/logo0.svg`)"
             class="w-24"
             alt="Logo">
-            <p class="container border leading-normal p-8 m-5"> {{home.discrip }}</p>
+            <p class=" blockquote leading-normal p-8 m-5"> {{home.discrip }}</p>
         </div>
       </div>
     </section>
@@ -176,5 +176,21 @@ export default {
   &-r {
     right: 4rem;
   }
+}
+.blockquote:before {
+  content: "\201C";
+  font-size: 5em;
+  font-family: Georgia;
+  color: #bcbcbc;
+  float: left;
+  margin: -40px 20px 0px -50px;
+}
+.blockquote:after {
+  content: "\201D";
+  font-size: 5em;
+  font-family: Georgia;
+  color: #bcbcbc;
+  float: right;
+  margin: 0px -50px 0px 0px;
 }
 </style>
