@@ -2,7 +2,7 @@
   <div class="content">
     <app-header/>
 
-    <section class="bg-white text-navy">
+    <section class="mt-5 bg-white text-navy">
       <div class="p-12 bg-lightest text-navy">
         <div class="max-w-md m-auto text-center">
           <img

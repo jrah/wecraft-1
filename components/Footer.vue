@@ -1,8 +1,8 @@
 <template>
   <footer>
-    <div class="container p-8">
-      <div class="justify-between items-center">
-        <span class="block font-black">© 2018 {{ site.title }} </span>
+    <div class="ml-32 m-5 p-8">
+      <div class="items-center flex">
+        <span class="flex lock font-black text-5xl"> {{ site.title }} </span>
         <ul
           v-if="icons"
           class="pa-0 ma-0 list flex justify-between">

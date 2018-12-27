@@ -2,7 +2,7 @@
   <div class="content">
     <app-header/>
 
-    <section class="py-10 bg-lightest">
+    <section class="mt-5 py-10 bg-lightest">
       <h1 class="text-center text-4xl mb-12">{{ home.clients.title }}</h1>
       <ul class=" flex list-reset ns:justify-left flex-wrap justify-center">
         <li
