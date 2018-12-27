@@ -3,23 +3,21 @@
     <app-header/>
 
     <section class="py-10 bg-lightest">
-      <div class="container">
-        <h1 class="text-center text-4xl mb-12">{{ home.clients.title }}</h1>
-        <ul class="container flex list-reset ns:justify-left flex-wrap items-center">
-          <li
-            v-for="(org, index) in home.clients.organisation"
-            :key="index"
-            class="w-24 mx-10 my-12 text-center">
-            <a :href="org.href">
-              <img
-                :src="org.image"
-                :alt="org.name"
-                class="mb-5">
-              <a class="no-underline text-grey-darker mt-1 leading-tight text-sm">{{ org.name }}</a>
-            </a>
-          </li>
-        </ul>
-      </div>
+      <h1 class="text-center text-4xl mb-12">{{ home.clients.title }}</h1>
+      <ul class=" flex list-reset ns:justify-left flex-wrap justify-center">
+        <li
+          v-for="(org, index) in home.clients.organisation"
+          :key="index"
+          class="w-24 mx-16 my-12 text-center">
+          <a :href="org.href">
+            <img
+              :src="org.image"
+              :alt="org.name"
+              class="mb-5">
+            <a class="no-underline text-grey-darker mt-1 leading-tight text-sm">{{ org.name }}</a>
+          </a>
+        </li>
+      </ul>
     </section>
 
     <section class="bg-grey-lightest text-navy">
