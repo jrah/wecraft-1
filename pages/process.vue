@@ -23,16 +23,14 @@
     </section>
 
     <section class=" p-8 bg-grey-lighter text-black bg-cover bg-greyligter bg-no-repeat bg-center">
-         <div class="w-24 absolute mt-10 pin-l ml-32 z-auto">
-           <img
-              :src="require('~/assets/images/2052171.svg')"
-              alt="block.icon"
-            >
-         </div>
-
-         <div class="mt-24 container relative z-50">
+         <div class="mt-24 container relative">
           <div class="flex mb-4">
-              <div class="w-3/4 bg-white p-5">
+             <img
+                :src="require('~/assets/images/2052171.svg')"
+                alt="block.icon"
+                class="w-24 absolute -ml-20 z-auto -mt-16"
+              >
+              <div class="w-3/4 bg-white p-5 z-50">
                  <h1 class="leading-tight mt-2 mb-4 text-lg font-bold text-navy">{{ home.options.quiz.heading }}</h1>
                  <p class="leading-normal ma-0 f4">{{ home.options.quiz.paragraph + home.options.quiz.paragraph + home.options.quiz.paragraph +home.options.quiz.paragraph}}</p>
                  <span class="inline-block my-3 font-bold text-sm text-grey no-underline">Coming Soon</span>
@@ -45,20 +43,18 @@
           </div>
         </div>
 
-        <div class="w-24 absolute pin-r mr-32 z-auto">
-          <img
-            :src="require('~/assets/images/2052150.svg')"
-             alt="block.icon"
-           >
-        </div>
-
-        <div class="container mt-20 relative z-50">
+        <div class="container mt-20 relative">
           <div class="flex mb-4">
+            <img
+               :src="require('~/assets/images/2052150.svg')"
+               alt="block.icon"
+               class="w-24 absolute pin-r -mr-5 -mt-16 z-auto"
+             >
              <div
              :style="{'background-image' : 'url(/images/uploads/name2.jpg)'}"
              class="w-1/4 bg-cover bg-no-repeat p-5">
              </div>
-             <div class="w-3/4 bg-white p-5">
+             <div class="w-3/4 bg-white p-5 z-50">
                 <h1 class="leading-tight mt-2 mb-4 text-lg font-bold text-navy">{{ home.options.quiz.heading }}</h1>
                 <p class="leading-normal ma-0 f4">{{ home.options.quiz.paragraph + home.options.quiz.paragraph + home.options.quiz.paragraph +home.options.quiz.paragraph}}</p>
                 <span class="inline-block my-3 font-bold text-sm text-grey no-underline">Coming Soon</span>
@@ -66,16 +62,14 @@
            </div>
          </div>
 
-         <div class="w-24 absolute pin-l ml-32 z-auto ">
-           <img
-              :src="require('~/assets/images/2052130.svg')"
-              alt="block.icon"
-            >
-         </div>
-
-         <div class="container mt-20 relative z-50">
+         <div class="container mt-20 relative">
           <div class="flex mb-4">
-              <div class="w-3/4 bg-white p-5">
+             <img
+                :src="require('~/assets/images/2052130.svg')"
+                alt="block.icon"
+                class="w-24 absolute pin-l -ml-5 -mt-16 z-auto"
+              >
+              <div class="w-3/4 bg-white p-5 z-50">
                  <h1 class="leading-tight mt-2 mb-4 text-lg font-bold text-navy">{{ home.options.quiz.heading }}</h1>
                  <p class="leading-normal ma-0 f4">{{ home.options.quiz.paragraph + home.options.quiz.paragraph + home.options.quiz.paragraph +home.options.quiz.paragraph}}</p>
                  <span class="inline-block my-3 font-bold text-sm text-grey no-underline">Coming Soon</span>
@@ -88,20 +82,19 @@
           </div>
         </div>
 
-        <div class="w-24 absolute pin-r mr-32 z-auto ">
-          <img
-            :src="require('~/assets/images/2052105.svg')"
-             alt="block.icon"
-           >
-        </div>
-        <div class="container mt-20 relative z-50">
+        <div class="container mt-20 relative">
           <div class="flex mb-4">
+             <img
+               :src="require('~/assets/images/2052105.svg')"
+               alt="block.icon"
+               class="w-24 absolute pin-r z-auto -mr-5 -mt-16"
+             >
              <div
              :style="{'background-image' : 'url(/images/uploads/name4.jpg)'}"
              class="w-1/4 bg-cover bg-no-repeat p-5">
 
              </div>
-             <div class="w-3/4 bg-white p-5">
+             <div class="w-3/4 bg-white p-5 z-50">
                 <h1 class="leading-tight mt-2 mb-4 text-lg font-bold text-navy">{{ home.options.quiz.heading }}</h1>
                 <p class="leading-normal ma-0 f4">{{ home.options.quiz.paragraph + home.options.quiz.paragraph + home.options.quiz.paragraph +home.options.quiz.paragraph}}</p>
                 <span class="inline-block my-3 font-bold text-sm text-grey no-underline">Coming Soon</span>
