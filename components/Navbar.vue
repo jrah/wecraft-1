@@ -1,17 +1,14 @@
 <template>
 
-  <div class="absolute pin-t pin-x w-full">
+  <div class=" absolute pin-t pin-x w-full">
     <div class="container relative z-20 py-4 flex items-center justify-between">
-      <a href="/">
-        <img
-          src="~assets/images/logo.svg"
-          class="w-32 text-white"
-          alt="Logo">
-      </a>
-
+      <app-logo
+       :component-name="site.logo.name"
+       :component-text="site.logo.text"
+       :component-type="site.logo.type"/>
 
       <nav
-        :class="{ isOpen: isOpen }"
+        :class="{ isOpen: isOpen } "
         class="navMenu--top">
         <!-- <span @click="closeNav(click)" class="pointer z-4">Close</span> -->
         <a
@@ -20,6 +17,7 @@
           :key="`nav-${index}`"
           :href="item.href"
           :class="'navMenu--top-item ns:inline block no-underline font-bold mr2-ns flex items-center'">
+          {{ item.name }}
           <div class="ns:hidden ns:mr-0 mr-2">
             <no-ssr>
               <v-icon
@@ -39,7 +37,12 @@
 
 <script>
 import site from '~/content/site.json'
+import appLogo from '~/components/AppLogo.vue'
+
 export default {
+  components: {
+    appLogo
+  },
   data() {
     return {
       site,

@@ -115,7 +115,7 @@ let colors = {
   'purple-darker': '#382b5f',
   'purple-dark': '#794acf',
   purple: '#9561e2',
-  'purple-light': '#a779e9',
+  'purple-light': '#ccccff',
   'purple-lighter': '#d6bbfc',
   'purple-lightest': '#f3ebff',
 
@@ -685,7 +685,7 @@ module.exports = {
     '16': '4rem',
     '20': '5rem',
     '24': '6rem',
-    '32': '8rem'
+    '32': '10.5rem'
   },
 
   /*
@@ -826,6 +826,7 @@ module.exports = {
     current: 'currentColor'
   },
 
+
   /*
   |-----------------------------------------------------------------------------
   | Modules                  https://tailwindcss.com/docs/configuration#modules
@@ -916,6 +917,21 @@ module.exports = {
     //   // center: true,
     //   // padding: '1rem'
     // })
+    //linear gradient
+    require('tailwindcss-gradients')({
+       variants: ['responsive'],
+       directions: {
+         't': 'to top',
+         'r': 'to right',
+         'b': 'to bottom',
+         'l': 'to left',
+       },
+       gradients: {
+         'red': '#f00',
+         'red-blue': ['#f00', '#00f'],
+         'grey-lighter-white': [' #f1f5f8', '#ffffff', '#ffffff'],
+       },
+    }),
   ],
 
   /*

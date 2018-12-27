@@ -1,13 +1,13 @@
 <template>
   <footer>
     <div class="container p-8">
-      <div class="flex justify-between items-center">
+      <div class="justify-between items-center">
         <span class="block font-black">© 2018 {{ site.title }} </span>
         <ul
           v-if="icons"
           class="pa-0 ma-0 list flex justify-between">
           <li
-            v-for="(icon, index) in icons"
+            v-for="(icon, index) in site.social"
             :key="index"
             :name=" '' + index "
             class="inline mr-3">

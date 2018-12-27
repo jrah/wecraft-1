@@ -1,6 +1,59 @@
 <template>
   <div class="content">
     <app-header/>
+
+    <section class="py-10 bg-lightest">
+      <div class="container">
+        <h1 class="text-center text-4xl mb-12">{{ home.clients.title }}</h1>
+        <ul class="container flex list-reset ns:justify-left flex-wrap items-center">
+          <li
+            v-for="(org, index) in home.clients.organisation"
+            :key="index"
+            class="w-24 mx-10 my-12 text-center">
+            <a :href="org.href">
+              <img
+                :src="org.image"
+                :alt="org.name"
+                class="mb-5">
+              <a class="no-underline text-grey-darker mt-1 leading-tight text-sm">{{ org.name }}</a>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="bg-grey-lightest text-navy">
+      <div class="container pt-12 bg-lightest text-navy">
+        <div class="max-w-md m-auto text-center">
+          <h1 class="mt-0 mb-0 font-bold text-4xl leading-tight">{{ home.works.title }}</h1>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-10 bg-grey-lightest">
+      <div class="container l:flex justify-between">
+        <div
+        class=" bg-white bg-no-repeat p-10  m-5  l:w-1/2 border-grey-lighter border-solid border-2 rounded-sm shadow">
+          <img
+            :src="require('~/assets/images/projectimg.svg')">
+        </div>
+        <div class=" text-right mb-5 bg-white p-10 m-5  l:w-1/2 border-grey-lighter border-solid border-2 rounded-sm shadow">
+          <div class= "text-left">
+            <h1
+              v-if="home.works"
+              class="mt-0 f1 my-2 font-bold text-2xl leading-tight">{{ home.works.heading }}</h1>
+            <p
+              v-if="home.intro"
+              class="m-0 my-5 leading-normal">{{ home.works.paragraph }}</p>
+          </div>
+          <a
+            :href="home.icon_splash.href"
+            class="inline-flex no-underline mt-5 bg-white hover:bg-navy text-navy-dark font-semibold hover:text-white py-2 px-6 border border-navy hover:border-transparent rounded mb-2 border-white">{{ home.works.button }}</a>
+
+        </div>
+      </div>
+    </section>
+
     <section>
       <div class="container py-10 text-navy">
         <h1 class="text-center mb-12 text-4xl">{{ home.features.title }}</h1>
@@ -25,66 +78,34 @@
       </div>
     </section>
 
-    <section class="bg-grey-lightest text-navy">
-      <div class="container pt-12 bg-grey-lightest text-navy">
+    <section class="bg-grey-lighter text-navy">
+      <div class="container pt-12 bg-lightest text-navy">
         <div class="max-w-md m-auto text-center">
-          <h1 class="mt-0 mb-2 font-bold text-4xl leading-tight">{{ home.splash.title }}</h1>
-          <p class="leading-normal mt-0">{{ home.splash.text }}</p>
+          <h1 class="mt-0 mb-0 font-bold text-4xl leading-tight">{{ home.works.title }}</h1>
         </div>
       </div>
     </section>
 
-    <section
-      :style="{'background-image': 'url(' + require('~/assets/images/bg.svg') + ')'}"
-      class="bg-grey-lightest text-black l:bg-contain bg-cover py-12 bg-no-repeat bg-center">
+    <section class="py-10 bg-grey-lighter">
       <div class="container l:flex justify-between">
-        <div class="bg-white p-10 mx-2 l:mb-0 mb-3 border-grey-lighter border-solid border-2 rounded-sm shadow">
-          <div class="w-32">
-            <img
-              :src="require('~/assets/images/'+home.options.dictionary.icon+'.svg')"
-              alt="block.icon"
-            >
+        <div class=" text-right mb-5 bg-white p-10 m-5  l:w-1/2 border-grey-lighter border-solid border-2 rounded-sm shadow">
+          <div class= "text-left">
+            <h1
+              v-if="home.works"
+              class="mt-0 f1 my-2 font-bold text-2xl leading-tight">{{ home.works.heading }}</h1>
+            <p
+              v-if="home.intro"
+              class="m-0 my-5 leading-normal">{{ home.works.paragraph }}</p>
           </div>
-          <h1 class="leading-tight mt-2 mb-4 text-lg font-bold text-navy">{{ home.options.dictionary.heading }}</h1>
-          <p class="leading-normal ma-0">{{ home.options.dictionary.paragraph }}</p>
-          <!-- <a
-            href="http://teadictinary.diversitea.co"
-            class="inline-block my-3 font-bold text-sm text-navy hover:text-navy-lighter no-underline">Open our tea dictionary<no-ssr><v-icon
-              name="arrow-right"
-              class="ma-3 align-text-bottom mx-2" /></no-ssr></a> -->
-          <span class="inline-block my-3 font-bold text-sm text-grey no-underline">Coming Soon</span>
+          <a
+            :href="home.icon_splash.href"
+            class="inline-flex no-underline mt-5 bg-white hover:bg-navy text-navy-dark font-semibold hover:text-white py-2 px-6 border border-navy hover:border-transparent rounded mb-2 border-white">{{ home.works.button }}</a>
+
         </div>
-
-        <div class="bg-white p-10 mx-2 border-grey-lighter border-solid border-2 rounded-sm shadow">
-          <div class="w-32">
-            <img
-              :src="require('~/assets/images/'+home.options.quiz.icon+'.svg')"
-              alt="block.icon"
-            >
-          </div>
-          <h1 class="leading-tight mt-2 mb-4 text-lg font-bold text-navy">{{ home.options.quiz.heading }}</h1>
-          <p class="leading-normal ma-0 f4">{{ home.options.quiz.paragraph }}</p>
-          <span class="inline-block my-3 font-bold text-sm text-grey no-underline">Coming Soon</span>
+        <div class=" bg-white bg-no-repeat p-10  m-5  l:w-1/2 border-grey-lighter border-solid border-2 rounded-sm shadow">
+          <img
+            :src="require('~/assets/images/projectimg.svg')" >
         </div>
-      </div>
-
-    </section>
-
-    <section class="py-10 bg-grey-lightest">
-      <div class="container">
-        <h1 class="text-center text-4xl mb-12">{{ home.collaborations.title }}</h1>
-        <ul class="flex list-reset ns:justify-around justify-center flex-wrap items-center">
-          <li
-            v-for="(org, index) in home.collaborations.organisation"
-            :key="index"
-            class="w-48 m-3 text-center">
-            <a :href="org.href">
-              <img
-                :src="org.image"
-                :alt="org.name">
-            </a>
-          </li>
-        </ul>
       </div>
     </section>
 
@@ -113,23 +134,32 @@
       </no-ssr>
     </section>
 
-    <section class="bg-grey-lightest py-10 relative">
-      <div class="container flex justify-between">
-        <div class="ns:w-50 text-navy">
-          <h2 class="mb-2 text-4xl leading-tight">{{ home.icon_splash.title }}</h2>
-          <p class="leading-normal mt-0 mb-4">{{ home.icon_splash.text }}</p>
-          <a
-            :href="home.icon_splash.href"
-            class="no-underline inline-block bg-transparent hover:bg-navy text-navy-dark font-semibold hover:text-white py-2 px-4 border border-navy hover:border-transparent rounded mb-2 border-white">{{ home.icon_splash.anchor }}</a>
-        </div>
-        <div class="ns:w-50 ns:block hidden">
-          <img
-            src="~/assets/images/newsletter.svg"
-            class="w-64 -mt-32"
-            alt="Newsletter">
+    <section class="bg-grey-lighter text-navy">
+      <div class="container pt-12 text-navy">
+        <div class="max-w-md m-auto text-center">
+          <h1 class="mt-0 mb-5 font-bold text-4xl leading-tight">{{ home.contact.title }}</h1>
+          <p class="leading-normal pb-8">{{ home.splash.text }}</p>
         </div>
       </div>
     </section>
+
+    <section class=" bg-gradient-b-grey-lighter-white bg-no-repeat text-navy">
+      <div class="container l:flex justify-center">
+        <div class=" bg-white p-10 m-5 mt-0 l:w-2/3 border-grey-lighter border-solid border-2 rounded-sm shadow">
+          <appForm/>
+        </div>
+        <div class=" bg-white p-10  m-5 mt-0 l:w-1/3 border-grey-lighter border-solid border-2 rounded-sm shadow">
+          <h2 class="leading-tight mt-2 mb-4 text-lg font-bold text-navy">Corporate Office</h2>
+          <p class="leading-normal ma-0 mb-4 f4 text-sm">8668 Concord Center Dr.Englewood, CO 80112</p>
+          <h2 class="leading-tight mt-2 mb-4 text-lg font-bold text-navy">Direct Contact</h2>
+          <p class="leading-normal ma-0 f4 mb-4  text-sm">Phone: 720.974.787 <br/> Toll Free: 1.877.929.7878 <br/> Email: info@choicescreening.com</p>
+          <h2 class="leading-tight mt-2 mb-4 text-lg font-bold text-navy">Departments</h2>
+          <p class="leading-normal ma-0 f4 text-sm">customerservice@choicescreening.com<br/>sales@choicescreening.com<br/> disputes@choicescreening.com<br/> compliance@choicescreening.com</p>
+        </div>
+      </div>
+
+    </section>
+
   </div>
 </template>
 
@@ -137,11 +167,13 @@
 import home from '~/content/home.json'
 import appHeader from '~/components/Header.vue'
 import splash from '~/components/Splash.vue'
+import appForm from '~/components/Form.vue'
 
 export default {
   components: {
     appHeader,
-    splash
+    splash,
+    appForm
   },
   data() {
     return {

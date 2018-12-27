@@ -9589,6 +9589,13 @@ table@^5.0.2:
     slice-ansi "2.0.0"
     string-width "^2.1.1"
 
+tailwindcss-gradients@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/tailwindcss-gradients/-/tailwindcss-gradients-1.1.0.tgz#686df6067e073145d1a98dbb71cb2b134dd6db46"
+  integrity sha512-BCfLJ/iEMOvxiqIgv8euBJAH/HudM8MLhN0xoftdoFMw0412LF01iD6VSlqz+UWnLfoxDToH+eX7vSikksiLMw==
+  dependencies:
+    lodash "^4.17.10"
+
 tailwindcss@~0.7.0:
   version "0.7.3"
   resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-0.7.3.tgz#7b58605dd7857507c4dbc6edaccab4c14d30c054"

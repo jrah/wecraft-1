@@ -1,0 +1,189 @@
+<template>
+  <div class="content">
+    <app-header/>
+
+    <section class="bg-white text-navy">
+      <div class="container p-12 bg-lightest text-navy">
+        <div class="max-w-md m-auto text-center">
+          <img
+            :src="require(`~/assets/images/logo0.svg`)"
+            class="w-24"
+            alt="Logo"> WeCraft
+            <p class="container border leading-normal p-8 m-5"> {{home.discrip }}</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-grey-lighter text-navy">
+      <div class="container pt-12 bg-greyligter text-navy">
+        <div class="max-w-md m-auto text-center">
+          <h1 class=" mt-0 font-bold text-4xl leading-tight">{{ home.process.title }}</h1>
+        </div>
+      </div>
+    </section>
+
+    <section class=" p-8 bg-grey-lighter text-black bg-cover bg-greyligter bg-no-repeat bg-center">
+         <div class="w-24 absolute mt-10 pin-l ml-32 z-auto">
+           <img
+              :src="require('~/assets/images/2052171.svg')"
+              alt="block.icon"
+            >
+         </div>
+
+         <div class="mt-24 container relative z-50">
+          <div class="flex mb-4">
+              <div class="w-3/4 bg-white p-5">
+                 <h1 class="leading-tight mt-2 mb-4 text-lg font-bold text-navy">{{ home.options.quiz.heading }}</h1>
+                 <p class="leading-normal ma-0 f4">{{ home.options.quiz.paragraph + home.options.quiz.paragraph + home.options.quiz.paragraph +home.options.quiz.paragraph}}</p>
+                 <span class="inline-block my-3 font-bold text-sm text-grey no-underline">Coming Soon</span>
+              </div>
+              <div
+              :style="{'background-image' : 'url(/images/uploads/name1.jpg)'}"
+               class="w-1/4 bg-purple-lightest bg-cover">
+
+              </div>
+          </div>
+        </div>
+
+        <div class="w-24 absolute pin-r mr-32 z-auto">
+          <img
+            :src="require('~/assets/images/2052150.svg')"
+             alt="block.icon"
+           >
+        </div>
+
+        <div class="container mt-20 relative z-50">
+          <div class="flex mb-4">
+             <div
+             :style="{'background-image' : 'url(/images/uploads/name2.jpg)'}"
+             class="w-1/4 bg-cover bg-no-repeat p-5">
+             </div>
+             <div class="w-3/4 bg-white p-5">
+                <h1 class="leading-tight mt-2 mb-4 text-lg font-bold text-navy">{{ home.options.quiz.heading }}</h1>
+                <p class="leading-normal ma-0 f4">{{ home.options.quiz.paragraph + home.options.quiz.paragraph + home.options.quiz.paragraph +home.options.quiz.paragraph}}</p>
+                <span class="inline-block my-3 font-bold text-sm text-grey no-underline">Coming Soon</span>
+             </div>
+           </div>
+         </div>
+
+         <div class="w-24 absolute pin-l ml-32 z-auto ">
+           <img
+              :src="require('~/assets/images/2052130.svg')"
+              alt="block.icon"
+            >
+         </div>
+
+         <div class="container mt-20 relative z-50">
+          <div class="flex mb-4">
+              <div class="w-3/4 bg-white p-5">
+                 <h1 class="leading-tight mt-2 mb-4 text-lg font-bold text-navy">{{ home.options.quiz.heading }}</h1>
+                 <p class="leading-normal ma-0 f4">{{ home.options.quiz.paragraph + home.options.quiz.paragraph + home.options.quiz.paragraph +home.options.quiz.paragraph}}</p>
+                 <span class="inline-block my-3 font-bold text-sm text-grey no-underline">Coming Soon</span>
+              </div>
+
+              <div
+              :style="{'background-image' : 'url(/images/uploads/name3.jpg)'}"
+              class="w-1/4 bg-cover bg-no-repeat p-5">
+              </div>
+          </div>
+        </div>
+
+        <div class="w-24 absolute pin-r mr-32 z-auto ">
+          <img
+            :src="require('~/assets/images/2052105.svg')"
+             alt="block.icon"
+           >
+        </div>
+        <div class="container mt-20 relative z-50">
+          <div class="flex mb-4">
+             <div
+             :style="{'background-image' : 'url(/images/uploads/name4.jpg)'}"
+             class="w-1/4 bg-cover bg-no-repeat p-5">
+
+             </div>
+             <div class="w-3/4 bg-white p-5">
+                <h1 class="leading-tight mt-2 mb-4 text-lg font-bold text-navy">{{ home.options.quiz.heading }}</h1>
+                <p class="leading-normal ma-0 f4">{{ home.options.quiz.paragraph + home.options.quiz.paragraph + home.options.quiz.paragraph +home.options.quiz.paragraph}}</p>
+                <span class="inline-block my-3 font-bold text-sm text-grey no-underline">Coming Soon</span>
+             </div>
+           </div>
+         </div>
+    </section>
+
+    <section class="py-10 ">
+      <div class="container">
+        <h1 class="text-center text-4xl mb-12">{{ home.clients.title }}</h1>
+        <ul class="container flex list-reset ns:justify-left flex-wrap items-center">
+          <li
+            v-for="(org, index) in home.clients.organisation"
+            :key="index"
+            class="w-24 mx-10 my-12 text-center">
+            <a :href="org.href">
+              <img
+                :src="org.image"
+                :alt="org.name"
+                class="mb-5">
+              <a class="no-underline text-grey-darker mt-1 leading-tight text-sm">{{ org.name }}</a>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="bg-grey-lighter text-navy">
+      <div class="container pt-12 text-navy">
+        <div class="max-w-md m-auto text-center">
+          <h1 class="mt-0 mb-5 font-bold text-4xl leading-tight">{{ home.contact.title }}</h1>
+          <p class="leading-normal pb-8">{{ home.splash.text }}</p>
+        </div>
+      </div>
+    </section>
+
+    <section class=" bg-gradient-b-grey-lighter-white bg-no-repeat text-navy">
+      <div class="container l:flex justify-center">
+        <div class=" bg-white p-10 m-5 mt-0 l:w-2/3 border-grey-lighter border-solid border-2 rounded-sm shadow">
+          <appForm/>
+        </div>
+        <div class=" bg-white p-10  m-5 mt-0 l:w-1/3 border-grey-lighter border-solid border-2 rounded-sm shadow">
+          <h2 class="leading-tight mt-2 mb-4 text-lg font-bold text-navy">Corporate Office</h2>
+          <p class="leading-normal ma-0 mb-4 f4 text-sm">8668 Concord Center Dr.Englewood, CO 80112</p>
+          <h2 class="leading-tight mt-2 mb-4 text-lg font-bold text-navy">Direct Contact</h2>
+          <p class="leading-normal ma-0 f4 mb-4  text-sm">Phone: 720.974.787 <br/> Toll Free: 1.877.929.7878 <br/> Email: info@choicescreening.com</p>
+          <h2 class="leading-tight mt-2 mb-4 text-lg font-bold text-navy">Departments</h2>
+          <p class="leading-normal ma-0 f4 text-sm">customerservice@choicescreening.com<br/>sales@choicescreening.com<br/> disputes@choicescreening.com<br/> compliance@choicescreening.com</p>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+</template>
+
+<script>
+import home from '~/content/home.json'
+import appHeader from '~/components/Header.vue'
+import splash from '~/components/Splash.vue'
+import appForm from '~/components/Form.vue'
+
+export default {
+  components: {
+    appHeader,
+    splash,
+    appForm
+  },
+  data() {
+    return {
+      home
+    }
+  }
+}
+</script>
+
+<style scoped lang="scss">
+.pin-container {
+  position: absolute;
+  &-r {
+    right: 4rem;
+  }
+}
+</style>

@@ -20,18 +20,18 @@
     "anchor": "Email us",
     "href": "mailto:team@diversitea.co"
   },
-  "collaborations": {
-    "title": "Recent collaboration",
+  "clients": {
+    "title": "Our Clients",
     "organisation": [
       {
-        "name": "Kopan",
-        "image": "/images/uploads/logo-darkgreen.png",
-        "href": "https://kopan.dk"
+        "name": "A'dren",
+        "image": "/images/uploads/adren_logo-1.png",
+        "href": "http://withadren.com/"
       },
       {
-        "name": "Pura Panela",
-        "image": "/images/uploads/square-brochure-100x100px.png",
-        "href": "http://www.purapanela.com/"
+        "name": "Yoki Sheffield",
+        "image": "/images/uploads/yoki240.png",
+        "href": "https://yoki-sheffield.business.site/"
       },
       {
         "name": "A'dren",
@@ -42,13 +42,20 @@
         "name": "Yoki Sheffield",
         "image": "/images/uploads/yoki240.png",
         "href": "https://yoki-sheffield.business.site/"
+      },
+      {
+        "name": "A'dren",
+        "image": "/images/uploads/adren_logo-1.png",
+        "href": "http://withadren.com/"
       }
     ]
   },
-  "title": "A better way to find the right tea",
-  "image": "/images/uploads/nik-macmillan-577478-unsplash2-optimised.jpg",
+  "title": "We Craft",
+  "subTitle": "Beautiful Websites",
+  "image": "/images/uploads/cover.jpg",
+  "button": "Contact Us",
   "features": {
-    "title": "Our Values",
+    "title": "Our Features",
     "block": [
       {
         "icon": "head",
@@ -92,5 +99,18 @@
       "quote": "Always easy to deal with and the tea is so good",
       "author": "Debbie Harkness"
     }
-  ]
+  ],
+  "works": {
+    "title": "weCraft works",
+    "heading": "Project Name",
+    "paragraph": "Project Description : There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy. There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy.",
+    "button": "Link to page"
+  },
+  "contact": {
+    "title": "Contact Us"
+  },
+  "process": {
+    "title": "Process Step"
+  },
+  "discrip": "WeCraft is your creative guru, formed out of professionals with international appreciation and a special intuitive understanding of the UK & European market. Our focus is on two things: making beautifully optimised website for the UK & European market, and making beautifully designed and well-worded documents like proposal, pitch decks, that are needed for many purposes."
 }

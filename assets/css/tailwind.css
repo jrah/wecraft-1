@@ -60,3 +60,8 @@
  * @import "utilities/background-patterns";
  * @import "utilities/skew-transforms";
  */
+ @responsive {
+  .bg-gradient-blue-to-purple {
+    background-image: linear-gradient(to right, config('colors.blue'), config('colors.purple'));
+  }
+}

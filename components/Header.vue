@@ -9,14 +9,22 @@
           <h1
             v-if="home.title"
             class="mt-0 f1 mb-2 font-bold text-5xl leading-tight">{{ home.title }}</h1>
+          <h2
+            v-if="home.subTitle"
+            class="mt-0 f1 mb-2 text-3xl leading-normal">{{ home.subTitle }}</h2>
           <p
             v-if="home.intro"
-            class="m-0 leading-normal">{{ home.intro }}</p>
+            class="m-0 mb-12 leading-normal">{{ home.intro }}</p>
             <!-- <a
               href="#"
               class="no-underline inline-block shadow bg-navy hover:bg-navy-light focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded cursor-pointer my-3">Click Here</a> -->
         </div>
+        <a
+          :href="home.icon_splash.href"
+          class="no-underline inline bg-transparent hover:bg-navy text-white font-bold hover:text-white py-2 px-6 border-2 border-white hover:border-transparent mb-2 border-white">{{ home.button }}</a>
       </div>
+      <div
+        class="overlay"
     </div>
 
   </div>
