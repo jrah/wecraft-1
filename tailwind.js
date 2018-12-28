@@ -46,6 +46,7 @@ let colors = {
   transparent: 'transparent',
 
   black: '#22292f',
+  blackbasic: '#241C15',
   'grey-darkest': '#3d4852',
   'grey-darker': '#606f7b',
   'grey-dark': '#8795a1',
@@ -54,6 +55,7 @@ let colors = {
   'grey-lighter': '#f1f5f8',
   'grey-lightest': '#f8fafc',
   white: '#ffffff',
+  whiteback: '#FDFFFC',
 
   'red-darkest': '#3b0d0c',
   'red-darker': '#621b18',
@@ -132,7 +134,8 @@ let colors = {
   'navy-light': '#3c475f',
   'navy-lighter': '#49639A',
 
-  brown: '#F6D9CA'
+  brown: '#F6D9CA',
+  point: '#5abdb2'
 }
 
 module.exports = {
@@ -237,6 +240,11 @@ module.exports = {
       '-apple-system',
       'Helvetica Neue',
       'sans-serif'
+    ],
+    monospace: 'Major Mono Display',
+    sansserif: [
+      'Noto Sans TC',
+      'Open Sans'
     ]
   },
 
@@ -927,9 +935,7 @@ module.exports = {
          'l': 'to left',
        },
        gradients: {
-         'red': '#f00',
-         'red-blue': ['#f00', '#00f'],
-         'grey-lighter-white': [' #f1f5f8', '#ffffff', '#ffffff'],
+         'grey-lighter-white': [' ##FDFFFC', '#ffffff', '#ffffff'],
        },
     }),
   ],

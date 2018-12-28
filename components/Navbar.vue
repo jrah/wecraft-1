@@ -16,7 +16,7 @@
           :v-if="item !== null"
           :key="`nav-${index}`"
           :href="item.href"
-          :class="'navMenu--top-item ns:inline block no-underline font-bold mr2-ns flex items-center'">
+          :class="'navMenu--top-item ns:inline block no-underline font-sansserif font-bold mr2-ns flex items-center'">
           {{ item.name }}
           <div class="ns:hidden ns:mr-0 mr-2">
             <no-ssr>
@@ -101,7 +101,7 @@ export default {
         display: inline-block;
         padding: 0;
         border: 0;
-        @apply text-white;
+        @apply text-whiteback;
         margin: 0 0.5rem;
         &:hover {
           @apply text-grey-lightest;
