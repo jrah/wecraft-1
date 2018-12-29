@@ -21,7 +21,7 @@ export default {
 <style lang="scss">
 @import '~assets/scss/mixins';
 html {
-  @apply font-sans font-normal text-black leading-normal;
+  @apply font-openSans font-normal text-black leading-normal;
 }
 
 h1,
@@ -30,15 +30,7 @@ h3,
 h4,
 h5,
 h6 {
-  @apply font-majorMonoDisplay;
-}
-
-p,
-blockquote,
-nav,
-button,
-a {
-  @apply font-majorMonoDisplay;
+  @apply font-notoSansTC;
 }
 
 .container {
