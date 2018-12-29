@@ -241,10 +241,13 @@ module.exports = {
       'Helvetica Neue',
       'sans-serif'
     ],
-    monospace: 'Major Mono Display',
-    sansserif: [
-      'Noto Sans TC',
-      'Open Sans'
+    monospace: [
+      '"monospace"',
+      'system-ui',
+      'BlinkMacSystemFont',
+      '-apple-system',
+      'Helvetica Neue',
+      'sans-serif'
     ]
   },
 

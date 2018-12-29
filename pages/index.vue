@@ -3,7 +3,7 @@
     <app-header/>
 
     <section class="mt-5 py-10 bg-whiteback text-blackback">
-      <h1 class="font-monospace text-center text-4xl mb-12">{{ home.clients.title }}</h1>
+      <h1 class="text-center text-4xl mb-12">{{ home.clients.title }}</h1>
       <ul class=" flex list-reset ns:justify-left flex-wrap justify-center">
         <li
           v-for="(org, index) in home.clients.organisation"
@@ -19,15 +19,10 @@
       </ul>
     </section>
 
-    <section class="text-blackback bg-whiteback text-blackback">
-      <div class="font-monospace container pt-12 bg-lightest">
-        <div class="max-w-md m-auto text-center">
-          <h1 class="mt-0 mb-0 font-bold text-4xl leading-tight">{{ home.works.title }}</h1>
-        </div>
-      </div>
-    </section>
-
     <section class="text-blackback py-10 bg-whiteback">
+      <div class="text-center">
+        <h1 class="mb-12 font-bold text-4xl leading-tight">{{ home.works.title }}</h1>
+      </div>
       <div class="container l:flex justify-between">
         <div
         class="bg-whiteback bg-no-repeat p-10  m-5  l:w-1/2 border-grey-lighter border-solid border-2 rounded-sm shadow">
@@ -35,10 +30,10 @@
             :src="require('~/assets/images/projectimg.svg')">
         </div>
         <div class=" text-right mb-5 bg-whiteback p-10 m-5  l:w-1/2 border-grey-lighter border-solid border-2 rounded-sm shadow">
-          <div class= "font-sansserif text-left">
-            <h1
+          <div class= "text-left">
+            <h2
               v-if="home.works"
-              class="mt-0 f1 my-2 font-bold text-2xl leading-tight">{{ home.works.heading }}</h1>
+              class="mt-0 f1 my-2 font-bold text-2xl leading-tight">{{ home.works.heading }}</h2>
             <p
               v-if="home.intro"
               class="m-0 my-5 leading-normal">{{ home.works.paragraph }}</p>
@@ -46,14 +41,13 @@
           <a
             :href="home.icon_splash.href"
             class="inline-flex no-underline mt-5 bg-whiteback hover:bg-navy text-navy-dark font-semibold hover:text-white py-2 px-6 border border-navy hover:border-transparent rounded mb-2 border-white">{{ home.works.button }}</a>
-
         </div>
       </div>
     </section>
 
     <section>
       <div class="text-blackback container py-10 text-navy">
-        <h1 class="font-monospace text-center mb-12 text-4xl">{{ home.features.title }}</h1>
+        <h1 class="text-center mb-12 text-4xl">{{ home.features.title }}</h1>
         <div class="m:flex l:flex justify-around">
 
           <div
@@ -67,32 +61,27 @@
                 alt="block.icon"
               >
             </div>
-            <h2 class="font-sansserif leading-normal text-lg mt-1 mb-1">{{ block.heading }}</h2>
-            <p class="font-sansserif leading-normal mt-0 mb-6">{{ block.paragraph }}</p>
+            <h2 class="leading-normal text-lg mt-1 mb-1">{{ block.heading }}</h2>
+            <p class="leading-normal mt-0 mb-5">{{ block.paragraph }}</p>
           </div>
 
         </div>
       </div>
     </section>
 
-    <section class="bg-whiteback text-blackback">
-      <div class="container pt-12 bg-whiteback ">
-        <div class="max-w-md m-auto text-center">
-          <h1 class="font-monospace mt-0 mb-0 font-bold text-4xl leading-tight">{{ home.works.title }}</h1>
-        </div>
+    <section class="text-blackback py-10 bg-whiteback">
+      <div class="text-center">
+        <h1 class="mb-12 font-bold text-4xl leading-tight">{{ home.works.title }}</h1>
       </div>
-    </section>
-
-    <section class="py-10 bg-whiteback text-blackback">
       <div class="container l:flex justify-between">
         <div class=" text-right mb-5 bg-whiteback p-10 m-5  l:w-1/2 border-grey-lighter border-solid border-2 rounded-sm shadow">
           <div class= "text-left">
             <h1
               v-if="home.works"
-              class="font-sansserif mt-0 f1 my-2 font-bold text-2xl leading-tight">{{ home.works.heading }}</h1>
+              class="mt-0 f1 my-2 font-bold text-2xl leading-tight">{{ home.works.heading }}</h1>
             <p
               v-if="home.intro"
-              class="font-sansserif m-0 my-5 leading-normal">{{ home.works.paragraph }}</p>
+              class=" m-0 my-5 leading-normal">{{ home.works.paragraph }}</p>
           </div>
           <a
             :href="home.icon_splash.href"
@@ -107,7 +96,7 @@
     </section>
 
     <section class="py-12 container text-blackback">
-      <h1 class="font-monospace text-center text-4xl mb-12">Testimonials</h1>
+      <h1 class="text-center text-4xl mb-12">Testimonials</h1>
 
       <no-ssr placeholder="Loading...">
         <carousel
@@ -121,12 +110,11 @@
             :key="index"
             class="p-3">
             <figure class="text-center">
-              <blockquote class="font-sansserif italic font-normal text-2xl mb-3 text-grey">
+              <blockquote class="italic font-normal text-2xl mb-3 text-grey">
                 {{ testimonial.quote }}
                 <figcaption class="uppercase"> <cite class="author font-bold text-sm roman">- {{ testimonial.author }}</cite></figcaption>
             </blockquote></figure>
           </slide>
-
         </carousel>
       </no-ssr>
     </section>
@@ -134,24 +122,24 @@
     <section class="bg-whiteback text-blackback">
       <div class="container pt-12">
         <div class="max-w-md m-auto text-center">
-          <h1 class="font-monospace mt-0 mb-5 font-bold text-4xl leading-tight">{{ home.contact.title }}</h1>
-          <p class="font-sansserif leading-normal pb-8">{{ home.splash.text }}</p>
+          <h1 class="mt-0 mb-5 font-bold text-4xl leading-tight">{{ home.contact.title }}</h1>
+          <p class="leading-normal pb-8">{{ home.splash.text }}</p>
         </div>
       </div>
     </section>
 
     <section class=" bg-whiteback bg-no-repeat">
-      <div class="font-sansserif container l:flex justify-center">
+      <div class="container l:flex justify-center">
         <div class=" bg-white p-10 m-5 mt-0 l:w-2/3 border-grey-lighter border-solid border-2 rounded-sm shadow">
           <appForm/>
         </div>
         <div class="bg-whiteback p-10  m-5 mt-0 l:w-1/3 border-grey-lighter border-solid border-2 rounded-sm shadow">
-          <h2 class="font-sansserif leading-tight mt-2 mb-4 text-lg font-bold text-navy">Corporate Office</h2>
-          <p class="font-sansserif leading-normal ma-0 mb-4 f4 text-sm">8668 Concord Center Dr.Englewood, CO 80112</p>
-          <h2 class="font-sansserif leading-tight mt-2 mb-4 text-lg font-bold text-navy">Direct Contact</h2>
-          <p class="font-sansserif leading-normal ma-0 f4 mb-4  text-sm">Phone: 720.974.787 <br/> Toll Free: 1.877.929.7878 <br/> Email: info@choicescreening.com</p>
-          <h2 class="font-sansserif leading-tight mt-2 mb-4 text-lg font-bold text-navy">Departments</h2>
-          <p class="font-sansserif leading-normal ma-0 f4 text-sm">customerservice@choicescreening.com<br/>sales@choicescreening.com<br/> disputes@choicescreening.com<br/> compliance@choicescreening.com</p>
+          <h2 class="leading-tight mt-2 mb-4 text-lg font-bold text-navy">Corporate Office</h2>
+          <p class="leading-normal ma-0 mb-4 f4 text-sm">8668 Concord Center Dr.Englewood, CO 80112</p>
+          <h2 class="leading-tight mt-2 mb-4 text-lg font-bold text-navy">Direct Contact</h2>
+          <p class="leading-normal ma-0 f4 mb-4  text-sm">Phone: 720.974.787 <br/> Toll Free: 1.877.929.7878 <br/> Email: info@choicescreening.com</p>
+          <h2 class="leading-tight mt-2 mb-4 text-lg font-bold text-navy">Departments</h2>
+          <p class="leading-normal ma-0 f4 text-sm">customerservice@choicescreening.com<br/>sales@choicescreening.com<br/> disputes@choicescreening.com<br/> compliance@choicescreening.com</p>
         </div>
       </div>
 

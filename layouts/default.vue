@@ -38,7 +38,7 @@ blockquote,
 nav,
 button,
 a {
-  @apply font-roboto;
+  @apply font-raleway;
 }
 
 .container {

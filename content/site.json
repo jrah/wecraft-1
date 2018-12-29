@@ -1,5 +1,5 @@
 {
-  "title": "weCraftdfdf",
+  "title": "weCraft",
   "social": [
     {
       "type": "facebook",
@@ -12,13 +12,21 @@
   ],
   "nav": [
     {
+      "name": "Home",
       "href": "/"
     },
     {
+      "name": "Process",
       "href": "/process"
     },
     {
+      "name": "Contact Us",
       "href": "/"
     }
-  ]
+  ],
+  "logo": {
+      "text": "WeCraft",
+      "name": "logo",
+      "type": "svg"
+  }
 }

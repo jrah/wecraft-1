@@ -4,15 +4,13 @@
     <div class="bg-cover bg-center py-6 relative bg-grey-darkest">
       <div class="container py-32 relative z-10">
         <div class="m:w-3/5 l:w-2/5">
-          <h1
-            v-if="home.title"
-            class="text-point font-normal mt-0 f1 mb-2 font-monospace text-5xl leading-tight">{{ home.title }}</h1>
-          <h2
-            v-if="home.subTitle"
-            class="font-sansserif text-whiteback mt-0 f1 mb-2 text-3xl leading-normal">{{ home.subTitle }}</h2>
+          <h1>
+            <span class="text-point font-normal mt-0 f1 mb-2 text-5xl leading-tight">{{ home.title }}</span><br/>
+            <span class="text-whiteback mt-0 f1 mb-2 text-3xl leading-normal">{{ home.subTitle }}</span>
+          </h1>
           <p
             v-if="home.intro"
-            class="font-sansserif text-whiteback m-0 mb-12 leading-normal">{{ home.intro }}</p>
+            class="text-whiteback m-0 mb-12 leading-normal">{{ home.intro }}</p>
             <!-- <a
               href="#"
               class="no-underline inline-block shadow bg-navy hover:bg-navy-light focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded cursor-pointer my-3">Click Here</a> -->

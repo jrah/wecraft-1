@@ -9,7 +9,7 @@
             :src="require(`~/assets/images/logo0.svg`)"
             class="w-24"
             alt="Logo">
-            <p class="font-sansserif blockquote leading-normal p-8 m-5"> {{home.discrip }}</p>
+            <p class="blockquote leading-normal p-8 m-5"> {{home.discrip }}</p>
         </div>
       </div>
     </section>
@@ -17,7 +17,7 @@
     <section class="bg-whiteback text-blackback">
       <div class="container pt-12 bg-whiteback">
         <div class="max-w-md m-auto text-center">
-          <h1 class="font-monospace mt-0 font-bold text-4xl leading-tight">{{ home.process.title }}</h1>
+          <h1 class="mt-0 font-bold text-4xl leading-tight">{{ home.process.title }}</h1>
         </div>
       </div>
     </section>
@@ -31,8 +31,8 @@
                 class="w-24 absolute -ml-20 z-auto -mt-16"
               >
               <div class="w-3/4 bg-whiteback p-5 z-50">
-                 <h1 class="font-sansserif leading-tight mt-2 mb-4 text-lg font-bold text-blackback">{{ home.options.quiz.heading }}</h1>
-                 <p class="font-sansserif leading-normal ma-0 f4">{{ home.options.quiz.paragraph + home.options.quiz.paragraph + home.options.quiz.paragraph +home.options.quiz.paragraph}}</p>
+                 <h1 class="leading-tight mt-2 mb-4 text-lg font-bold text-blackback">{{ home.options.quiz.heading }}</h1>
+                 <p class="leading-normal ma-0 f4">{{ home.options.quiz.paragraph + home.options.quiz.paragraph + home.options.quiz.paragraph +home.options.quiz.paragraph}}</p>
               </div>
               <div
               :style="{'background-image' : 'url(/images/uploads/name1.jpg)'}"
@@ -54,8 +54,8 @@
              class="w-1/4 bg-cover bg-no-repeat p-5">
              </div>
              <div class="w-3/4 bg-whiteback p-5 z-50">
-                <h1 class="font-sansserif leading-tight mt-2 mb-4 text-lg font-bold text-blackback">{{ home.options.quiz.heading }}</h1>
-                <p class="font-sansserif leading-normal ma-0 f4">{{ home.options.quiz.paragraph + home.options.quiz.paragraph + home.options.quiz.paragraph +home.options.quiz.paragraph}}</p>
+                <h1 class="leading-tight mt-2 mb-4 text-lg font-bold text-blackback">{{ home.options.quiz.heading }}</h1>
+                <p class="leading-normal ma-0 f4">{{ home.options.quiz.paragraph + home.options.quiz.paragraph + home.options.quiz.paragraph +home.options.quiz.paragraph}}</p>
              </div>
            </div>
          </div>
@@ -68,8 +68,8 @@
                 class="w-24 absolute pin-l -ml-5 -mt-16 z-auto"
               >
               <div class="w-3/4 bg-whiteback p-5 z-50">
-                 <h1 class="font-sansserif leading-tight mt-2 mb-4 text-lg font-bold text-blackback">{{ home.options.quiz.heading }}</h1>
-                 <p class="font-sansserif leading-normal ma-0 f4">{{ home.options.quiz.paragraph + home.options.quiz.paragraph + home.options.quiz.paragraph +home.options.quiz.paragraph}}</p>
+                 <h1 class="leading-tight mt-2 mb-4 text-lg font-bold text-blackback">{{ home.options.quiz.heading }}</h1>
+                 <p class="leading-normal ma-0 f4">{{ home.options.quiz.paragraph + home.options.quiz.paragraph + home.options.quiz.paragraph +home.options.quiz.paragraph}}</p>
               </div>
 
               <div
@@ -92,15 +92,15 @@
 
              </div>
              <div class="w-3/4 bg-whiteback p-5 z-50">
-                <h1 class="font-sansserif leading-tight mt-2 mb-4 text-lg font-bold text-blackback">{{ home.options.quiz.heading }}</h1>
-                <p class="font-sansserif leading-normal ma-0 f4">{{ home.options.quiz.paragraph + home.options.quiz.paragraph + home.options.quiz.paragraph +home.options.quiz.paragraph}}</p>
+                <h1 class="leading-tight mt-2 mb-4 text-lg font-bold text-blackback">{{ home.options.quiz.heading }}</h1>
+                <p class="leading-normal ma-0 f4">{{ home.options.quiz.paragraph + home.options.quiz.paragraph + home.options.quiz.paragraph +home.options.quiz.paragraph}}</p>
              </div>
            </div>
          </div>
     </section>
 
     <section class="py-10 bg-whiteback ">
-      <h1 class="font-monospace text-center text-4xl mb-12">{{ home.clients.title }}</h1>
+      <h1 class="text-center text-4xl mb-12">{{ home.clients.title }}</h1>
       <ul class=" flex list-reset ns:justify-left flex-wrap justify-center">
         <li
           v-for="(org, index) in home.clients.organisation"
@@ -119,8 +119,8 @@
     <section class="bg-whiteback text-blackback">
       <div class="container pt-12 text-blackback">
         <div class="max-w-md m-auto text-center">
-          <h1 class="font-monospace mt-0 mb-5 font-bold text-4xl leading-tight">{{ home.contact.title }}</h1>
-          <p class="font-sansserif leading-normal pb-8">{{ home.splash.text }}</p>
+          <h1 class="mt-0 mb-5 font-bold text-4xl leading-tight">{{ home.contact.title }}</h1>
+          <p class="leading-normal pb-8">{{ home.splash.text }}</p>
         </div>
       </div>
     </section>
@@ -131,15 +131,14 @@
           <appForm/>
         </div>
         <div class=" bbg-whiteback p-10  m-5 mt-0 l:w-1/3 border-grey-lighter border-solid border-2 rounded-sm shadow">
-          <h2 class="font-sansserif leading-tight mt-2 mb-4 text-lg font-bold text-navy">Corporate Office</h2>
-          <p class="font-sansserifleading-normal ma-0 mb-4 f4 text-sm">8668 Concord Center Dr.Englewood, CO 80112</p>
-          <h2 class="font-sansserif leading-tight mt-2 mb-4 text-lg font-bold text-navy">Direct Contact</h2>
-          <p class="font-sansserif leading-normal ma-0 f4 mb-4  text-sm">Phone: 720.974.787 <br/> Toll Free: 1.877.929.7878 <br/> Email: info@choicescreening.com</p>
-          <h2 class="font-sansserif leading-tight mt-2 mb-4 text-lg font-bold text-navy">Departments</h2>
-          <p class="font-sansserif leading-normal ma-0 f4 text-sm">customerservice@choicescreening.com<br/>sales@choicescreening.com<br/> disputes@choicescreening.com<br/> compliance@choicescreening.com</p>
+          <h2 class="leading-tight mt-2 mb-4 text-lg font-bold ">Corporate Office</h2>
+          <p class="leading-normal ma-0 mb-4 f4 text-sm">8668 Concord Center Dr.Englewood, CO 80112</p>
+          <h2 class="leading-tight mt-2 mb-4 text-lg font-bold ">Direct Contact</h2>
+          <p class="leading-normal ma-0 f4 mb-4  text-sm">Phone: 720.974.787 <br/> Toll Free: 1.877.929.7878 <br/> Email: info@choicescreening.com</p>
+          <h2 class="leading-tight mt-2 mb-4 text-lg font-bold ">Departments</h2>
+          <p class="leading-normal ma-0 f4 text-sm">customerservice@choicescreening.com<br/>sales@choicescreening.com<br/> disputes@choicescreening.com<br/> compliance@choicescreening.com</p>
         </div>
       </div>
-
     </section>
 
   </div>

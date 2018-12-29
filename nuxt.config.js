@@ -31,6 +31,18 @@ module.exports = {
       {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css?family=Roboto'
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.google.com/specimen/Major+Mono+Display'
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.google.com/specimen/Noto+Sans+TC'
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.google.com/specimen/Open+Sans'
       }
     ],
     script: [
