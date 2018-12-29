@@ -34,15 +34,15 @@ module.exports = {
       },
       {
         rel: 'stylesheet',
-        href: 'https://fonts.google.com/specimen/Major+Mono+Display'
+        href: 'https://fonts.googleapis.com/css?family=Major+Mono+Display'
       },
       {
         rel: 'stylesheet',
-        href: 'https://fonts.google.com/specimen/Noto+Sans+TC'
+        href: 'https://fonts.googleapis.com/css?familily=Noto+Sans+TC'
       },
       {
         rel: 'stylesheet',
-        href: 'https://fonts.google.com/specimen/Open+Sans'
+        href: 'https://fonts.googleapis.com/css?family=Open+Sans'
       }
     ],
     script: [
