@@ -30,7 +30,7 @@ h3,
 h4,
 h5,
 h6 {
-  @apply font-raleway;
+  @apply font-majorMonoDisplay;
 }
 
 p,
@@ -38,7 +38,7 @@ blockquote,
 nav,
 button,
 a {
-  @apply font-raleway;
+  @apply font-majorMonoDisplay;
 }
 
 .container {

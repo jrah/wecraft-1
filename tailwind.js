@@ -241,8 +241,8 @@ module.exports = {
       'Helvetica Neue',
       'sans-serif'
     ],
-    monospace: [
-      '"monospace"',
+    majorMonoDisplay: [
+      '"Major Mono Display"',
       'system-ui',
       'BlinkMacSystemFont',
       '-apple-system',
