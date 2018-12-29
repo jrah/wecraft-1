@@ -200,6 +200,22 @@ module.exports = {
     mono: [
       'monospace'
     ],
+    openSans: [
+      '"Open Sans"',
+      'system-ui',
+      'BlinkMacSystemFont',
+      '-apple-system',
+      'Helvetica Neue',
+      'sans-serif'
+    ],
+    notoSansTC: [
+      '"Noto Sans TC"',
+      'system-ui',
+      'BlinkMacSystemFont',
+      '-apple-system',
+      'Helvetica Neue',
+      'sans-serif'
+    ],
     majorMonoDisplay: [
       '"Major Mono Display"',
       'system-ui',
