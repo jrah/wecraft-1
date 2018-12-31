@@ -23,54 +23,41 @@
     </section>
 
     <section class=" p-8 bg-whiteback text-blackback bg-cover bg-no-repeat bg-center">
-         <div class="mt-24 container relative">
+         <div class="mt-24 container ">
           <div class="flex mb-4">
-             <img
-                :src="require('~/assets/images/2052171.svg')"
-                alt="block.icon"
-                class="w-24 absolute -ml-20 z-auto -mt-16"
-              >
-              <div class="w-3/4 bg-whiteback p-5 z-50">
-                 <h1 class="leading-tight mt-2 mb-4 text-lg font-bold text-blackback">{{ home.options.quiz.heading }}</h1>
-                 <p class="leading-normal ma-0 f4">{{ home.options.quiz.paragraph + home.options.quiz.paragraph + home.options.quiz.paragraph +home.options.quiz.paragraph}}</p>
+              <div class="w-3/4 bg-whiteback p-10">
+                <h1 class="text-biggest"> 1 </h1>
+                <h2 class="leading-tight text-lg mb-8 ml-20 -mt-16 font-bold text-blackback">{{ home.options.quiz.heading }}</h2>
+                <p class="leading-normal z-50 ma-0 ml-20  mr-5 f4">{{ home.options.quiz.paragraph + home.options.quiz.paragraph + home.options.quiz.paragraph +home.options.quiz.paragraph}}</p>
               </div>
               <div
               :style="{'background-image' : 'url(/images/uploads/name1.jpg)'}"
                class="w-1/4 bg-cover">
-
               </div>
           </div>
         </div>
 
-        <div class="container mt-20 relative">
+        <div class="container mt-20 relative prefix">
           <div class="flex mb-4">
-            <img
-               :src="require('~/assets/images/2052150.svg')"
-               alt="block.icon"
-               class="w-24 absolute pin-r -mr-5 -mt-16 z-auto"
-             >
              <div
              :style="{'background-image' : 'url(/images/uploads/name2.jpg)'}"
              class="w-1/4 bg-cover bg-no-repeat p-5">
              </div>
-             <div class="w-3/4 bg-whiteback p-5 z-50">
-                <h1 class="leading-tight mt-2 mb-4 text-lg font-bold text-blackback">{{ home.options.quiz.heading }}</h1>
-                <p class="leading-normal ma-0 f4">{{ home.options.quiz.paragraph + home.options.quiz.paragraph + home.options.quiz.paragraph +home.options.quiz.paragraph}}</p>
-             </div>
+             <div class="w-3/4 bg-whiteback p-10">
+               <h1 class="text-biggest text-right"> 2 </h1>
+               <h2 class="leading-tight text-right text-lg mb-8 mr-24 -mt-16 font-bold text-blackback">{{ home.options.quiz.heading }}</h2>
+               <p class="leading-normal z-50 ma-0 ml-5 f4">{{ home.options.quiz.paragraph + home.options.quiz.paragraph + home.options.quiz.paragraph +home.options.quiz.paragraph}}</p>
+          </div>
            </div>
          </div>
 
          <div class="container mt-20 relative">
           <div class="flex mb-4">
-             <img
-                :src="require('~/assets/images/2052130.svg')"
-                alt="block.icon"
-                class="w-24 absolute pin-l -ml-5 -mt-16 z-auto"
-              >
-              <div class="w-3/4 bg-whiteback p-5 z-50">
-                 <h1 class="leading-tight mt-2 mb-4 text-lg font-bold text-blackback">{{ home.options.quiz.heading }}</h1>
-                 <p class="leading-normal ma-0 f4">{{ home.options.quiz.paragraph + home.options.quiz.paragraph + home.options.quiz.paragraph +home.options.quiz.paragraph}}</p>
-              </div>
+            <div class="w-3/4 bg-whiteback p-10">
+              <h1 class="text-biggest"> 3 </h1>
+              <h2 class="leading-tight text-lg mb-8 ml-20 -mt-16 font-bold text-blackback">{{ home.options.quiz.heading }}</h2>
+              <p class="leading-normal z-50 ma-0 ml-20  mr-5 f4">{{ home.options.quiz.paragraph + home.options.quiz.paragraph + home.options.quiz.paragraph +home.options.quiz.paragraph}}</p>
+             </div>
 
               <div
               :style="{'background-image' : 'url(/images/uploads/name3.jpg)'}"
@@ -81,19 +68,15 @@
 
         <div class="container mt-20 relative">
           <div class="flex mb-4">
-             <img
-               :src="require('~/assets/images/2052105.svg')"
-               alt="block.icon"
-               class="w-24 absolute pin-r z-auto -mr-5 -mt-16"
-             >
              <div
              :style="{'background-image' : 'url(/images/uploads/name4.jpg)'}"
              class="w-1/4 bg-cover bg-no-repeat p-5">
 
              </div>
-             <div class="w-3/4 bg-whiteback p-5 z-50">
-                <h1 class="leading-tight mt-2 mb-4 text-lg font-bold text-blackback">{{ home.options.quiz.heading }}</h1>
-                <p class="leading-normal ma-0 f4">{{ home.options.quiz.paragraph + home.options.quiz.paragraph + home.options.quiz.paragraph +home.options.quiz.paragraph}}</p>
+             <div class="w-3/4 bg-whiteback p-10">
+               <h1 class="text-biggest text-right"> 4 </h1>
+               <h2 class="leading-tight text-right text-lg mb-8 mr-24 -mt-16 font-bold text-blackback">{{ home.options.quiz.heading }}</h2>
+               <p class="leading-normal z-50 ma-0 ml-5 f4">{{ home.options.quiz.paragraph + home.options.quiz.paragraph + home.options.quiz.paragraph +home.options.quiz.paragraph}}</p>
              </div>
            </div>
          </div>
