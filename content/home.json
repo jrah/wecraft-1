@@ -57,6 +57,7 @@
   },
   "button": "Contact Us",
   "options2": {
+    "title": "weCraft Project",
     "image": {
       "icon": "/images/uploads/cover.jpg"
     },
