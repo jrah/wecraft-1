@@ -75,15 +75,15 @@
     ]
   },
   "options": {
-    "dictionary": {
-      "icon": "quiz",
-      "heading": "Tea Quiz: Personal guide to the world of tea",
-      "paragraph": "There's an infinite array of teas out there. Start exploring with our short Tea Quiz, which will help you find the tea that suits you best. Get custom \ntea recommendations based on your particular flavour preferences."
+    "title": "weCraft",
+    "picture": {
+      "image": "~/assets/images/projectimg.svg"
     },
-    "quiz": {
-      "icon": "dictionary",
-      "heading": "Tea Dictionary: Peruse our infinite array of teas",
-      "paragraph": "From chocolate cake tea to the finest FTGFOP1 graded black tea, we have collected diverse teas of unparalleled quality. Our tea would make a wonderful gift for yourself or a loved one. Simply browse, pick and brew! "
+    "project": {
+      "heading": "Project Name",
+      "paragraph": "Project Description : There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy. There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy.",
+      "button": "Link to page",
+      "href": "https://www.naver.com"
     }
   },
   "testimonial": [
@@ -100,12 +100,6 @@
       "author": "Debbie Harkness"
     }
   ],
-  "works": {
-    "title": "weCraft works",
-    "heading": "Project Name",
-    "paragraph": "Project Description : There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy. There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy.",
-    "button": "Link to page"
-  },
   "contact": {
     "title": "Contact Us"
   },
