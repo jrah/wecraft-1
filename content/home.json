@@ -104,6 +104,7 @@
     }
   },
   "contactUs": {
+    "contactEmail": "mailto:team@diversitea.co",
     "title": "Contact Us",
     "paragraph": "There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy.Test\n\n",
     "text1": {

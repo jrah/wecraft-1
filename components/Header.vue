@@ -18,7 +18,7 @@
               class="no-underline inline-block shadow bg-navy hover:bg-navy-light focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded cursor-pointer my-3">Click Here</a> -->
         </div>
         <a
-          :href="home.href"
+          :href="home.contactUs.contactEmail"
           class="no-underline inline bg-transparent hover:bg-navy text-whiteback font-bold hover:text-white py-2 px-6 border-2 border-white hover:border-transparent mb-2 border-white">{{ home.button }}</a>
       </div>
       <div
