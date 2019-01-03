@@ -14,70 +14,83 @@
       </div>
     </section>
 
-    <section class=" p-8 bg-grey-lightest text-blackback bg-cover bg-no-repeat bg-center">
-        <div class="container pt-12 bg-grey-lightest">
-          <div class="max-w-md m-auto text-center">
-            <h1 class="mt-0 font-bold text-4xl leading-tight">{{ home.process.title }}</h1>
-          </div>
-        </div>
-         <div class="mt-24 container ">
-          <div class="flex mb-4">
-              <div class="w-3/4 bg-whiteback p-10">
-                <h1 class="text-biggest"> 1 </h1>
-                <h2 class="leading-tight text-lg mb-8 ml-20 -mt-16 font-bold text-blackback">{{ home.process.pro1.header }}</h2>
-                <p class="leading-normal z-50 ma-0 ml-20  mr-5 f4">{{ home.process.pro1.paragraph}}</p>
-              </div>
-              <div
-              :style="{'background-image' : 'url('+home.process.pro1.image+')'}"
-               class="w-1/4 bg-cover">
-              </div>
-          </div>
-        </div>
+    <section class=" p-8 bg-grey-lightest text-black bg-cover bg-greyligter bg-no-repeat bg-center">
+          <div class="mt-24 container relative">
+           <div class="l:flex mb-4 p-5">
+              <img
+                 :src="require('~/assets/images/2052171.svg')"
+                 alt="block.icon"
+                 class="w-24 absolute pin-l -ml-3 -mt-16 z-auto"
+               >
+               <div class="l:w-2/3 bg-white p-5  z-50">
+                  <h1 class="leading-tight mt-2 mb-4 text-lg font-bold text-navy">{{ home.process.pro1.header  }}</h1>
+                  <p class="leading-normal ma-0 f4">{{ home.process.pro1.paragraph }}</p>
+               </div>
+               <div
+               :style="{'background-image' : 'url('+home.process.pro1.image+')'}"
+                class="l:w-1/3 bg-purple-lightest bg-cover">
 
-        <div class="container mt-20 relative prefix">
-          <div class="flex mb-4">
-             <div
-             :style="{'background-image' : 'url('+home.process.pro2.image+')'}"
-             class="w-1/4 bg-cover bg-no-repeat p-5">
-             </div>
-             <div class="w-3/4 bg-whiteback p-10">
-               <h1 class="text-biggest text-right"> 2 </h1>
-               <h2 class="leading-tight text-right text-lg mb-8 mr-24 -mt-16 font-bold text-blackback">{{  home.process.pro2.header }}</h2>
-               <p class="leading-normal z-50 ma-0 ml-5 f4">{{  home.process.pro2.paragraph}}</p>
-          </div>
+               </div>
            </div>
          </div>
 
          <div class="container mt-20 relative">
-          <div class="flex mb-4">
-            <div class="w-3/4 bg-whiteback p-10">
-              <h1 class="text-biggest"> 3 </h1>
-              <h2 class="leading-tight text-lg mb-8 ml-20 -mt-16 font-bold text-blackback">{{  home.process.pro3.header }}</h2>
-              <p class="leading-normal z-50 ma-0 ml-20  mr-5 f4">{{  home.process.pro3.paragraph}}</p>
-             </div>
-
+           <div class="l:flex mb-4  p-5">
+             <img
+                :src="require('~/assets/images/2052150.svg')"
+                alt="block.icon"
+                class="w-24 absolute pin-r -mr-0 -mt-16 z-auto"
+              >
               <div
-              :style="{'background-image' : 'url('+home.process.pro3.image+')'}"
-              class="w-1/4 bg-cover bg-no-repeat p-5">
+              :style="{'background-image' : 'url('+home.process.pro2.image+')'}"
+              class="l:w-1/3 bg-cover bg-no-repeat p-5">
               </div>
+              <div class="l:w-2/3 bg-white p-5 z-50">
+                 <h1 class="leading-tight mt-2 mb-4 text-lg font-bold text-navy">{{ home.process.pro2.header }}</h1>
+                 <p class="leading-normal ma-0 f4">{{ home.process.pro2.paragraph}}</p>
+              </div>
+            </div>
           </div>
-        </div>
 
-        <div class="container mt-20 relative">
-          <div class="flex mb-4">
-             <div
-             :style="{'background-image' : 'url('+home.process.pro4.image+')'}"
-             class="w-1/4 bg-cover bg-no-repeat p-5">
+          <div class="container mt-20 relative">
+           <div class="l:flex mb-4 p-5">
+              <img
+                 :src="require('~/assets/images/2052130.svg')"
+                 alt="block.icon"
+                 class="w-24 absolute pin-l -ml-0 -mt-16 z-auto"
+               >
+               <div class="l:w-2/3 bg-white p-5 z-50">
+                  <h1 class="leading-tight mt-2 mb-4 text-lg font-bold text-navy">{{ home.process.pro3.header }}</h1>
+                  <p class="leading-normal ma-0 f4">{{ home.process.pro2.paragraph}}</p>
+               </div>
 
-             </div>
-             <div class="w-3/4 bg-whiteback p-10">
-               <h1 class="text-biggest text-right"> 4 </h1>
-               <h2 class="leading-tight text-right text-lg mb-8 mr-24 -mt-16 font-bold text-blackback">{{  home.process.pro4.header }}</h2>
-               <p class="leading-normal z-50 ma-0 ml-5 f4">{{ home.process.pro4.paragraph }}</p>
-             </div>
+               <div
+               :style="{'background-image' : 'url('+home.process.pro3.image+')'}"
+               class="l:w-1/3 bg-cover bg-no-repeat p-5">
+               </div>
            </div>
          </div>
-    </section>
+
+         <div class="container mt-20 relative">
+           <div class="l:flex mb-4 p-5">
+              <img
+                :src="require('~/assets/images/2052105.svg')"
+                alt="block.icon"
+                class="w-24 absolute pin-r z-auto -mr-0 -mt-16"
+              >
+              <div
+              :style="{'background-image' : 'url('+home.process.pro4.image+')'}"
+              class="l:w-1/3 bg-cover bg-no-repeat p-5">
+
+              </div>
+              <div class=" l:w-2/3 bg-white p-5 z-50">
+                 <h1 class="leading-tight mt-2 mb-4 text-lg font-bold text-navy">{{ home.process.pro4.header }}</h1>
+                 <p class="leading-normal ma-0 f4">{{ home.process.pro4.paragraph}}</p>
+              </div>
+            </div>
+          </div>
+     </section>
+
 
     <section class="py-10 bg-whiteback ">
       <h1 class="text-center text-4xl mb-12">{{ home.clients.title }}</h1>
