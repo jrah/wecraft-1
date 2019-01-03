@@ -19,7 +19,7 @@
       </ul>
     </section>
 
-    <section class="text-blackback py-10 bg-whiteback">
+    <section class="text-blackback py-10 bg-grey-lightest">
       <div class="text-center">
         <h1 class="mb-12 font-bold text-4xl leading-tight">{{ home.options.heading }}</h1>
       </div>
@@ -68,7 +68,7 @@
       </div>
     </section>
 
-    <section class="text-blackback py-10 bg-whiteback">
+    <section class="text-blackback py-10 bg-grey-lightest">
       <div class="text-center">
         <h1 class="mb-12 font-bold text-4xl leading-tight">{{ home.options2.heading }}</h1>
       </div>
@@ -118,7 +118,7 @@
       </no-ssr>
     </section>
 
-    <section class="bg-whiteback text-blackback">
+    <section class="bg-grey-lightest text-blackback">
       <div class="container pt-12">
         <div class="max-w-md m-auto text-center">
           <h1 class="mt-0 mb-5 font-bold text-4xl leading-tight">{{ home.contactUs.title }}</h1>
@@ -127,7 +127,7 @@
       </div>
     </section>
 
-    <section class=" bg-whiteback bg-no-repeat">
+    <section class=" bg-gradient-b-grey-lighter-white">
       <div class="container l:flex justify-center">
         <div class=" bg-white p-10 m-5 mt-0 l:w-2/3 border-grey-lighter border-solid border-2 rounded-sm shadow">
           <appForm/>

@@ -14,8 +14,8 @@
       </div>
     </section>
 
-    <section class=" p-8 bg-whiteback text-blackback bg-cover bg-no-repeat bg-center">
-        <div class="container pt-12 bg-whiteback">
+    <section class=" p-8 bg-grey-lightest text-blackback bg-cover bg-no-repeat bg-center">
+        <div class="container pt-12 bg-grey-lightest">
           <div class="max-w-md m-auto text-center">
             <h1 class="mt-0 font-bold text-4xl leading-tight">{{ home.process.title }}</h1>
           </div>
@@ -96,7 +96,7 @@
       </ul>
     </section>
 
-    <section class="bg-whiteback text-blackback">
+    <section class="bg-grey-lightest text-blackback">
       <div class="container pt-12">
         <div class="max-w-md m-auto text-center">
           <h1 class="mt-0 mb-5 font-bold text-4xl leading-tight">{{ home.contactUs.title }}</h1>
@@ -105,7 +105,7 @@
       </div>
     </section>
 
-    <section class=" bg-whiteback bg-no-repeat">
+    <section class=" bg-gradient-b-grey-lighter-white bg-no-repeat">
       <div class="container l:flex justify-center">
         <div class=" bg-white p-10 m-5 mt-0 l:w-2/3 border-grey-lighter border-solid border-2 rounded-sm shadow">
           <appForm/>

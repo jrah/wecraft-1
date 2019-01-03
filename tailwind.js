@@ -914,7 +914,7 @@ module.exports = {
          'l': 'to left',
        },
        gradients: {
-         'grey-lighter-white': [' ##FDFFFC', '#ffffff', '#ffffff'],
+         'grey-lighter-white': [' #f8fafc', '#ffffff', '#ffffff'],
        },
     }),
   ],
