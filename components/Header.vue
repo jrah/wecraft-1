@@ -8,7 +8,7 @@
         <div class="m:w-3/5 l:w-2/5">
           <h1>
             <span class="text-point font-majorMonoDisplay mt-0 f1 mb-2 text-5xl leading-tight">{{ home.title }}</span><br/>
-            <span class="text-whiteback mt-0 f1 mb-2 text-3xl leading-normal">{{ home.subTitle }}</span>
+            <span class="text-whiteback mt-0 f1 mb-2 text-3xl leading-normal">{{ home.subtitle }}</span>
           </h1>
           <p
             v-if="home.intro"

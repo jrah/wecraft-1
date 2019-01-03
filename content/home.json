@@ -57,6 +57,7 @@
   },
   "button": "Contact Us",
   "options2": {
+    "title" : "weCraft Project",
     "image": {
       "icon": "projectimg"
     },
@@ -91,6 +92,7 @@
     ]
   },
   "options": {
+    "title" : "weCraft Project",
     "image": {
       "icon": "project"
     },
