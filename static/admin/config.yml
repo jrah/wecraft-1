@@ -45,7 +45,7 @@ collections: # A list of collections the CMS should be able to edit
               name: image
               widget: object
               fields:
-                - {label: icon, name: image, widget: image}
+                - {label: icon, name: iconOne, widget: image}
             - label: project
               name: project
               widget: object
@@ -71,19 +71,19 @@ collections: # A list of collections the CMS should be able to edit
                   - {label: Heading, name: heading, widget: string}
                   - {label: Paragraph, name: paragraph, widget: text}
 
-          - label: Option
-            name: options2
+          - label: Option Blocks
+            name: options
             required: false
             widget: object
             fields:
             - {label: Title, name: title, widget: string}
-            - label: backimage
+            - label: image
               name: image
               widget: object
               fields:
-                - {label: Icon, name: image, widget: image}
-            - label: projecttwo
-              name: project
+                - {label: icon, name: iconSecond, widget: image}
+            - label: project two
+              name: projectSecond
               widget: object
               fields:
                 - {label: Heading, name: heading, widget: text}
@@ -101,7 +101,6 @@ collections: # A list of collections the CMS should be able to edit
 
           - label: contact
             name: contact
-            required: false
             widget: object
             fields:
             - {label: Title, name: title, widget: string}
@@ -125,12 +124,6 @@ collections: # A list of collections the CMS should be able to edit
                 - {label: Heading, name: header, widget: text}
                 - {label: Paragraph, name: paragraph, widget: text}
 
-          - label: discription
-            name: discrip
-            required: false
-            widget: object
-            fields:
-            - {label: Intro discription, name: discrip, widget: text}
 
       - label: "Sub page"
         name: "site"

@@ -57,22 +57,21 @@
   },
   "options": {
     "title": "weCraft",
-    "image": "project",
-    "project": {
-      "heading": "Project Name",
-      "paragraph": "Project Description : There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy. There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy.",
-      "button": "Link to page",
-      "href": "https://www.google.com"
-    }
-  },
-  "options2": {
-    "title": "weCraft",
-    "image": "projectimg",
+    "image": {
+      "iconOne": "project",
+      "iconSecond": "projectimg"
+    },
     "project": {
       "heading": "Project Name",
       "paragraph": "Project Description : There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy. There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy.",
       "button": "Link to page",
       "href": "https://www.naver.com"
+    },
+    "projectSecond": {
+      "heading": "Project Name",
+      "paragraph": "Project Description : There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy. There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy.",
+      "button": "Link to page",
+      "href": "https://www.google.com"
     }
   },
   "testimonial": [
