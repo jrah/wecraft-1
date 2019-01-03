@@ -143,6 +143,5 @@ collections: # A list of collections the CMS should be able to edit
             widget: list
             required: false
             fields:
-              - {label: Text, name: text, widget: string}
+              - {label: Name, name: name, widget: string}
               - {label: Link, name: href, widget: string}
-              - {label: Icon, name: icon, widget: string}
