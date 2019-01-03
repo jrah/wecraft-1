@@ -76,10 +76,10 @@
         <div class=" text-right mb-5 bg-whiteback p-10 m-5  l:w-1/2 border-grey-lighter border-solid border-2 rounded-sm shadow">
           <div class= "text-left">
             <h1
-              v-if="home.options"
+              v-if="home.options2"
               class="mt-0 f1 my-2 font-bold text-2xl leading-tight">{{ home.options2.project.heading }}</h1>
             <p
-              v-if="home.options"
+              v-if="home.options2"
               class=" m-0 my-5 leading-normal">{{ home.options2.project.paragraph }}</p>
           </div>
           <a
