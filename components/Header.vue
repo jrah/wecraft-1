@@ -1,7 +1,9 @@
 <template>
   <div>
 
-    <div class="bg-cover bg-center py-6 relative bg-grey-darkest">
+    <div
+    :style="{'background-image' : 'url('+home.image+')'}"
+    class="bg-cover bg-center py-6 relative bg-grey-darkest">
       <div class="container py-32 relative z-10">
         <div class="m:w-3/5 l:w-2/5">
           <h1>

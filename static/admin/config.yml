@@ -17,6 +17,20 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Intro title, name: title, widget: string}
           - {label: Intro text, name: intro, widget: markdown}
           - {label: Intro image, name: image, widget: image}
+          - label: client
+            name: clients
+            required: false
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - label: clients
+                name: organisation
+                widget: list
+                fields:
+                  - {label: Organisation Name, name: name, widget: string}
+                  - {label: Organisation Image, name: image, widget: image}
+                  - {label: Organisation Link, name: href, widget: text}
+    
           - label: Feature Blocks
             name: features
             required: false
@@ -32,14 +46,7 @@ collections: # A list of collections the CMS should be able to edit
                   - {label: Icon, name: icon, widget: string}
                   - {label: Heading, name: heading, widget: string}
                   - {label: Paragraph, name: paragraph, widget: text}
-          - label: Icon Splash
-            name: icon_splash
-            widget: object
-            fields:
-              - {label: Title, name: title, widget: string}
-              - {label: Text, name: text, widget: text}
-              - {label: Anchor, name: anchor, widget: string}
-              - {label: Href, name: href, widget: string}
+
           - label: Option Blocks
             name: options
             required: false
@@ -72,20 +79,7 @@ collections: # A list of collections the CMS should be able to edit
             fields:
               - {label: Quote, name: quote, widget: text}
               - {label: Author, name: author, widget: string}
-          - label: Collaborations
-            name: collaborations
-            required: false
-            widget: object
-            fields:
-              - {label: Title, name: title, widget: string}
-              - label: Organisation
-                name: organisation
-                widget: list
-                fields:
-                  - {label: Organisation Name, name: name, widget: string}
-                  - {label: Organisation Image, name: image, widget: image}
-                  - {label: Organisation Link, name: href, widget: text}
-          - label: Contact
+         - label: Contact
             name: contact
             widget: object
             fields:
