@@ -20,9 +20,7 @@
     </section>
 
     <section class="text-blackback py-10 bg-whiteback">
-      <div class="text-center">
-        <h1 class="mb-12 font-bold text-4xl leading-tight">{{ home.options.title }}</h1>
-      </div>
+      <h1 class="mb-12 font-bold text-4xl leading-tight">{{ home.options.title }}</h1>
       <div class="container l:flex justify-between">
         <div
             :style="{'background-image' : 'url('+home.options.image.icon+')'}"
@@ -69,13 +67,11 @@
     </section>
 
     <section class="text-blackback py-10 bg-whiteback">
-      <div class="text-center">
-        <h1 class="mb-12 font-bold text-4xl leading-tight">{{ home.options2.title }}</h1>
-      </div>
+      <h1 class="mb-12 font-bold text-4xl leading-tight">{{ home.options2.title }}</h1>
       <div class="container l:flex justify-between">
         <div class=" text-right mb-5 bg-whiteback p-10 m-5  l:w-1/2 border-grey-lighter border-solid border-2 rounded-sm shadow">
           <div class= "text-left">
-            <h1
+            <h2
               v-if="home.options2"
               class="mt-0 f1 my-2 font-bold text-2xl leading-tight">{{ home.options2.project.heading }}</h1>
             <p
