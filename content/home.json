@@ -35,21 +35,25 @@
   "process": {
     "title": "WeCraft Process step",
     "pro1": {
+      "number": "2052171",
       "header": "WeCraft Process ",
       "paragraph": "Project Description : There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy. There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy.",
       "image": "/images/uploads/teatea.jpg"
     },
     "pro2": {
+      "number": "2052150",
       "header": "WeCraft Process ",
       "paragraph": "Project Description : There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy. There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy.",
       "image": "/images/uploads/teatea.jpg"
     },
     "pro3": {
+      "number": "2052130",
       "header": "WeCraft Process ",
       "paragraph": "Project Description : There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy. There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy.",
       "image": "/images/uploads/teatea.jpg"
     },
     "pro4": {
+      "number": "2052105",
       "header": "WeCraft Process ",
       "paragraph": "Project Description : There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy. There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy.",
       "image": "/images/uploads/teatea.jpg"
@@ -68,7 +72,7 @@
       "href": "https://www.google.com"
     }
   },
-  "subtitle": "Beautiful Websites ! ",
+  "subtitle": "Beautiful Websites!",
   "title": "Wecraft",
   "image": "/images/uploads/teatea.jpg",
   "contactEmail": "mailto:team@diversitea.co",
