@@ -93,7 +93,7 @@ export default {
     height: 100%;
     position: absolute;
     top: 0.5em;
-    right: -70%;
+    right: 0%;
 
     &-item {
       @include mq(ns) {
@@ -107,11 +107,12 @@ export default {
           @apply text-grey-lightest;
         }
       }
-      @apply text-navy;
+      @apply text-whiteback;
+      display: inline-block;
       padding: 1rem 0;
-      margin: 0 1rem;
+      margin: 0 0.5rem;
       // @apply border-solid border-grey-lightest border-b-1;
-      font-size: 1.25em;
+      font-size: 1em;
       &:hover {
         @apply text-red;
       }
