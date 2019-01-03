@@ -125,8 +125,12 @@ collections: # A list of collections the CMS should be able to edit
                 - {label: Heading, name: header, widget: text}
                 - {label: Paragraph, name: paragraph, widget: text}
 
-          - {label: Intro discription, name: discrip, widget: text}
-
+          - label: discription
+            name: discrip
+            required: false
+            widget: object
+            fields:
+            - {label: Intro discription, name: discrip, widget: text}
 
       - label: "Sub page"
         name: "site"
