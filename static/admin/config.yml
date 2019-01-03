@@ -15,6 +15,7 @@ collections: # A list of collections the CMS should be able to edit
         file: "content/home.json"
         fields:
           - {label: Intro title, name: title, widget: string}
+          - {label: Intro subtitle, name: subtitle, widget: string}
           - {label: Intro text, name: intro, widget: markdown}
           - {label: Intro image, name: image, widget: image}
           - {label: Intro button, name: button, widget: string}

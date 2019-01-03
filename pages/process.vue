@@ -6,7 +6,7 @@
       <div class="p-12 bg-whiteback">
         <div class="max-w-md m-auto text-center">
           <img
-            :src="require(`~/assets/images/logo0.svg`)"
+            :src="require('~/assets/images/'+ home.process.img+'.svg')"
             class="w-24"
             alt="Logo">
             <p class="blockquote leading-normal p-8 m-5"> {{home.discrip }}</p>

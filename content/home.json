@@ -33,6 +33,7 @@
   "intro": "There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy.Test",
   "process": {
     "title": "process",
+    "image": "logo0",
     "pro1": {
       "header": "process1",
       "paragraph": "Project Description : There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy. There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy.",
@@ -67,6 +68,7 @@
     }
   },
   "title": "WECRAFT",
+  "subtitle": "subtitle",
   "image": "/images/uploads/cover.jpg",
   "features": {
     "title": "Our Features",
