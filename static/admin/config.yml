@@ -71,17 +71,17 @@ collections: # A list of collections the CMS should be able to edit
                   - {label: Heading, name: heading, widget: string}
                   - {label: Paragraph, name: paragraph, widget: text}
 
-          - label: Option Blocks2
+          - label: Option
             name: options2
             required: false
             widget: object
             fields:
             - {label: Title, name: title, widget: string}
-            - label: image
+            - label: backimage
               name: image
               widget: object
               fields:
-                - {label: icon, name: image, widget: image}
+                - {label: Icon, name: image, widget: image}
             - label: projecttwo
               name: project
               widget: object
