@@ -20,12 +20,14 @@
     </section>
 
     <section class="text-blackback py-10 bg-whiteback">
-      <h1 class="mb-12 font-bold text-4xl leading-tight">{{ home.options.title }}</h1>
+      <div class="text-center">
+        <h1 class="mb-12 font-bold text-4xl leading-tight">{{ home.options.title }}</h1>
+      </div>
       <div class="container l:flex justify-between">
         <div
-            :style="{'background-image' : 'url('+home.options.image.icon+')'}"
+            :style="{'background-image' : 'url('+home.options2.image.icon+')'}"
             class=" bg-whiteback bg-no-repeat p-10  m-5  l:w-1/2 border-grey-lighter border-solid border-2 rounded-sm shadow">
-        </div>
+        </div>     
         <div class=" text-right mb-5 bg-whiteback p-10 m-5  l:w-1/2 border-grey-lighter border-solid border-2 rounded-sm shadow">
           <div class= "text-left">
             <h2
@@ -67,11 +69,13 @@
     </section>
 
     <section class="text-blackback py-10 bg-whiteback">
-      <h1 class="mb-12 font-bold text-4xl leading-tight">{{ home.options2.title }}</h1>
+      <div class="text-center">
+        <h1 class="mb-12 font-bold text-4xl leading-tight">{{ home.options2.title }}</h1>
+      </div>
       <div class="container l:flex justify-between">
         <div class=" text-right mb-5 bg-whiteback p-10 m-5  l:w-1/2 border-grey-lighter border-solid border-2 rounded-sm shadow">
           <div class= "text-left">
-            <h2
+            <h1
               v-if="home.options2"
               class="mt-0 f1 my-2 font-bold text-2xl leading-tight">{{ home.options2.project.heading }}</h1>
             <p
