@@ -17,6 +17,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Intro title, name: title, widget: string}
           - {label: Intro text, name: intro, widget: markdown}
           - {label: Intro image, name: image, widget: image}
+          - {label: Intro button, name: button, widget: string}
           - label: Feature Blocks
             name: features
             required: false
