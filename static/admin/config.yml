@@ -100,7 +100,7 @@ collections: # A list of collections the CMS should be able to edit
             - {label: Author, name: author, widget: string}
 
           - label: contact
-            name: contact
+            name: contactUs
             widget: object
             fields:
             - {label: Title, name: title, widget: string}
