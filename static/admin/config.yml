@@ -175,7 +175,7 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Link, name: href, widget: string}
           - label: logo
             name: logo
-            widget: list
+            widget: object
             required: false
             fields:
               - {label: Text, name: text, widget: string}
