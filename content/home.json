@@ -1,4 +1,5 @@
 {
+  "intro": "There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy.",
   "clients": {
     "title": "Our Clients",
     "organisation": [
@@ -29,19 +30,11 @@
       }
     ]
   },
-  "intro": "There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy.",
-  "options2": {
-    "image": {
-      "icon": "projectimg"
-    },
-    "project": {
-      "heading": "Project Name",
-      "button": "Link to page",
-      "href": "https://www.google.com"
-    }
-  },
-  "title": "WECRAFT11",
+  "title": "WECRAFT",
+  "subTitle": "Beautiful Websites",
   "image": "/images/uploads/cover.jpg",
+  "button": "Contact Us",
+  "href": "mailto:team@diversitea.co",
   "features": {
     "title": "Our Features",
     "block": [
@@ -63,15 +56,44 @@
     ]
   },
   "options": {
+    "title": "weCraft",
     "image": {
       "icon": "project"
     },
     "project": {
       "heading": "Project Name",
+      "paragraph": "Project Description : There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy. There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy.",
       "button": "Link to page",
       "href": "https://www.naver.com"
     }
   },
+
+  "options2": {
+    "title": "weCraft",
+    "image": {
+      "icon": "projectimg"
+    },
+    "project": {
+      "heading": "Project Name",
+      "paragraph": "Project Description : There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy. There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy.",
+      "button": "Link to page",
+      "href": "https://www.google.com"
+    }
+  },
+  "testimonial": [
+    {
+      "quote": "It was incredible. Shockingly so and I am still coming down from it...",
+      "author": "Emma Peel"
+    },
+    {
+      "quote": "Absolutely stunning service & really lovely tea \n",
+      "author": "Lesley Pyne"
+    },
+    {
+      "quote": "Always easy to deal with and the tea is so good",
+      "author": "Debbie Harkness"
+    }
+  ],
   "contactUs": {
     "title": "Contact Us",
     "paragraph": "paragraph",
@@ -88,18 +110,8 @@
       "paragraph": "ustomerservice@choicescreening.com sales@choicescreening.com disputes@choicescreening.com compliance@choicescreening.com"
     }
   },
-  "testimonial": [
-    {
-      "quote": "It was incredible. Shockingly so and I am still coming down from it...",
-      "author": "Emma Peel"
-    },
-    {
-      "quote": "Absolutely stunning service & really lovely tea \n",
-      "author": "Lesley Pyne"
-    },
-    {
-      "quote": "Always easy to deal with and the tea is so good",
-      "author": "Debbie Harkness"
-    }
-  ]
+  "process": {
+    "title": "Process Step"
+  },
+  "discrip": "WeCraft is your creative guru, formed out of professionals with international appreciation and a special intuitive understanding of the UK & European market. Our focus is on two things: making beautifully optimised website for the UK & European market, and making beautifully designed and well-worded documents like proposal, pitch decks, that are needed for many purposes."
 }
