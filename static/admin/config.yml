@@ -37,16 +37,15 @@ collections: # A list of collections the CMS should be able to edit
             required: false
             widget: object
             fields:
-            - label: picture
+            - label: image
               name: image
               widget: object
               fields:
-                - {label: Intro image, name: image, widget: image}
+                - {label:  image, name: icon, widget: image}
             - label: project
               name: project
               widget: object
               fields:
-                - {label: Icon, name: icon, widget: string}
                 - {label: Heading, name: heading, widget: text}
                 - {label: Button, name: button, widget: text}
                 - {label: Link, name: href, widget: text}
