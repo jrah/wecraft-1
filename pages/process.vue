@@ -16,12 +16,12 @@
 
     <section class=" p-8 bg-grey-lightest text-black bg-cover bg-greyligter bg-no-repeat bg-center">
           <div class="container mt-20 relative">
-           <div class="l:flex mb-4 p-5">
-              <img
-                :src="require('~/assets/images/'+ home.process.pro1.number +'.svg')"
-                 alt="block.icon"
-                 class="w-24 absolute pin-l -ml-0 -mt-16 z-auto"
-               >
+            <img
+              :src="require('~/assets/images/'+ home.process.pro1.number +'.svg')"
+               alt="block.icon"
+               class="w-24 absolute pin-l -ml-0 -mt-16 z-auto"
+             >
+           <div class="l:flex mb-4 p-5 z-10 relative">
                <div class="l:w-2/3 bg-white p-5 z-50">
                  <h1 class="leading-tight mt-2 mb-4 text-lg font-bold text-navy">{{ home.process.pro1.header  }}</h1>
                  <p class="leading-normal ma-0 f4">{{ home.process.pro1.paragraph }}</p>
@@ -35,12 +35,12 @@
          </div>
 
          <div class="container mt-20 relative">
-           <div class="l:flex mb-4  p-5">
-             <img
-                :src="require('~/assets/images/'+ home.process.pro2.number +'.svg')"
-                alt="block.icon"
-                class="w-24 absolute pin-r -mr-0 -mt-16 z-auto"
-              >
+           <img
+              :src="require('~/assets/images/'+ home.process.pro2.number +'.svg')"
+              alt="block.icon"
+              class="w-24 absolute pin-r -mr-0 -mt-16 z-auto"
+            >
+           <div class="l:flex mb-4 p-5 z-10 relative">
               <div
               :style="{'background-image' : 'url('+home.process.pro2.image+')'}"
               class="l:w-1/3 bg-cover bg-no-repeat p-5">
@@ -53,12 +53,12 @@
           </div>
 
           <div class="container mt-20 relative">
-           <div class="l:flex mb-4 p-5">
-              <img
-                :src="require('~/assets/images/'+ home.process.pro3.number +'.svg')"
-                 alt="block.icon"
-                 class="w-24 absolute pin-l -ml-0 -mt-16 z-auto"
-               >
+            <img
+              :src="require('~/assets/images/'+ home.process.pro3.number +'.svg')"
+               alt="block.icon"
+               class="w-24 absolute pin-l -ml-0 -mt-16 z-auto"
+             >
+           <div class="l:flex mb-4 p-5 z-10 relative">
                <div class="l:w-2/3 bg-white p-5 z-50">
                   <h1 class="leading-tight mt-2 mb-4 text-lg font-bold text-navy">{{ home.process.pro3.header }}</h1>
                   <p class="leading-normal ma-0 f4">{{ home.process.pro2.paragraph}}</p>
@@ -72,18 +72,18 @@
          </div>
 
          <div class="container mt-20 relative">
-           <div class="l:flex mb-4 p-5">
-              <img
-                :src="require('~/assets/images/'+ home.process.pro4.number +'.svg')"
-                alt="block.icon"
-                class="w-24 absolute pin-r z-auto -mr-0 -mt-16"
-              >
+           <img
+             :src="require('~/assets/images/'+ home.process.pro4.number +'.svg')"
+             alt="block.icon"
+             class="w-24 absolute pin-r z-auto -mr-0 -mt-16"
+           >
+           <div class="l:flex mb-4 p-5 z-10 relative">
               <div
               :style="{'background-image' : 'url('+home.process.pro4.image+')'}"
               class="l:w-1/3 bg-cover bg-no-repeat p-5">
 
               </div>
-              <div class=" l:w-2/3 bg-white p-5 z-50">
+              <div class=" l:w-2/3 bg-white p-5 z-50 relative">
                  <h1 class="leading-tight mt-2 mb-4 text-lg font-bold text-navy">{{ home.process.pro4.header }}</h1>
                  <p class="leading-normal ma-0 f4">{{ home.process.pro4.paragraph}}</p>
               </div>
