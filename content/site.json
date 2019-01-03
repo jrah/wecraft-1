@@ -12,7 +12,7 @@
   ],
   "nav": [
     {
-      "name": "Home",
+      "name": "Wecraft",
       "href": "/"
     },
     {
@@ -23,10 +23,5 @@
       "name": "Contact Us",
       "href": "/"
     }
-  ],
-  "logo": {
-      "text": "WeCraft",
-      "name": "logo",
-      "type": "svg"
-  }
+  ]
 }
