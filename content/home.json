@@ -33,33 +33,33 @@
   "logo": "logo0",
   "intro": "There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy.Test",
   "process": {
-    "title": "process",
+    "title": "WeCraft Process step",
     "pro1": {
-      "header": "process1",
+      "header": "WeCraft Process ",
       "paragraph": "Project Description : There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy. There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy.",
       "image": "/images/uploads/name1.jpg"
     },
     "pro2": {
-      "header": "process1",
+      "header": "WeCraft Process ",
       "paragraph": "Project Description : There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy. There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy.",
       "image": "/images/uploads/name1.jpg"
     },
     "pro3": {
-      "header": "process1",
+      "header": "WeCraft Process ",
       "paragraph": "Project Description : There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy. There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy.",
       "image": "/images/uploads/name1.jpg"
     },
     "pro4": {
-      "header": "process1",
+      "header": "WeCraft Process ",
       "paragraph": "Project Description : There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy. There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy.",
       "image": "/images/uploads/name1.jpg"
     }
   },
   "button": "Contact Us",
   "options2": {
-    "heading" : "wecraft",
+    "heading": "WeCraft Portfolio",
     "image": {
-      "icon": "/images/uploads/cover.jpg"
+      "icon": "/images/uploads/teatea.jpg"
     },
     "project": {
       "heading": "Project Name",
@@ -68,8 +68,8 @@
       "href": "https://www.google.com"
     }
   },
-  "subtitle": "subtitle",
-  "title": "WECRAFT11",
+  "subtitle": "Beautiful Websites",
+  "title": "We Craft",
   "image": "/images/uploads/cover.jpg",
   "features": {
     "title": "Our Features",
@@ -92,9 +92,9 @@
     ]
   },
   "options": {
-    "heading" : "wecraft",
+    "heading": "WeCraft Portfolio",
     "image": {
-      "icon": "/images/uploads/cover.jpg"
+      "icon": "/images/uploads/teatea.jpg"
     },
     "project": {
       "heading": "Project Name",
@@ -105,7 +105,7 @@
   },
   "contactUs": {
     "title": "Contact Us",
-    "paragraph": "paragraph",
+    "paragraph": "There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy.Test\n\n",
     "text1": {
       "header": "Corporate Office",
       "paragraph": "8668 Concord Center Dr.Englewood, CO 80112"
