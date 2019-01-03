@@ -26,7 +26,7 @@
       <div class="container l:flex justify-between">
         <div class="bg-whiteback bg-no-repeat p-10  m-5  l:w-1/2 border-grey-lighter border-solid border-2 rounded-sm shadow">
           <img
-            :src="require('~/assets/images/'+ home.options.image+'.svg')">
+            :src="require('~/assets/images/'+ home.options.image.iconOne+'.svg')">
         </div>
         <div class=" text-right mb-5 bg-whiteback p-10 m-5  l:w-1/2 border-grey-lighter border-solid border-2 rounded-sm shadow">
           <div class= "text-left">
@@ -70,26 +70,26 @@
 
     <section class="text-blackback py-10 bg-whiteback">
       <div class="text-center">
-        <h1 class="mb-12 font-bold text-4xl leading-tight">{{ home.option.title }}</h1>
+        <h1 class="mb-12 font-bold text-4xl leading-tight">{{ home.options.title }}</h1>
       </div>
       <div class="container l:flex justify-between">
         <div class=" text-right mb-5 bg-whiteback p-10 m-5  l:w-1/2 border-grey-lighter border-solid border-2 rounded-sm shadow">
           <div class= "text-left">
             <h1
-              v-if="home.option"
-              class="mt-0 f1 my-2 font-bold text-2xl leading-tight">{{ home.option.project.heading }}</h1>
+              v-if="home.options"
+              class="mt-0 f1 my-2 font-bold text-2xl leading-tight">{{ home.options.projectSecond.heading }}</h1>
             <p
-              v-if="home.option"
-              class=" m-0 my-5 leading-normal">{{ home.option.project.paragraph }}</p>
+              v-if="home.options"
+              class=" m-0 my-5 leading-normal">{{ home.options.projectSecond.paragraph }}</p>
           </div>
           <a
-            :href="home.option.project.href"
-            class="inline-flex no-underline mt-5 bg-whiteback hover:bg-navy text-navy-dark font-semibold hover:text-white py-2 px-6 border border-navy hover:border-transparent rounded mb-2 border-white">{{ home.option.project.button }}</a>
+            :href="home.options.projectSecond.href"
+            class="inline-flex no-underline mt-5 bg-whiteback hover:bg-navy text-navy-dark font-semibold hover:text-white py-2 px-6 border border-navy hover:border-transparent rounded mb-2 border-white">{{ home.options.projectSecond.button }}</a>
 
         </div>
         <div class=" bg-whiteback bg-no-repeat p-10  m-5  l:w-1/2 border-grey-lighter border-solid border-2 rounded-sm shadow">
           <img
-            :src="require('~/assets/images/'+ home.option.image+'.svg')">
+            :src="require('~/assets/images/'+ home.options.image.iconSecond+'.svg')">
         </div>
       </div>
     </section>
