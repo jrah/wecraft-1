@@ -72,12 +72,12 @@
          </div>
 
          <div class="container mt-20 relative">
+           <img
+             :src="require('~/assets/images/'+ home.process.pro4.number +'.svg')"
+             alt="block.icon"
+             class="w-24 absolute pin-r z-auto -mr-0 -mt-16"
+           >
            <div class="l:flex mb-4 p-5">
-              <img
-                :src="require('~/assets/images/'+ home.process.pro4.number +'.svg')"
-                alt="block.icon"
-                class="w-24 absolute pin-r z-auto -mr-0 -mt-16"
-              >
               <div
               :style="{'background-image' : 'url('+home.process.pro4.image+')'}"
               class="l:w-1/3 bg-cover bg-no-repeat p-5">
