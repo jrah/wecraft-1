@@ -30,7 +30,7 @@ collections: # A list of collections the CMS should be able to edit
                   - {label: Organisation Name, name: name, widget: string}
                   - {label: Organisation Image, name: image, widget: image}
                   - {label: Organisation Link, name: href, widget: text}
-    
+
           - label: Feature Blocks
             name: features
             required: false
@@ -79,7 +79,7 @@ collections: # A list of collections the CMS should be able to edit
             fields:
               - {label: Quote, name: quote, widget: text}
               - {label: Author, name: author, widget: string}
-         - label: Contact
+          - label: Contact
             name: contact
             widget: object
             fields:
