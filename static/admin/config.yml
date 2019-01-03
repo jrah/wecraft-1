@@ -17,6 +17,10 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Intro title, name: title, widget: string}
           - {label: Intro text, name: intro, widget: markdown}
           - {label: Intro image, name: image, widget: image}
+          - {label: Intro button, name: button, widget: button}
+          - {label: Intro href, name: href, widget: text}
+
+
           - label: client
             name: clients
             required: false
@@ -37,11 +41,11 @@ collections: # A list of collections the CMS should be able to edit
             widget: object
             fields:
             - {label: Title, name: title, widget: string}
-            - label: picture
-              name: picture
+            - label: image
+              name: image
               widget: object
               fields:
-                - {label: image, name: image, widget: image}
+                - {label: icon, name: iconOne, widget: image}
             - label: project
               name: project
               widget: object
@@ -67,31 +71,59 @@ collections: # A list of collections the CMS should be able to edit
                   - {label: Heading, name: heading, widget: string}
                   - {label: Paragraph, name: paragraph, widget: text}
 
-          - label: Splash
-            name: splash
+          - label: Option Blocks
+            name: options
+            required: false
             widget: object
             fields:
-              - {label: Title, name: title, widget: string}
-              - {label: Text Splash, name: text, widget: text}
-          - label: Testimonials
+            - {label: Title, name: title, widget: string}
+            - label: image
+              name: image
+              widget: object
+              fields:
+                - {label: icon, name: iconSecond, widget: image}
+            - label: project two
+              name: projectSecond
+              widget: object
+              fields:
+                - {label: Heading, name: heading, widget: text}
+                - {label: Paragraph, name: paragraph, widget: text}
+                - {label: link, name: href, widget: text}
+                - {label: button, name: button, widget: string}
+
+        - label: Testimonials
             name: testimonial
             required: false
             widget: list
             fields:
-              - {label: Quote, name: quote, widget: text}
-              - {label: Author, name: author, widget: string}
-          - label: Contact
-            name: contact
+            - {label: Quote, name: quote, widget: text}
+            - {label: Author, name: author, widget: string}
+
+        - label: contact
+          name: contact
+          widget: object
+          fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Paragraph, name: paragraph, widget: text}
+          - label: text
+            name: text1
             widget: object
             fields:
-              - {label: Title, name: title, widget: string}
-              - {label: Text, name: text, widget: text}
-              - label: Pointers
-                name: points
-                widget: list
-                fields:
-                  - {label: Icon, name: icon, widget: string}
-                  - {label: paragraph, name: paragraph, widget: mardown}
+              - {label: Heading, name: header, widget: text}
+              - {label: Paragraph, name: paragraph, widget: text}
+          - label: text
+            name: text2
+            widget: object
+            fields:
+              - {label: Heading, name: header, widget: text}
+              - {label: Paragraph, name: paragraph, widget: text}
+          - label: text
+            name: text3
+            widget: object
+            fields:
+              - {label: Heading, name: header, widget: text}
+              - {label: Paragraph, name: paragraph, widget: text}
+
 
       - label: "Sub page"
         name: "site"

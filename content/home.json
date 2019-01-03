@@ -1,11 +1,5 @@
 {
-  "contact": {
-    "title": "Contact Us"
-  },
-  "splash": {
-    "title": "How DiversiTea Works",
-    "text": "Each month DiversiTea selects two different teas, packs them into our environmentally friendly package and delivers them directly to your doorstep."
-  },
+  "intro": "There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy.",
   "clients": {
     "title": "Our Clients",
     "organisation": [
@@ -36,9 +30,11 @@
       }
     ]
   },
-  "intro": "There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy.",
   "title": "WECRAFT",
+  "subTitle": "Beautiful Websites",
   "image": "/images/uploads/cover.jpg",
+  "button": "Contact Us",
+  "href": "mailto:team@diversitea.co",
   "features": {
     "title": "Our Features",
     "block": [
@@ -60,15 +56,22 @@
     ]
   },
   "options": {
-    "title": "weCraft project",
-    "picture": {
-      "image": "~/assets/images/projectimg.svg"
+    "title": "weCraft",
+    "image": {
+      "iconOne": "project",
+      "iconSecond": "projectimg"
     },
     "project": {
-      "heading": "Project Name1",
-      "paragraph": "Project Description1 : There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy. There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy.",
-      "href": "https://www.google.com",
-      "button": "Link to page"
+      "heading": "Project Name",
+      "paragraph": "Project Description : There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy. There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy.",
+      "button": "Link to page",
+      "href": "https://www.naver.com"
+    },
+    "projectSecond": {
+      "heading": "Project Name",
+      "paragraph": "Project Description : There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy. There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy.",
+      "button": "Link to page",
+      "href": "https://www.google.com"
     }
   },
   "testimonial": [
@@ -84,5 +87,25 @@
       "quote": "Always easy to deal with and the tea is so good",
       "author": "Debbie Harkness"
     }
-  ]
+  ],
+  "contactUs": {
+    "title": "Contact Us",
+    "paragraph": "paragraph",
+    "text1": {
+      "header": "Corporate Office",
+      "paragraph": "8668 Concord Center Dr.Englewood, CO 80112"
+    },
+    "text2": {
+      "header": "Direct Contact",
+      "paragraph": "Phone: 720.974.787 Toll Free: 1.877.929.78 Email: info@choicescreening.com"
+    },
+    "text3": {
+      "header": "Departments",
+      "paragraph": "ustomerservice@choicescreening.com sales@choicescreening.com disputes@choicescreening.com compliance@choicescreening.com"
+    }
+  },
+  "process": {
+    "title": "Process Step"
+  },
+  "discrip": "WeCraft is your creative guru, formed out of professionals with international appreciation and a special intuitive understanding of the UK & European market. Our focus is on two things: making beautifully optimised website for the UK & European market, and making beautifully designed and well-worded documents like proposal, pitch decks, that are needed for many purposes."
 }

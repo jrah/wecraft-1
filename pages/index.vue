@@ -26,7 +26,7 @@
       <div class="container l:flex justify-between">
         <div class="bg-whiteback bg-no-repeat p-10  m-5  l:w-1/2 border-grey-lighter border-solid border-2 rounded-sm shadow">
           <img
-            :src="require('~/assets/images/projectimg.svg')">
+            :src="require('~/assets/images/'+ home.options.image.iconOne+'.svg')">
         </div>
         <div class=" text-right mb-5 bg-whiteback p-10 m-5  l:w-1/2 border-grey-lighter border-solid border-2 rounded-sm shadow">
           <div class= "text-left">
@@ -77,19 +77,19 @@
           <div class= "text-left">
             <h1
               v-if="home.options"
-              class="mt-0 f1 my-2 font-bold text-2xl leading-tight">{{ home.options.project.heading }}</h1>
+              class="mt-0 f1 my-2 font-bold text-2xl leading-tight">{{ home.options.projectSecond.heading }}</h1>
             <p
               v-if="home.options"
-              class=" m-0 my-5 leading-normal">{{ home.options.project.paragraph }}</p>
+              class=" m-0 my-5 leading-normal">{{ home.options.projectSecond.paragraph }}</p>
           </div>
           <a
-            :href="home.options.project.href"
-            class="inline-flex no-underline mt-5 bg-whiteback hover:bg-navy text-navy-dark font-semibold hover:text-white py-2 px-6 border border-navy hover:border-transparent rounded mb-2 border-white">{{ home.options.project.button }}</a>
+            :href="home.options.projectSecond.href"
+            class="inline-flex no-underline mt-5 bg-whiteback hover:bg-navy text-navy-dark font-semibold hover:text-white py-2 px-6 border border-navy hover:border-transparent rounded mb-2 border-white">{{ home.options.projectSecond.button }}</a>
 
         </div>
         <div class=" bg-whiteback bg-no-repeat p-10  m-5  l:w-1/2 border-grey-lighter border-solid border-2 rounded-sm shadow">
           <img
-            :src="require('~/assets/images/projectimg.svg')" >
+            :src="require('~/assets/images/'+ home.options.image.iconSecond+'.svg')">
         </div>
       </div>
     </section>
@@ -121,8 +121,8 @@
     <section class="bg-whiteback text-blackback">
       <div class="container pt-12">
         <div class="max-w-md m-auto text-center">
-          <h1 class="mt-0 mb-5 font-bold text-4xl leading-tight">{{ home.contact.title }}</h1>
-          <p class="leading-normal pb-8">{{ home.splash.text }}</p>
+          <h1 class="mt-0 mb-5 font-bold text-4xl leading-tight">{{ home.contactUs.title }}</h1>
+          <p class="leading-normal pb-8">{{ home.contactUs.paragraph }}</p>
         </div>
       </div>
     </section>
@@ -133,12 +133,12 @@
           <appForm/>
         </div>
         <div class="bg-whiteback p-10  m-5 mt-0 l:w-1/3 border-grey-lighter border-solid border-2 rounded-sm shadow">
-          <h2 class="leading-tight mt-2 mb-4 text-lg font-bold text-navy">Corporate Office</h2>
-          <p class="leading-normal ma-0 mb-4 f4 text-sm">8668 Concord Center Dr.Englewood, CO 80112</p>
-          <h2 class="leading-tight mt-2 mb-4 text-lg font-bold text-navy">Direct Contact</h2>
-          <p class="leading-normal ma-0 f4 mb-4  text-sm">Phone: 720.974.787 <br/> Toll Free: 1.877.929.7878 <br/> Email: info@choicescreening.com</p>
-          <h2 class="leading-tight mt-2 mb-4 text-lg font-bold text-navy">Departments</h2>
-          <p class="leading-normal ma-0 f4 text-sm">customerservice@choicescreening.com<br/>sales@choicescreening.com<br/> disputes@choicescreening.com<br/> compliance@choicescreening.com</p>
+          <h2 class="leading-tight mt-2 mb-4 text-lg font-bold text-navy">{{home.contactUs.text1.header}}</h2>
+          <p class="leading-normal ma-0 mb-4 f4 text-sm">{{home.contactUs.text1.paragraph}}</p>
+          <h2 class="leading-tight mt-2 mb-4 text-lg font-bold text-navy">{{home.contactUs.text2.header}}</h2>
+          <p class="leading-normal ma-0 f4 mb-4  text-sm">{{home.contactUs.text2.paragraph}}</p>
+          <h2 class="leading-tight mt-2 mb-4 text-lg font-bold text-navy">{{home.contactUs.text3.header}}</h2>
+          <p class="leading-normal ma-0 f4 text-sm">{{home.contactUs.text3.paragraph}}</p>
         </div>
       </div>
 
