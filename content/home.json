@@ -1,6 +1,5 @@
 {
   "discrip": "WeCraft is your creative guru, formed out of professionals with international appreciation and a special intuitive understanding of the UK & European market. Our focus is on two things: making beautifully optimised website for the UK & European market, and making beautifully designed and well-worded documents like proposal, pitch decks, that are needed for many purposes.",
-  "logo": "logo0",
   "clients": {
     "title": "Our Clients",
     "organisation": [
@@ -31,6 +30,7 @@
       }
     ]
   },
+  "logo": "logo0",
   "intro": "There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy.Test",
   "process": {
     "title": "process",
@@ -68,7 +68,7 @@
     }
   },
   "subtitle": "subtitle",
-  "title": "WECRAFT1",
+  "title": "WECRAFT11",
   "image": "/images/uploads/cover.jpg",
   "features": {
     "title": "Our Features",
