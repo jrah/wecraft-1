@@ -173,3 +173,11 @@ collections: # A list of collections the CMS should be able to edit
             fields:
               - {label: Name, name: name, widget: string}
               - {label: Link, name: href, widget: string}
+          - label: logo
+            name: logo
+            widget: list
+            required: false
+            fields:
+              - {label: Text, name: text, widget: string}
+              - {label: Name, name: name, widget: string}
+              - {label: Type, name: type, widget: string}
