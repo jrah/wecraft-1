@@ -51,12 +51,12 @@ collections: # A list of collections the CMS should be able to edit
                 - {label: Button, name: button, widget: text}
                 - {label: Link, name: href, widget: text}
 
-          - label: Splash
-            name: splash
+          - label: Contact
+            name: contactUs
             widget: object
             fields:
               - {label: Title, name: title, widget: string}
-              - {label: Text Splash, name: text, widget: text}
+              - {label: Text , name: paragraph, widget: text}
           - label: Testimonials
             name: testimonial
             required: false
@@ -64,8 +64,8 @@ collections: # A list of collections the CMS should be able to edit
             fields:
               - {label: Quote, name: quote, widget: text}
               - {label: Author, name: author, widget: string}
-          - label: Collaborations
-            name: collaborations
+          - label: client
+            name: clients
             required: false
             widget: object
             fields:

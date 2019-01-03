@@ -14,21 +14,18 @@
       </div>
     </section>
 
-    <section class="bg-whiteback text-blackback">
-      <div class="container pt-12 bg-whiteback">
-        <div class="max-w-md m-auto text-center">
-          <h1 class="mt-0 font-bold text-4xl leading-tight">{{ home.process.title }}</h1>
-        </div>
-      </div>
-    </section>
-
     <section class=" p-8 bg-whiteback text-blackback bg-cover bg-no-repeat bg-center">
+        <div class="container pt-12 bg-whiteback">
+          <div class="max-w-md m-auto text-center">
+            <h1 class="mt-0 font-bold text-4xl leading-tight">{{ home.process.title }}</h1>
+          </div>
+        </div>
          <div class="mt-24 container ">
           <div class="flex mb-4">
               <div class="w-3/4 bg-whiteback p-10">
                 <h1 class="text-biggest"> 1 </h1>
-                <h2 class="leading-tight text-lg mb-8 ml-20 -mt-16 font-bold text-blackback">{{ home.options.quiz.heading }}</h2>
-                <p class="leading-normal z-50 ma-0 ml-20  mr-5 f4">{{ home.options.quiz.paragraph + home.options.quiz.paragraph + home.options.quiz.paragraph +home.options.quiz.paragraph}}</p>
+                <h2 class="leading-tight text-lg mb-8 ml-20 -mt-16 font-bold text-blackback">{{ home.options.project.heading }}</h2>
+                <p class="leading-normal z-50 ma-0 ml-20  mr-5 f4">{{ home.options.project.paragraph + home.options.project.paragraph + home.options.project.paragraph +home.options.project.paragraph}}</p>
               </div>
               <div
               :style="{'background-image' : 'url(/images/uploads/name1.jpg)'}"
@@ -45,8 +42,8 @@
              </div>
              <div class="w-3/4 bg-whiteback p-10">
                <h1 class="text-biggest text-right"> 2 </h1>
-               <h2 class="leading-tight text-right text-lg mb-8 mr-24 -mt-16 font-bold text-blackback">{{ home.options.quiz.heading }}</h2>
-               <p class="leading-normal z-50 ma-0 ml-5 f4">{{ home.options.quiz.paragraph + home.options.quiz.paragraph + home.options.quiz.paragraph +home.options.quiz.paragraph}}</p>
+               <h2 class="leading-tight text-right text-lg mb-8 mr-24 -mt-16 font-bold text-blackback">{{ home.options.project.heading }}</h2>
+               <p class="leading-normal z-50 ma-0 ml-5 f4">{{ home.options.project.paragraph}}</p>
           </div>
            </div>
          </div>
@@ -55,8 +52,8 @@
           <div class="flex mb-4">
             <div class="w-3/4 bg-whiteback p-10">
               <h1 class="text-biggest"> 3 </h1>
-              <h2 class="leading-tight text-lg mb-8 ml-20 -mt-16 font-bold text-blackback">{{ home.options.quiz.heading }}</h2>
-              <p class="leading-normal z-50 ma-0 ml-20  mr-5 f4">{{ home.options.quiz.paragraph + home.options.quiz.paragraph + home.options.quiz.paragraph +home.options.quiz.paragraph}}</p>
+              <h2 class="leading-tight text-lg mb-8 ml-20 -mt-16 font-bold text-blackback">{{ home.options.project.heading }}</h2>
+              <p class="leading-normal z-50 ma-0 ml-20  mr-5 f4">{{ home.options.project.paragraph}}</p>
              </div>
 
               <div
@@ -75,8 +72,8 @@
              </div>
              <div class="w-3/4 bg-whiteback p-10">
                <h1 class="text-biggest text-right"> 4 </h1>
-               <h2 class="leading-tight text-right text-lg mb-8 mr-24 -mt-16 font-bold text-blackback">{{ home.options.quiz.heading }}</h2>
-               <p class="leading-normal z-50 ma-0 ml-5 f4">{{ home.options.quiz.paragraph + home.options.quiz.paragraph + home.options.quiz.paragraph +home.options.quiz.paragraph}}</p>
+               <h2 class="leading-tight text-right text-lg mb-8 mr-24 -mt-16 font-bold text-blackback">{{ home.options.project.heading }}</h2>
+               <p class="leading-normal z-50 ma-0 ml-5 f4">{{home.options.project.paragraph}}</p>
              </div>
            </div>
          </div>
@@ -100,26 +97,26 @@
     </section>
 
     <section class="bg-whiteback text-blackback">
-      <div class="container pt-12 text-blackback">
+      <div class="container pt-12">
         <div class="max-w-md m-auto text-center">
-          <h1 class="mt-0 mb-5 font-bold text-4xl leading-tight">{{ home.contact.title }}</h1>
-          <p class="leading-normal pb-8">{{ home.splash.text }}</p>
+          <h1 class="mt-0 mb-5 font-bold text-4xl leading-tight">{{ home.contactUs.title }}</h1>
+          <p class="leading-normal pb-8">{{ home.contactUs.paragraph }}</p>
         </div>
       </div>
     </section>
 
-    <section class=" bg-whiteback bg-no-repeat text-blackback">
+    <section class=" bg-whiteback bg-no-repeat">
       <div class="container l:flex justify-center">
-        <div class=" bbg-whiteback p-10 m-5 mt-0 l:w-2/3 border-grey-lighter border-solid border-2 rounded-sm shadow">
+        <div class=" bg-white p-10 m-5 mt-0 l:w-2/3 border-grey-lighter border-solid border-2 rounded-sm shadow">
           <appForm/>
         </div>
-        <div class=" bbg-whiteback p-10  m-5 mt-0 l:w-1/3 border-grey-lighter border-solid border-2 rounded-sm shadow">
-          <h2 class="leading-tight mt-2 mb-4 text-lg font-bold ">Corporate Office</h2>
-          <p class="leading-normal ma-0 mb-4 f4 text-sm">8668 Concord Center Dr.Englewood, CO 80112</p>
-          <h2 class="leading-tight mt-2 mb-4 text-lg font-bold ">Direct Contact</h2>
-          <p class="leading-normal ma-0 f4 mb-4  text-sm">Phone: 720.974.787 <br/> Toll Free: 1.877.929.7878 <br/> Email: info@choicescreening.com</p>
-          <h2 class="leading-tight mt-2 mb-4 text-lg font-bold ">Departments</h2>
-          <p class="leading-normal ma-0 f4 text-sm">customerservice@choicescreening.com<br/>sales@choicescreening.com<br/> disputes@choicescreening.com<br/> compliance@choicescreening.com</p>
+        <div class="bg-whiteback p-10  m-5 mt-0 l:w-1/3 border-grey-lighter border-solid border-2 rounded-sm shadow">
+          <h2 class="leading-tight mt-2 mb-4 text-lg font-bold text-navy">{{home.contactUs.text1.header}}</h2>
+          <p class="leading-normal ma-0 mb-4 f4 text-sm">{{home.contactUs.text1.paragraph}}</p>
+          <h2 class="leading-tight mt-2 mb-4 text-lg font-bold text-navy">{{home.contactUs.text2.header}}</h2>
+          <p class="leading-normal ma-0 f4 mb-4  text-sm">{{home.contactUs.text2.paragraph}}</p>
+          <h2 class="leading-tight mt-2 mb-4 text-lg font-bold text-navy">{{home.contactUs.text3.header}}</h2>
+          <p class="leading-normal ma-0 f4 text-sm">{{home.contactUs.text3.paragraph}}</p>
         </div>
       </div>
     </section>
