@@ -1,5 +1,6 @@
 {
   "discrip": "WeCraft is your creative guru, formed out of professionals with international appreciation and a special intuitive understanding of the UK & European market. Our focus is on two things: making beautifully optimised website for the UK & European market, and making beautifully designed and well-worded documents like proposal, pitch decks, that are needed for many purposes.",
+  "logo": "logo0",
   "clients": {
     "title": "Our Clients",
     "organisation": [
@@ -57,7 +58,7 @@
   "button": "Contact Us",
   "options2": {
     "image": {
-      "icon": "projectimg"
+      "icon": "/images/uploads/cover.jpg"
     },
     "project": {
       "heading": "Project Name",
@@ -91,7 +92,7 @@
   },
   "options": {
     "image": {
-      "icon": "project"
+      "icon": "/images/uploads/cover.jpg"
     },
     "project": {
       "heading": "Project Name",
