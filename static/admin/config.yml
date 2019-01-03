@@ -59,24 +59,6 @@ collections: # A list of collections the CMS should be able to edit
               widget: object
               fields:
                 - {label:  image, name: icon, widget: image}
-                - label: text
-                  name: text1
-                  widget: object
-                  fields:
-                    - {label: Heading, name: header, widget: string}
-                    - {label: Paragraph, name: paragraph, widget: text}
-                - label: text
-                  name: text2
-                  widget: object
-                  fields:
-                    - {label: Heading, name: header, widget: string}
-                    - {label: Paragraph, name: paragraph, widget: text}
-                - label: text
-                  name: text3
-                  widget: object
-                  fields:
-                    - {label: Heading, name: header, widget: string}
-                    - {label: Paragraph, name: paragraph, widget: text}
             - label: project
               name: project
               widget: object
@@ -90,6 +72,24 @@ collections: # A list of collections the CMS should be able to edit
             fields:
               - {label: Title, name: title, widget: string}
               - {label: Text , name: paragraph, widget: text}
+              - label: text
+                name: text1
+                widget: object
+                fields:
+                  - {label: Heading, name: header, widget: string}
+                  - {label: Paragraph, name: paragraph, widget: text}
+              - label: text
+                name: text2
+                widget: object
+                fields:
+                  - {label: Heading, name: header, widget: string}
+                  - {label: Paragraph, name: paragraph, widget: text}
+              - label: text
+                name: text3
+                widget: object
+                fields:
+                  - {label: Heading, name: header, widget: string}
+                  - {label: Paragraph, name: paragraph, widget: text}
           - label: Testimonials
             name: testimonial
             required: false
