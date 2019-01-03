@@ -15,21 +15,21 @@
     </section>
 
     <section class=" p-8 bg-grey-lightest text-black bg-cover bg-greyligter bg-no-repeat bg-center">
-          <div class="mt-24 container relative">
+          <div class="container mt-20 relative">
            <div class="l:flex mb-4 p-5">
               <img
-                 :src="require('~/assets/images/2052171.svg')"
+                :src="require('~/assets/images/'+ home.process.pro1.number +'.svg')"
                  alt="block.icon"
-                 class="w-24 absolute pin-l -ml-3 -mt-16 z-auto"
+                 class="w-24 absolute pin-l -ml-0 -mt-16 z-auto"
                >
-               <div class="l:w-2/3 bg-white p-5  z-50">
-                  <h1 class="leading-tight mt-2 mb-4 text-lg font-bold text-navy">{{ home.process.pro1.header  }}</h1>
-                  <p class="leading-normal ma-0 f4">{{ home.process.pro1.paragraph }}</p>
+               <div class="l:w-2/3 bg-white p-5 z-50">
+                 <h1 class="leading-tight mt-2 mb-4 text-lg font-bold text-navy">{{ home.process.pro1.header  }}</h1>
+                 <p class="leading-normal ma-0 f4">{{ home.process.pro1.paragraph }}</p>
                </div>
+
                <div
                :style="{'background-image' : 'url('+home.process.pro1.image+')'}"
-                class="l:w-1/3 bg-purple-lightest bg-cover">
-
+               class="l:w-1/3 bg-cover bg-no-repeat p-5">
                </div>
            </div>
          </div>
@@ -37,7 +37,7 @@
          <div class="container mt-20 relative">
            <div class="l:flex mb-4  p-5">
              <img
-                :src="require('~/assets/images/2052150.svg')"
+                :src="require('~/assets/images/'+ home.process.pro2.number +'.svg')"
                 alt="block.icon"
                 class="w-24 absolute pin-r -mr-0 -mt-16 z-auto"
               >
@@ -55,7 +55,7 @@
           <div class="container mt-20 relative">
            <div class="l:flex mb-4 p-5">
               <img
-                 :src="require('~/assets/images/2052130.svg')"
+                :src="require('~/assets/images/'+ home.process.pro3.number +'.svg')"
                  alt="block.icon"
                  class="w-24 absolute pin-l -ml-0 -mt-16 z-auto"
                >
@@ -74,7 +74,7 @@
          <div class="container mt-20 relative">
            <div class="l:flex mb-4 p-5">
               <img
-                :src="require('~/assets/images/2052105.svg')"
+                :src="require('~/assets/images/'+ home.process.pro4.number +'.svg')"
                 alt="block.icon"
                 class="w-24 absolute pin-r z-auto -mr-0 -mt-16"
               >
