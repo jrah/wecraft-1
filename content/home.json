@@ -1,24 +1,10 @@
 {
   "contact": {
-    "title": "Contact title",
-    "text": "Contact text",
-    "points": [
-      {
-        "icon": "facebook",
-        "paragraph": "Facebook text paragraph"
-      }
-    ]
+    "title": "Contact Us"
   },
   "splash": {
     "title": "How DiversiTea Works",
     "text": "Each month DiversiTea selects two different teas, packs them into our environmentally friendly package and delivers them directly to your doorstep."
-  },
-  "intro": "There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy.",
-  "icon_splash": {
-    "title": "Have any questions?",
-    "text": "Please feel free to email us below",
-    "anchor": "Email us",
-    "href": "mailto:team@diversitea.co"
   },
   "clients": {
     "title": "Our Clients",
@@ -50,10 +36,9 @@
       }
     ]
   },
+  "intro": "There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy.",
   "title": "WECRAFT",
-  "subTitle": "Beautiful Websites",
   "image": "/images/uploads/cover.jpg",
-  "button": "Contact Us",
   "features": {
     "title": "Our Features",
     "block": [
@@ -75,15 +60,15 @@
     ]
   },
   "options": {
-    "title": "weCraft",
+    "title": "weCraft project",
     "picture": {
       "image": "~/assets/images/projectimg.svg"
     },
     "project": {
-      "heading": "Project Name",
-      "paragraph": "Project Description : There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy. There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy.",
-      "button": "Link to page",
-      "href": "https://www.naver.com"
+      "heading": "Project Name1",
+      "paragraph": "Project Description1 : There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy. There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy.",
+      "href": "https://www.daum.net",
+      "button": "Link to page"
     }
   },
   "testimonial": [
@@ -99,12 +84,5 @@
       "quote": "Always easy to deal with and the tea is so good",
       "author": "Debbie Harkness"
     }
-  ],
-  "contact": {
-    "title": "Contact Us"
-  },
-  "process": {
-    "title": "Process Step"
-  },
-  "discrip": "WeCraft is your creative guru, formed out of professionals with international appreciation and a special intuitive understanding of the UK & European market. Our focus is on two things: making beautifully optimised website for the UK & European market, and making beautifully designed and well-worded documents like proposal, pitch decks, that are needed for many purposes."
+  ]
 }
