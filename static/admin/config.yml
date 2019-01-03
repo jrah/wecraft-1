@@ -17,38 +17,6 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Intro title, name: title, widget: string}
           - {label: Intro text, name: intro, widget: markdown}
           - {label: Intro image, name: image, widget: image}
-          - label: client
-            name: clients
-            required: false
-            widget: object
-            fields:
-              - {label: Title, name: title, widget: string}
-              - label: clients
-                name: organisation
-                widget: list
-                fields:
-                  - {label: Organisation Name, name: name, widget: string}
-                  - {label: Organisation Image, name: image, widget: image}
-                  - {label: Organisation Link, name: href, widget: text}
-       - label: Option Blocks
-            name: options
-            required: false
-            widget: object
-            fields:
-            - {label: Title, name: title, widget: string}
-            - label: image
-              name: image
-              widget: object
-              fields:
-                - {label: Icon, name: icon, widget: string}
-            - label: project
-              name: project
-              widget: object
-              fields:
-                - {label: Heading, name: heading, widget: text}
-                - {label: Paragraph, name: paragraph, widget: text}
-                - {label: link, name: href, widget: text}
-                - {label: button, name: button, widget: string}
           - label: Feature Blocks
             name: features
             required: false
@@ -64,7 +32,31 @@ collections: # A list of collections the CMS should be able to edit
                   - {label: Icon, name: icon, widget: string}
                   - {label: Heading, name: heading, widget: string}
                   - {label: Paragraph, name: paragraph, widget: text}
+          - label: Option Blocks
+            name: options
+            required: false
+            widget: object
+            fields:
+            - label: picture
+              name: image
+              widget: object
+              fields:
+                - {label: Intro image, name: image, widget: image}
+            - label: project
+              name: project
+              widget: object
+              fields:
+                - {label: Icon, name: icon, widget: string}
+                - {label: Heading, name: heading, widget: text}
+                - {label: Button, name: button, widget: text}
+                - {label: Link, name: href, widget: text}
 
+          - label: Splash
+            name: splash
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Text Splash, name: text, widget: text}
           - label: Testimonials
             name: testimonial
             required: false
@@ -72,7 +64,32 @@ collections: # A list of collections the CMS should be able to edit
             fields:
               - {label: Quote, name: quote, widget: text}
               - {label: Author, name: author, widget: string}
-        
+          - label: Collaborations
+            name: collaborations
+            required: false
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - label: Organisation
+                name: organisation
+                widget: list
+                fields:
+                  - {label: Organisation Name, name: name, widget: string}
+                  - {label: Organisation Image, name: image, widget: image}
+                  - {label: Organisation Link, name: href, widget: text}
+          - label: Contact
+            name: contact
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Text, name: text, widget: text}
+              - label: Pointers
+                name: points
+                widget: list
+                fields:
+                  - {label: Icon, name: icon, widget: string}
+                  - {label: paragraph, name: paragraph, widget: mardown}
+
       - label: "General Settings"
         name: "site"
         file: "content/site.json"
