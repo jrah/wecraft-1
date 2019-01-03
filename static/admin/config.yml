@@ -45,7 +45,7 @@ collections: # A list of collections the CMS should be able to edit
               name: image
               widget: object
               fields:
-                - {label: image, name: image, widget: image}
+                - {label: Icon, name: icon, widget: string}
             - label: project
               name: project
               widget: object
@@ -81,7 +81,7 @@ collections: # A list of collections the CMS should be able to edit
               name: image
               widget: object
               fields:
-                - {label: image, name: image, widget: image}
+                - {label: Icon, name: icon, widget: string}
             - label: project
               name: project
               widget: object
