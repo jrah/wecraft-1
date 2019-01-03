@@ -20,22 +20,19 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Intro image, name: image, widget: image}
           - {label: Intro button, name: button, widget: string}
           - {label: Contact email, name: contactEmail, widget: string}
-
-          - label: Feature Blocks
-            name: features
+          - label: client
+            name: clients
             required: false
-            description: Feature blocks are the "three points" renamed
             widget: object
             fields:
               - {label: Title, name: title, widget: string}
-              - label: Feature block
-                description: Please only use three blocks. If needs more please make an issue on the repo.
-                name: block
+              - label: Organisation
+                name: organisation
                 widget: list
                 fields:
-                  - {label: Icon, name: icon, widget: string}
-                  - {label: Heading, name: heading, widget: string}
-                  - {label: Paragraph, name: paragraph, widget: text}
+                  - {label: Organisation Name, name: name, widget: string}
+                  - {label: Organisation Image, name: image, widget: image}
+                  - {label: Organisation Link, name: href, widget: text}
           - label: Option Blocks
             name: options
             required: false
@@ -55,6 +52,21 @@ collections: # A list of collections the CMS should be able to edit
                 - {label: Paragraph, name: paragraph, widget: text}
                 - {label: Button, name: button, widget: text}
                 - {label: Link, name: href, widget: text}
+          - label: Feature Blocks
+            name: features
+            required: false
+            description: Feature blocks are the "three points" renamed
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - label: Feature block
+                description: Please only use three blocks. If needs more please make an issue on the repo.
+                name: block
+                widget: list
+                fields:
+                  - {label: Icon, name: icon, widget: string}
+                  - {label: Heading, name: heading, widget: string}
+                  - {label: Paragraph, name: paragraph, widget: text}
           - label: Option Blocks
             name: options2
             required: false
@@ -105,19 +117,6 @@ collections: # A list of collections the CMS should be able to edit
             fields:
               - {label: Quote, name: quote, widget: text}
               - {label: Author, name: author, widget: string}
-          - label: client
-            name: clients
-            required: false
-            widget: object
-            fields:
-              - {label: Title, name: title, widget: string}
-              - label: Organisation
-                name: organisation
-                widget: list
-                fields:
-                  - {label: Organisation Name, name: name, widget: string}
-                  - {label: Organisation Image, name: image, widget: image}
-                  - {label: Organisation Link, name: href, widget: text}
           - {label: Intro, name: discrip, widget: string}
           - {label: Intro img, name: logo, widget: image}
           - label: Process
