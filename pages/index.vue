@@ -21,13 +21,13 @@
 
     <section class="text-blackback py-10 bg-whiteback">
       <div class="text-center">
-        <h1 class="mb-12 font-bold text-4xl leading-tight">{{ home.options.title }}</h1>
+        <h1 class="mb-12 font-bold text-4xl leading-tight">{{ home.options.heading }}</h1>
       </div>
       <div class="container l:flex justify-between">
         <div
             :style="{'background-image' : 'url('+home.options2.image.icon+')'}"
             class=" bg-whiteback bg-no-repeat p-10  m-5  l:w-1/2 border-grey-lighter border-solid border-2 rounded-sm shadow">
-        </div>     
+        </div>
         <div class=" text-right mb-5 bg-whiteback p-10 m-5  l:w-1/2 border-grey-lighter border-solid border-2 rounded-sm shadow">
           <div class= "text-left">
             <h2
@@ -70,7 +70,7 @@
 
     <section class="text-blackback py-10 bg-whiteback">
       <div class="text-center">
-        <h1 class="mb-12 font-bold text-4xl leading-tight">{{ home.options2.title }}</h1>
+        <h1 class="mb-12 font-bold text-4xl leading-tight">{{ home.options2.heading }}</h1>
       </div>
       <div class="container l:flex justify-between">
         <div class=" text-right mb-5 bg-whiteback p-10 m-5  l:w-1/2 border-grey-lighter border-solid border-2 rounded-sm shadow">
