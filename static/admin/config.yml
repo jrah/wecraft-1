@@ -39,6 +39,7 @@ collections: # A list of collections the CMS should be able to edit
             required: false
             widget: object
             fields:
+            - {label: Heading, name: heading, widget: string}
             - label: image
               name: image
               widget: object
@@ -57,6 +58,7 @@ collections: # A list of collections the CMS should be able to edit
             required: false
             widget: object
             fields:
+            - {label: Heading, name: heading, widget: string}
             - label: image
               name: image
               widget: object

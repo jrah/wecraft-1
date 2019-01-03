@@ -57,6 +57,7 @@
   },
   "button": "Contact Us",
   "options2": {
+    "heading" : "wecraft",
     "image": {
       "icon": "/images/uploads/cover.jpg"
     },
@@ -91,6 +92,7 @@
     ]
   },
   "options": {
+    "heading" : "wecraft",
     "image": {
       "icon": "/images/uploads/cover.jpg"
     },
