@@ -32,7 +32,7 @@
           <div class= "text-left">
             <h2
               v-if="home.options"
-              class="mt-0 f1 my-2 font-bold text-2xl leading-tight">{{ home.options.project.heading }}</h2>
+              class="mt-0 f1 my-2 font-bold text-2xl leading-tight">{{ home.options.project.header }}</h2>
             <p
               v-if="home.options"
               class="m-0 my-5 leading-normal">{{ home.options.project.paragraph }}</p>

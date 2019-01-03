@@ -24,11 +24,11 @@
           <div class="flex mb-4">
               <div class="w-3/4 bg-whiteback p-10">
                 <h1 class="text-biggest"> 1 </h1>
-                <h2 class="leading-tight text-lg mb-8 ml-20 -mt-16 font-bold text-blackback">{{ home.options.project.heading }}</h2>
-                <p class="leading-normal z-50 ma-0 ml-20  mr-5 f4">{{ home.options.project.paragraph + home.options.project.paragraph + home.options.project.paragraph +home.options.project.paragraph}}</p>
+                <h2 class="leading-tight text-lg mb-8 ml-20 -mt-16 font-bold text-blackback">{{ home.process.pro1.header }}</h2>
+                <p class="leading-normal z-50 ma-0 ml-20  mr-5 f4">{{ home.process.pro1.paragraph}}</p>
               </div>
               <div
-              :style="{'background-image' : 'url(/images/uploads/name1.jpg)'}"
+              :style="{'background-image' : 'url('+home.process.pro1.image+')'}"
                class="w-1/4 bg-cover">
               </div>
           </div>
@@ -37,13 +37,13 @@
         <div class="container mt-20 relative prefix">
           <div class="flex mb-4">
              <div
-             :style="{'background-image' : 'url(/images/uploads/name2.jpg)'}"
+             :style="{'background-image' : 'url('+home.process.pro2.image+')'}"
              class="w-1/4 bg-cover bg-no-repeat p-5">
              </div>
              <div class="w-3/4 bg-whiteback p-10">
                <h1 class="text-biggest text-right"> 2 </h1>
-               <h2 class="leading-tight text-right text-lg mb-8 mr-24 -mt-16 font-bold text-blackback">{{ home.options.project.heading }}</h2>
-               <p class="leading-normal z-50 ma-0 ml-5 f4">{{ home.options.project.paragraph}}</p>
+               <h2 class="leading-tight text-right text-lg mb-8 mr-24 -mt-16 font-bold text-blackback">{{  home.process.pro2.header }}</h2>
+               <p class="leading-normal z-50 ma-0 ml-5 f4">{{  home.process.pro2.paragraph}}</p>
           </div>
            </div>
          </div>
@@ -52,12 +52,12 @@
           <div class="flex mb-4">
             <div class="w-3/4 bg-whiteback p-10">
               <h1 class="text-biggest"> 3 </h1>
-              <h2 class="leading-tight text-lg mb-8 ml-20 -mt-16 font-bold text-blackback">{{ home.options.project.heading }}</h2>
-              <p class="leading-normal z-50 ma-0 ml-20  mr-5 f4">{{ home.options.project.paragraph}}</p>
+              <h2 class="leading-tight text-lg mb-8 ml-20 -mt-16 font-bold text-blackback">{{  home.process.pro3.header }}</h2>
+              <p class="leading-normal z-50 ma-0 ml-20  mr-5 f4">{{  home.process.pro3.paragraph}}</p>
              </div>
 
               <div
-              :style="{'background-image' : 'url(/images/uploads/name3.jpg)'}"
+              :style="{'background-image' : 'url('+home.process.pro3.image+')'}"
               class="w-1/4 bg-cover bg-no-repeat p-5">
               </div>
           </div>
@@ -66,14 +66,14 @@
         <div class="container mt-20 relative">
           <div class="flex mb-4">
              <div
-             :style="{'background-image' : 'url(/images/uploads/name4.jpg)'}"
+             :style="{'background-image' : 'url('+home.process.pro4.image+')'}"
              class="w-1/4 bg-cover bg-no-repeat p-5">
 
              </div>
              <div class="w-3/4 bg-whiteback p-10">
                <h1 class="text-biggest text-right"> 4 </h1>
-               <h2 class="leading-tight text-right text-lg mb-8 mr-24 -mt-16 font-bold text-blackback">{{ home.options.project.heading }}</h2>
-               <p class="leading-normal z-50 ma-0 ml-5 f4">{{home.options.project.paragraph}}</p>
+               <h2 class="leading-tight text-right text-lg mb-8 mr-24 -mt-16 font-bold text-blackback">{{  home.process.pro4.header }}</h2>
+               <p class="leading-normal z-50 ma-0 ml-5 f4">{{ home.process.pro4.paragraph }}</p>
              </div>
            </div>
          </div>

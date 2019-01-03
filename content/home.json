@@ -105,5 +105,28 @@
       "quote": "Always easy to deal with and the tea is so good",
       "author": "Debbie Harkness"
     }
-  ]
+  ],
+  "process": {
+    "title": "process",
+    "pro1": {
+        "header": "process1",
+        "paragraph": "Project Description : There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy. There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy.",
+        "image": "/images/uploads/name1.jpg"
+    },
+    "pro2": {
+        "header": "process1",
+        "paragraph": "Project Description : There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy. There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy.",
+        "image": "/images/uploads/name1.jpg"
+    },
+    "pro3": {
+        "header": "process1",
+        "paragraph": "Project Description : There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy. There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy.",
+        "image": "/images/uploads/name1.jpg"
+    },
+    "pro4": {
+        "header": "process1",
+        "paragraph": "Project Description : There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy. There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy.",
+        "image": "/images/uploads/name1.jpg"
+    }
+  }
 }
