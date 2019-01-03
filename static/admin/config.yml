@@ -30,6 +30,25 @@ collections: # A list of collections the CMS should be able to edit
                   - {label: Organisation Name, name: name, widget: string}
                   - {label: Organisation Image, name: image, widget: image}
                   - {label: Organisation Link, name: href, widget: text}
+       - label: Option Blocks
+            name: options
+            required: false
+            widget: object
+            fields:
+            - {label: Title, name: title, widget: string}
+            - label: image
+              name: image
+              widget: object
+              fields:
+                - {label: Icon, name: icon, widget: string}
+            - label: project
+              name: project
+              widget: object
+              fields:
+                - {label: Heading, name: heading, widget: text}
+                - {label: Paragraph, name: paragraph, widget: text}
+                - {label: link, name: href, widget: text}
+                - {label: button, name: button, widget: string}
           - label: Feature Blocks
             name: features
             required: false
@@ -45,39 +64,7 @@ collections: # A list of collections the CMS should be able to edit
                   - {label: Icon, name: icon, widget: string}
                   - {label: Heading, name: heading, widget: string}
                   - {label: Paragraph, name: paragraph, widget: text}
-          - label: Icon Splash
-            name: icon_splash
-            widget: object
-            fields:
-              - {label: Title, name: title, widget: string}
-              - {label: Text, name: text, widget: text}
-              - {label: Anchor, name: anchor, widget: string}
-              - {label: Href, name: href, widget: string}
-          - label: Option Blocks
-            name: options
-            required: false
-            widget: object
-            fields:
-            - label: Tea Dictionary
-              name: dictionary
-              widget: object
-              fields:
-                - {label: Icon, name: icon, widget: string}
-                - {label: Heading, name: heading, widget: text}
-                - {label: Paragraph, name: paragraph, widget: text}
-            - label: Tea Quiz
-              name: quiz
-              widget: object
-              fields:
-                - {label: Icon, name: icon, widget: string}
-                - {label: Heading, name: heading, widget: text}
-                - {label: Paragraph, name: paragraph, widget: text}
-          - label: Splash
-            name: splash
-            widget: object
-            fields:
-              - {label: Title, name: title, widget: string}
-              - {label: Text Splash, name: text, widget: text}
+
           - label: Testimonials
             name: testimonial
             required: false
@@ -85,32 +72,7 @@ collections: # A list of collections the CMS should be able to edit
             fields:
               - {label: Quote, name: quote, widget: text}
               - {label: Author, name: author, widget: string}
-          - label: Collaborations
-            name: collaborations
-            required: false
-            widget: object
-            fields:
-              - {label: Title, name: title, widget: string}
-              - label: Organisation
-                name: organisation
-                widget: list
-                fields:
-                  - {label: Organisation Name, name: name, widget: string}
-                  - {label: Organisation Image, name: image, widget: image}
-                  - {label: Organisation Link, name: href, widget: text}
-          - label: Contact
-            name: contact
-            widget: object
-            fields:
-              - {label: Title, name: title, widget: string}
-              - {label: Text, name: text, widget: text}
-              - label: Pointers
-                name: points
-                widget: list
-                fields:
-                  - {label: Icon, name: icon, widget: string}
-                  - {label: paragraph, name: paragraph, widget: mardown}
-
+        
       - label: "General Settings"
         name: "site"
         file: "content/site.json"
