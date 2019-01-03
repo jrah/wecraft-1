@@ -57,7 +57,6 @@
   },
   "button": "Contact Us",
   "options2": {
-    "title": "weCraft Project",
     "image": {
       "icon": "/images/uploads/cover.jpg"
     },
@@ -69,7 +68,7 @@
     }
   },
   "subtitle": "subtitle",
-  "title": "WECRAFT11",
+  "title": "WECRAFT",
   "image": "/images/uploads/cover.jpg",
   "features": {
     "title": "Our Features",
@@ -92,7 +91,6 @@
     ]
   },
   "options": {
-    "title": "weCraft Project",
     "image": {
       "icon": "/images/uploads/cover.jpg"
     },
