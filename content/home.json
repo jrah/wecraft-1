@@ -1,55 +1,5 @@
 {
-  "title": "WECRAFT",
   "intro": "There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy.",
-  "image": "/images/uploads/cover.jpg",
-  "features": {
-    "title": "Our Features",
-    "block": [
-      {
-        "icon": "head",
-        "heading": "Exquisite taste",
-        "paragraph": "Enjoy the finest quality loose leaf teas, freshly sourced from the best tea experts in the UK"
-      },
-      {
-        "icon": "leaf",
-        "heading": "Seasonality",
-        "paragraph": "As the seasons change, each of our tea boxes comes with a new unique flavour."
-      },
-      {
-        "icon": "hand",
-        "heading": "Bio-degradable",
-        "paragraph": "When it comes to our tea, environmental sustainability is a crucial part of our process. "
-      }
-    ]
-  },
-  "options": {
-    "image": {
-      "icon": "project"
-    },
-    "project": {
-      "heading": "Project Name11",
-      "button": "Link to page",
-      "href": "https://www.naver.com"
-    }
-  },
-  "contactUs": {
-    "title": "Contact Us",
-    "paragraph": "paragraph"
-  },
-  "testimonial": [
-    {
-      "quote": "It was incredible. Shockingly so and I am still coming down from it...",
-      "author": "Emma Peel"
-    },
-    {
-      "quote": "Absolutely stunning service & really lovely tea \n",
-      "author": "Lesley Pyne"
-    },
-    {
-      "quote": "Always easy to deal with and the tea is so good",
-      "author": "Debbie Harkness"
-    }
-  ],
   "clients": {
     "title": "Our Clients",
     "organisation": [
@@ -79,5 +29,89 @@
         "href": "http://withadren.com/"
       }
     ]
-  }
+  },
+  "title": "WECRAFT",
+  "subTitle": "Beautiful Websites",
+  "image": "/images/uploads/cover.jpg",
+  "button": "Contact Us",
+  "href": "mailto:team@diversitea.co",
+  "features": {
+    "title": "Our Features",
+    "block": [
+      {
+        "icon": "head",
+        "heading": "Exquisite taste",
+        "paragraph": "Enjoy the finest quality loose leaf teas, freshly sourced from the best tea experts in the UK"
+      },
+      {
+        "icon": "leaf",
+        "heading": "Seasonality",
+        "paragraph": "As the seasons change, each of our tea boxes comes with a new unique flavour."
+      },
+      {
+        "icon": "hand",
+        "heading": "Bio-degradable",
+        "paragraph": "When it comes to our tea, environmental sustainability is a crucial part of our process. "
+      }
+    ]
+  },
+  "options": {
+    "title": "weCraft",
+    "image": {
+      "icon": "project"
+    },
+    "project": {
+      "heading": "Project Name",
+      "paragraph": "Project Description : There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy. There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy.",
+      "button": "Link to page",
+      "href": "https://www.naver.com"
+    }
+  },
+
+  "options2": {
+    "title": "weCraft",
+    "image": {
+      "icon": "projectimg"
+    },
+    "project": {
+      "heading": "Project Name",
+      "paragraph": "Project Description : There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy. There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy.",
+      "button": "Link to page",
+      "href": "https://www.naver.com"
+    }
+  },
+  "testimonial": [
+    {
+      "quote": "It was incredible. Shockingly so and I am still coming down from it...",
+      "author": "Emma Peel"
+    },
+    {
+      "quote": "Absolutely stunning service & really lovely tea \n",
+      "author": "Lesley Pyne"
+    },
+    {
+      "quote": "Always easy to deal with and the tea is so good",
+      "author": "Debbie Harkness"
+    }
+  ],
+  "contactUs": {
+    "title": "Contact Us",
+    "paragraph": "paragraph",
+    "text1": {
+      "header": "Corporate Office",
+      "paragraph": "8668 Concord Center Dr.Englewood, CO 80112"
+    },
+    "text2": {
+      "header": "Direct Contact",
+      "paragraph": "Phone: 720.974.787 Toll Free: 1.877.929.78 Email: info@choicescreening.com"
+    },
+    "text3": {
+      "header": "Departments",
+      "paragraph": "ustomerservice@choicescreening.com sales@choicescreening.com disputes@choicescreening.com compliance@choicescreening.com"
+    }
+  },
+  "process": {
+    "title": "Process Step"
+  },
+  "discrip": "WeCraft is your creative guru, formed out of professionals with international appreciation and a special intuitive understanding of the UK & European market. Our focus is on two things: making beautifully optimised website for the UK & European market, and making beautifully designed and well-worded documents like proposal, pitch decks, that are needed for many purposes."
 }
