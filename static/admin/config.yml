@@ -52,8 +52,7 @@ collections: # A list of collections the CMS should be able to edit
               fields:
                 - {label: Heading, name: heading, widget: text}
                 - {label: Paragraph, name: paragraph, widget: text}
-                - {label: link, name: href, widget: text}
-                - {label: button, name: button, widget: string}
+                - {label: Link, name: href, widget: text}
 
           - label: Feature Blocks
             name: features
@@ -88,8 +87,7 @@ collections: # A list of collections the CMS should be able to edit
                 fields:
                   - {label: Heading, name: heading, widget: text}
                   - {label: Paragraph, name: paragraph, widget: text}
-                  - {label: link, name: href, widget: text}
-                  - {label: button, name: button, widget: string}
+                  - {label: Link, name: href, widget: text}
 
           - label: Testimonials
             name: testimonial
@@ -150,6 +148,6 @@ collections: # A list of collections the CMS should be able to edit
             widget: object
             required: false
             fields:
-              - {label: text, name: text, widget: string}
-              - {label: name, name: name, widget: string}
-              - {label: type, name: type, widget: string}
+              - {label: Text, name: text, widget: string}
+              - {label: Name, name: name, widget: string}
+              - {label: Type, name: type, widget: string}
