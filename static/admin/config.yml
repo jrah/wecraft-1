@@ -17,6 +17,19 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Intro title, name: title, widget: string}
           - {label: Intro text, name: intro, widget: markdown}
           - {label: Intro image, name: image, widget: image}
+          - label: client
+            name: clients
+            required: false
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - label: clients
+                name: organisation
+                widget: list
+                fields:
+                  - {label: Organisation Name, name: name, widget: string}
+                  - {label: Organisation Image, name: image, widget: image}
+                  - {label: Organisation Link, name: href, widget: text}
           - label: Feature Blocks
             name: features
             required: false
