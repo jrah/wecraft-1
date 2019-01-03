@@ -35,26 +35,7 @@ collections: # A list of collections the CMS should be able to edit
                   - {label: Organisation Image, name: image, widget: image}
                   - {label: Organisation Link, name: href, widget: text}
 
-          - label: Option Blocks
-            name: options
-            required: false
-            widget: object
-            fields:
-            - {label: Title, name: title, widget: string}
-            - label: image
-              name: image
-              widget: object
-              fields:
-                - {label: icon, name: image, widget: image}
-            - label: project
-              name: project
-              widget: object
-              fields:
-                - {label: Heading, name: heading, widget: text}
-                - {label: Paragraph, name: paragraph, widget: text}
-                - {label: link, name: href, widget: text}
-                - {label: button, name: button, widget: string}
-
+        
           - label: Feature Blocks
             name: features
             required: false
@@ -71,25 +52,6 @@ collections: # A list of collections the CMS should be able to edit
                   - {label: Heading, name: heading, widget: string}
                   - {label: Paragraph, name: paragraph, widget: text}
 
-          - label: Option
-            name: options2
-            required: false
-            widget: object
-            fields:
-            - {label: Title, name: title, widget: string}
-            - label: backimage
-              name: image
-              widget: object
-              fields:
-                - {label: Icon, name: image, widget: image}
-            - label: projecttwo
-              name: project
-              widget: object
-              fields:
-                - {label: Heading, name: heading, widget: text}
-                - {label: Paragraph, name: paragraph, widget: text}
-                - {label: link, name: href, widget: text}
-                - {label: button, name: button, widget: string}
 
           - label: Testimonials
             name: testimonial
