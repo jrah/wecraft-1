@@ -72,6 +72,27 @@
       "href": "https://www.google.com"
     }
   },
+  "offers": {
+    "title": "offers",
+    "block": [
+      {
+        "heading": "sdsd",
+        "paragraph": "sdssd"
+      },
+      {
+        "heading": "sdsds",
+        "paragraph": "sdsds"
+      },
+      {
+        "heading": "sdsdsd",
+        "paragraph": "sdsdsd"
+      },
+      {
+        "heading": "sdsdsdsd",
+        "paragraph": "sdsdsds"
+      }
+    ]
+  },
   "subtitle": "Your Creative Guru",
   "title": "WecrAft",
   "image": "/images/uploads/eddy-klaus-33079-unsplash4.jpg",
