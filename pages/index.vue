@@ -24,11 +24,10 @@
         <h1 class="mb-12 font-bold text-4xl leading-tight">{{ home.options.heading }}</h1>
       </div>
       <div class="container l:flex justify-between">
-        <div class=" bg-whiteback bg-no-repeat p-10  m-5  l:w-1/2 border-grey-lighter border-solid border-2 rounded-sm shadow">
-          <img
-            :src="home.options.image.icon"
-            class="m-5">
-
+        <div class=" bg-whiteback bg-no-repeat p-0 m-5 l:w-1/2 border-grey-lighter border-solid border-2 rounded-sm shadow">
+            <img
+              class="object-cover h-full w-full p-0"
+              :src="home.options.image.icon">
         </div>
         <div class=" text-right mb-5 bg-whiteback p-10 m-5  l:w-1/2 border-grey-lighter border-solid border-2 rounded-sm shadow">
           <div class= "text-left">
@@ -89,10 +88,10 @@
             class="inline-flex no-underline mt-5 bg-whiteback hover:bg-navy text-navy-dark font-semibold hover:text-white py-2 px-6 border border-navy hover:border-transparent rounded mb-2 border-white">{{ home.options2.project.button }}</a>
 
         </div>
-        <div class=" bg-whiteback bg-no-repeat p-10  m-5  l:w-1/2 border-grey-lighter border-solid border-2 rounded-sm shadow">
-          <img
-            :src="home.options2.image.icon"
-            class="m-5">
+        <div class=" bg-whiteback bg-no-repeat p-0 m-5 l:w-1/2 border-grey-lighter border-solid border-2 rounded-sm shadow">
+            <img
+              class="object-cover h-full w-full p-0"
+              :src="home.options2.image.icon">
         </div>
       </div>
     </section>

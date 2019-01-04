@@ -9596,6 +9596,11 @@ tailwindcss-gradients@^1.1.0:
   dependencies:
     lodash "^4.17.10"
 
+tailwindcss-object-fit@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/tailwindcss-object-fit/-/tailwindcss-object-fit-1.0.1.tgz#97efd5132aba6a8cc33df5c0c66f52866217c493"
+  integrity sha512-kHDow8Gl+/WJ2FJNylgo34fKmlqpJ5Nj+nRCSPeHRkH5UfNg7DgkP8RTEPKwj6zNNjw+50j17vacA/mCo8wMRg==
+
 tailwindcss@~0.7.0:
   version "0.7.3"
   resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-0.7.3.tgz#7b58605dd7857507c4dbc6edaccab4c14d30c054"

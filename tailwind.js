@@ -518,6 +518,7 @@ module.exports = {
     '32': '8rem',
     '48': '12rem',
     '64': '16rem',
+    half: '50%',
     full: '100%',
     screen: '100vh'
   },
@@ -917,7 +918,9 @@ module.exports = {
          'grey-lighter-white': [' #f8fafc', '#ffffff', '#ffffff'],
        },
     }),
+    require('tailwindcss-object-fit')(['responsive']),
   ],
+
 
   /*
   |-----------------------------------------------------------------------------

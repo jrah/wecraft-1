@@ -27,9 +27,10 @@
                  <p class="leading-normal ma-0 f4">{{ home.process.pro1.paragraph }}</p>
                </div>
 
-               <div
-               :style="{'background-image' : 'url('+home.process.pro1.image+')'}"
-               class="l:w-1/3 bg-cover bg-no-repeat p-5">
+               <div class="l:w-1/3 bg-cover bg-no-repeat ">
+                 <img
+                   class="object-cover h-full w-full"
+                   :src="home.process.pro1.image">
                </div>
            </div>
          </div>
@@ -41,9 +42,10 @@
               class="w-24 absolute pin-r -mr-0 -mt-16 z-auto"
             >
            <div class="l:flex mb-4 p-5 z-10 relative">
-              <div
-              :style="{'background-image' : 'url('+home.process.pro2.image+')'}"
-              class="l:w-1/3 bg-cover bg-no-repeat p-5">
+              <div class="l:w-1/3 bg-cover bg-no-repeat  bg-whiteback">
+                <img
+                  class="object-cover h-full w-full"
+                  :src="home.process.pro2.image">
               </div>
               <div class="l:w-2/3 bg-white p-5 z-50">
                  <h1 class="leading-tight mt-2 mb-4 text-lg font-bold text-navy">{{ home.process.pro2.header }}</h1>
@@ -61,12 +63,13 @@
            <div class="l:flex mb-4 p-5 z-10 relative">
                <div class="l:w-2/3 bg-white p-5 z-50">
                   <h1 class="leading-tight mt-2 mb-4 text-lg font-bold text-navy">{{ home.process.pro3.header }}</h1>
-                  <p class="leading-normal ma-0 f4">{{ home.process.pro2.paragraph}}</p>
+                  <p class="leading-normal ma-0 f4">{{ home.process.pro3.paragraph}}</p>
                </div>
 
-               <div
-               :style="{'background-image' : 'url('+home.process.pro3.image+')'}"
-               class="l:w-1/3 bg-cover bg-no-repeat p-5">
+               <div class="l:w-1/3 bg-cover bg-no-repeat ">
+                 <img
+                   class="object-cover h-full w-full"
+                   :src="home.process.pro3.image">
                </div>
            </div>
          </div>
@@ -78,10 +81,10 @@
              class="w-24 absolute pin-r z-auto -mr-0 -mt-16"
            >
            <div class="l:flex mb-4 p-5 z-10 relative">
-              <div
-              :style="{'background-image' : 'url('+home.process.pro4.image+')'}"
-              class="l:w-1/3 bg-cover bg-no-repeat p-5">
-
+              <div class="l:w-1/3 bg-cover bg-no-repeat  bg-whiteback">
+               <img
+                 class="object-cover h-full w-full"
+                 :src="home.process.pro4.image">
               </div>
               <div class=" l:w-2/3 bg-white p-5 z-50 relative">
                  <h1 class="leading-tight mt-2 mb-4 text-lg font-bold text-navy">{{ home.process.pro4.header }}</h1>

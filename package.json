@@ -26,6 +26,7 @@
     "nuxt-validate": "^0.1.1",
     "sass-loader": "^7.1.0",
     "tailwindcss-gradients": "^1.1.0",
+    "tailwindcss-object-fit": "^1.0.1",
     "vue-awesome": "^3.2.0",
     "vue-carousel": "^0.16.0-rc2",
     "webpack-node-externals": "^1.7.2"
