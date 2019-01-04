@@ -4,29 +4,29 @@
     "title": "Our Clients",
     "organisation": [
       {
-        "name": "A'dren",
-        "image": "/images/uploads/adren_logo-1.png",
-        "href": "http://withadren.com/"
+        "name": "DiversiTea",
+        "image": "/images/uploads/diversitea.svg",
+        "href": "https://diversitea.co/"
       },
       {
-        "name": "Yoki Sheffield",
-        "image": "/images/uploads/yoki240.png",
-        "href": "https://yoki-sheffield.business.site/"
+        "name": "KB Edu",
+        "image": "/images/uploads/kimbola.svg",
+        "href": "https://www.kimbola.co.uk/"
       },
       {
-        "name": "A'dren",
-        "image": "/images/uploads/adren_logo-1.png",
-        "href": "http://withadren.com/"
+        "name": "Kenpro",
+        "image": "/images/uploads/kenpro.svg",
+        "href": "https://kenprojda.com/"
       },
       {
-        "name": "Yoki Sheffield",
-        "image": "/images/uploads/yoki240.png",
-        "href": "https://yoki-sheffield.business.site/"
+        "name": "KESCA",
+        "image": "/images/uploads/kesca.svg",
+        "href": "https://kesca.kr"
       },
       {
-        "name": "A'dren",
-        "image": "/images/uploads/adren_logo-1.png",
-        "href": "http://withadren.com/"
+        "name": "Hyperdome",
+        "image": "/images/uploads/hyperdome.svg",
+        "href": "http://hyperdomehd2.com/"
       }
     ]
   },
