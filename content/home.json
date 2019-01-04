@@ -77,7 +77,7 @@
   "image": "/images/uploads/eddy-klaus-33079-unsplash4.jpg",
   "contactEmail": "mailto:team@wecraft.website",
   "features": {
-    "title": "Our Features",
+    "title": "Why work with WeCraft?",
     "block": [
       {
         "icon": "head",
@@ -103,7 +103,7 @@
     },
     "project": {
       "heading": "DiversiTea",
-      "paragraph": "DiversiTea is a newly started artisan loose leaf tea curation startup. DiversiTea has created a solution to a highly saturated market with unsatisfied customers by introducing different ranges of tea through a monthly curated tea subscription box that gets delivered by post.\n\nWeCraft worked with DiversiTea in order to make a stunning website that could help them spread the word and, in turn, allow more people to enjoy diverse teas.",
+      "paragraph": "DiversiTea is a newly started artisan loose leaf tea curation startup. \n\nWeCraft worked with DiversiTea in order to make a stunning website that could help them spread the word and, in turn, allow more people to enjoy diverse teas.",
       "button": "Link to page",
       "href": "https://www.diversitea.co"
     }
