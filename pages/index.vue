@@ -2,13 +2,37 @@
   <div class="content">
     <app-header/>
 
+    <section>
+      <div class="text-blackback container py-10 text-navy">
+        <h1 class="text-center mb-12 text-4xl">{{ home.offers.title }}</h1>
+        <div class="m:flex l:flex justify-around">
+
+          <div
+            v-for="(block, index) in home.offers.block"
+            :key="index"
+            :name=" '' + index "
+            class="text-center ns:w-1/4">
+            <div class="w-24 m-auto">
+              <img
+                :src="block.icon"
+                alt="block.icon"
+              >
+            </div>
+            <h2 class="leading-normal text-lg mt-1 mb-1">{{ block.heading }}</h2>
+            <p class="leading-normal mt-0 mb-5">{{ block.paragraph }}</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
     <section class="mt-5 py-10 bg-whiteback text-blackback">
       <h1 class="text-center text-4xl mb-12">{{ home.clients.title }}</h1>
-      <ul class=" flex list-reset ns:justify-left flex-wrap justify-center">
+      <ul class="m:flex l:flex flex-wrap justify-around list-reset">
         <li
           v-for="(org, index) in home.clients.organisation"
           :key="index"
-          class="w-24 mx-16 my-12 text-center">
+          class="w-1/6 mx-16 my-12 text-center">
           <a :href="org.href">
             <img
               :src="org.image"

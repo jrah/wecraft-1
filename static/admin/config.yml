@@ -67,6 +67,21 @@ collections: # A list of collections the CMS should be able to edit
                   - {label: Icon, name: icon, widget: image}
                   - {label: Heading, name: heading, widget: string}
                   - {label: Paragraph, name: paragraph, widget: text}
+          - label: Offers Blocks
+            name: offers
+            required: false
+            description: Feature blocks are the "three points" renamed
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - label: Feature block
+                description: Please only use three blocks. If needs more please make an issue on the repo.
+                name: block
+                widget: list
+                fields:
+                  - {label: Icon, name: icon, widget: image}
+                  - {label: Heading, name: heading, widget: string}
+                  - {label: Paragraph, name: paragraph, widget: text}
           - label: Option Blocks
             name: options2
             required: false
