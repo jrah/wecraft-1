@@ -64,7 +64,7 @@ collections: # A list of collections the CMS should be able to edit
                 name: block
                 widget: list
                 fields:
-                  - {label: Icon, name: icon, widget: string}
+                  - {label: Icon, name: icon, widget: image}
                   - {label: Heading, name: heading, widget: string}
                   - {label: Paragraph, name: paragraph, widget: text}
           - label: Option Blocks

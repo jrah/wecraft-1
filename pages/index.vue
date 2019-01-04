@@ -57,7 +57,7 @@
             class="text-center ns:w-1/4">
             <div class="w-24 m-auto">
               <img
-                :src="require('~/assets/images/'+ block.icon+'.svg')"
+                :src="block.icon"
                 alt="block.icon"
               >
             </div>
