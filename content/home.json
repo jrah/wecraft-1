@@ -73,11 +73,12 @@
     }
   },
   "offers": {
-    "title": "offers",
+    "title": "Our Process",
     "block": [
       {
-        "heading": "sdsd",
-        "paragraph": "sdssd"
+        "icon": "/images/uploads/undraw_scrum_board_cesn.svg",
+        "heading": "Discovery",
+        "paragraph": "Initial meeting, ideation and check what you would like to make!"
       },
       {
         "heading": "sdsds",
