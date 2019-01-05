@@ -32,7 +32,7 @@
 
     <section class="mt-5 py-10 bg-whiteback">
       <h1 class="text-center text-4xl mb-12">{{ home.clients.title }}</h1>
-      <div class="flex justify-around items-center flex-wrap">
+      <div class=" container flex justify-around items-center flex-wrap">
         <img
           v-for="(org, index) in home.clients.organisation"
           :key="index"
