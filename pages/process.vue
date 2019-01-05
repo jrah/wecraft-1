@@ -79,29 +79,24 @@
      </section>
 
 
-     <section class="mt-5 py-10 bg-whiteback">
+     <section class="py-10 bg-whiteback">
        <h1 class="text-center text-4xl mb-12">{{ home.clients.title }}</h1>
-       <div class="flex justify-around items-center flex-wrap">
+       <div class=" flex justify-around items-center flex-wrap mx-32">
          <img
            v-for="(org, index) in home.clients.organisation"
            :key="index"
            :name=" '' + index "
-           class="p-4 max-w-md"
+           class="p-4 max-w-md w-64 "
            :src="org.image"
            :alt="org.name">
        </div>
      </section>
 
-    <section class="bg-grey-lightest">
-      <div class="container pt-12">
-        <div class="max-w-md m-auto text-center">
-          <h1 class="mt-0 mb-5 font-bold text-4xl leading-tight">{{ home.contactUs.title }}</h1>
-          <p class="leading-normal pb-8">{{ home.contactUs.paragraph }}</p>
-        </div>
+    <section class="py-10 bg-gradient-b-grey-lighter-white">
+      <div class="max-w-md m-auto text-center">
+        <h1 class="mt-0 mb-5 font-bold text-4xl leading-tight">{{ home.contactUs.title }}</h1>
+        <p class="leading-normal pb-8">{{ home.contactUs.paragraph }}</p>
       </div>
-    </section>
-
-    <section class=" bg-gradient-b-grey-lighter-white bg-no-repeat">
       <div class="container l:flex justify-center">
         <div class=" bg-white p-10 m-5 mt-0 l:w-2/3 border-grey-lighter border-solid border-2 rounded-sm shadow">
           <appForm/>
@@ -109,9 +104,9 @@
         <div class="bg-whiteback p-10  m-5 mt-0 l:w-1/3 border-grey-lighter border-solid border-2 rounded-sm shadow">
           <h2 class="leading-tight mt-2 mb-4 text-lg font-bold ">{{home.contactUs.text1.header}}</h2>
           <p class="leading-normal ma-0 mb-4 f4 text-sm">{{home.contactUs.text1.paragraph}}</p>
-          <h2 class="leading-tight mt-2 mb-4 text-lg font-bold ">{{home.contactUs.text2.header}}</h2>
+          <h2 class="leading-tight mt-2 mb-4 text-lg font-bold">{{home.contactUs.text2.header}}</h2>
           <p class="leading-normal ma-0 f4 mb-4  text-sm">{{home.contactUs.text2.paragraph}}</p>
-          <h2 class="leading-tight mt-2 mb-4 text-lg font-bold ">{{home.contactUs.text3.header}}</h2>
+          <h2 class="leading-tight mt-2 mb-4 text-lg font-bold">{{home.contactUs.text3.header}}</h2>
           <p class="leading-normal ma-0 f4 text-sm">{{home.contactUs.text3.paragraph}}</p>
         </div>
       </div>

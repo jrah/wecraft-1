@@ -134,10 +134,6 @@ collections: # A list of collections the CMS should be able to edit
             fields:
               - {label: Quote, name: quote, widget: text}
               - {label: Author, name: author, widget: string}
-      - label: "Process page"
-        name: "process"
-        file: "content/home.json"
-        fields:
           - {label: Intro, name: discrip, widget: string}
           - {label: Intro img, name: logo, widget: image}
           - label: Process

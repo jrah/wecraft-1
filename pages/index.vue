@@ -2,48 +2,42 @@
   <div class="content">
     <app-header/>
 
-    <section>
-      <div class=" container py-10 text-center">
-        <h1 class="text-center mb-12 text-4xl">{{ home.offers.title }}</h1>
-        <div class="m:flex l:flex justify-around">
-
+    <section class=" mb-5 py-10 text-center bg-grey-lightest">
+        <h1 class="mb-12 text-4xl">{{ home.offers.title }}</h1>
+        <div class="container m:flex l:flex justify-around">
           <div
             v-for="(block, index) in home.offers.block"
             :key="index"
             :name=" '' + index "
             class="text-center ns:w-1/4">
-            <div class="w-24 m-auto">
+            <div class="w-32 m-auto">
               <img
                 :src="block.icon"
-                alt="block.icon"
-              >
+                alt="block.icon">
             </div>
             <h2 class="leading-normal text-lg mt-1 mb-1">{{ block.heading }}</h2>
             <p class="leading-normal mt-0 mb-5">{{ block.paragraph }}</p>
           </div>
-
         </div>
         <a
           :href="home.offers.link"
-          class="mt-5 inline-flex no-underline bg-whiteback hover:bg-point text-blackbasic font-semibold hover:text-whiteback py-2 px-6 border rounded hover:border-transparent  border-blackbasic">{{ home.offers.button }}</a>
-
-      </div>
+          class="inline-flex no-underline bg-whiteback hover:bg-point text-blackbasic font-semibold hover:text-whiteback py-2 px-6 border rounded hover:border-transparent  border-blackbasic">{{ home.offers.button }}</a>
     </section>
 
-    <section class="mt-5 py-10 bg-whiteback">
+    <section class="py-10 bg-whiteback">
       <h1 class="text-center text-4xl mb-12">{{ home.clients.title }}</h1>
-      <div class=" container flex justify-around items-center flex-wrap">
+      <div class=" flex justify-around items-center flex-wrap mx-32">
         <img
           v-for="(org, index) in home.clients.organisation"
           :key="index"
           :name=" '' + index "
-          class="p-4 max-w-md"
+          class="p-4 max-w-md w-64 "
           :src="org.image"
           :alt="org.name">
       </div>
     </section>
 
-    <section class=" py-10 bg-grey-lightest">
+    <section class="py-10 bg-grey-lightest">
       <div class="text-center">
         <h1 class="mb-12 font-bold text-4xl leading-tight">{{ home.options.heading }}</h1>
       </div>
@@ -69,11 +63,9 @@
       </div>
     </section>
 
-    <section>
-      <div class="container py-10">
+    <section class="py-10 bg-whiteback">
         <h1 class="text-center mb-12 text-4xl">{{ home.features.title }}</h1>
-        <div class="m:flex l:flex justify-around">
-
+        <div class="container  m:flex l:flex justify-around">
           <div
             v-for="(block, index) in home.features.block"
             :key="index"
@@ -82,15 +74,12 @@
             <div class="w-24 m-auto">
               <img
                 :src="block.icon"
-                alt="block.icon"
-              >
+                alt="block.icon">
             </div>
             <h2 class="leading-normal text-lg mt-1 mb-1">{{ block.heading }}</h2>
-            <p class="leading-normal mt-0 mb-5">{{ block.paragraph }}</p>
+            <p class="leading-normal mt-0 ">{{ block.paragraph }}</p>
           </div>
-
         </div>
-      </div>
     </section>
 
     <section class="py-10 bg-grey-lightest">
@@ -120,7 +109,7 @@
       </div>
     </section>
 <!--
-    <section class="py-12 container ">
+    <section class="container mt-5 mb-5 py-10 bg-whiteback">
       <h1 class="text-center text-4xl mb-12">Testimonials</h1>
 
       <no-ssr placeholder="Loading...">
@@ -144,16 +133,12 @@
       </no-ssr>
     </section>
 !-->
-    <section class="bg-grey-lightest">
-      <div class="container pt-12">
-        <div class="max-w-md m-auto text-center">
-          <h1 class="mt-0 mb-5 font-bold text-4xl leading-tight">{{ home.contactUs.title }}</h1>
-          <p class="leading-normal pb-8">{{ home.contactUs.paragraph }}</p>
-        </div>
-      </div>
-    </section>
 
-    <section class=" bg-gradient-b-grey-lighter-white">
+    <section class="py-10 bg-whiteback">
+      <div class="max-w-md m-auto text-center">
+        <h1 class="mt-0 mb-5 font-bold text-4xl leading-tight">{{ home.contactUs.title }}</h1>
+        <p class="leading-normal pb-8">{{ home.contactUs.paragraph }}</p>
+      </div>
       <div class="container l:flex justify-center">
         <div class=" bg-white p-10 m-5 mt-0 l:w-2/3 border-grey-lighter border-solid border-2 rounded-sm shadow">
           <appForm/>
@@ -167,9 +152,7 @@
           <p class="leading-normal ma-0 f4 text-sm">{{home.contactUs.text3.paragraph}}</p>
         </div>
       </div>
-
     </section>
-
   </div>
 </template>
 
