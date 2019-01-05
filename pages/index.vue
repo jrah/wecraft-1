@@ -28,19 +28,15 @@
 
     <section class="mt-5 py-10 bg-whiteback text-blackback">
       <h1 class="text-center text-4xl mb-12">{{ home.clients.title }}</h1>
-      <ul class="m:flex l:flex flex-wrap justify-around list-reset">
-        <li
+      <div class="flex justify-around items-center flex-wrap">
+        <img
           v-for="(org, index) in home.clients.organisation"
           :key="index"
-          class="w-1/6 mx-16 my-12 text-center">
-          <a :href="org.href">
-            <img
-              :src="org.image"
-              :alt="org.name"
-              class="mb-5">
-          </a>
-        </li>
-      </ul>
+          :name=" '' + index "
+          class="p-4 max-w-md"
+          :src="org.image"
+          :alt="org.name">
+      </div>
     </section>
 
     <section class="text-blackback py-10 bg-grey-lightest">
