@@ -3,7 +3,7 @@
     <app-header/>
 
     <section>
-      <div class="text-blackback container py-10 text-navy">
+      <div class=" container py-10 text-center">
         <h1 class="text-center mb-12 text-4xl">{{ home.offers.title }}</h1>
         <div class="m:flex l:flex justify-around">
 
@@ -23,10 +23,14 @@
           </div>
 
         </div>
+        <a
+          :href="home.offers.link"
+          class="mt-5 inline-flex no-underline bg-whiteback hover:bg-point text-blackbasic font-semibold hover:text-whiteback py-2 px-6 border rounded hover:border-transparent  border-blackbasic">{{ home.offers.button }}</a>
+
       </div>
     </section>
 
-    <section class="mt-5 py-10 bg-whiteback text-blackback">
+    <section class="mt-5 py-10 bg-whiteback">
       <h1 class="text-center text-4xl mb-12">{{ home.clients.title }}</h1>
       <div class="flex justify-around items-center flex-wrap">
         <img
@@ -39,7 +43,7 @@
       </div>
     </section>
 
-    <section class="text-blackback py-10 bg-grey-lightest">
+    <section class=" py-10 bg-grey-lightest">
       <div class="text-center">
         <h1 class="mb-12 font-bold text-4xl leading-tight">{{ home.options.heading }}</h1>
       </div>
@@ -60,13 +64,13 @@
           </div>
           <a
             :href="home.options.project.href"
-            class="inline-flex no-underline mt-5 bg-whiteback hover:bg-navy text-navy-dark font-semibold hover:text-white py-2 px-6 border border-navy hover:border-transparent rounded mb-2 border-white">{{ home.options.project.button }}</a>
+            class="mt-5 inline-flex no-underline bg-whiteback hover:bg-point text-blackbasic font-semibold hover:text-whiteback py-2 px-6 border rounded hover:border-transparent  border-blackbasic">{{ home.options.project.button }}</a>
         </div>
       </div>
     </section>
 
     <section>
-      <div class="text-blackback container py-10 text-navy">
+      <div class="container py-10">
         <h1 class="text-center mb-12 text-4xl">{{ home.features.title }}</h1>
         <div class="m:flex l:flex justify-around">
 
@@ -89,7 +93,7 @@
       </div>
     </section>
 
-    <section class="text-blackback py-10 bg-grey-lightest">
+    <section class="py-10 bg-grey-lightest">
       <div class="text-center">
         <h1 class="mb-12 font-bold text-4xl leading-tight">{{ home.options2.heading }}</h1>
       </div>
@@ -105,7 +109,7 @@
           </div>
           <a
             :href="home.options2.project.href"
-            class="inline-flex no-underline mt-5 bg-whiteback hover:bg-navy text-navy-dark font-semibold hover:text-white py-2 px-6 border border-navy hover:border-transparent rounded mb-2 border-white">{{ home.options2.project.button }}</a>
+            class="mt-5 inline-flex no-underline bg-whiteback hover:bg-point text-blackbasic font-semibold hover:text-whiteback py-2 px-6 border rounded hover:border-transparent  border-blackbasic">{{ home.options2.project.button }}</a>
 
         </div>
         <div class=" bg-whiteback bg-no-repeat p-0 m-5 l:w-1/2 border-grey-lighter border-solid border-2 rounded-sm shadow">
@@ -115,8 +119,8 @@
         </div>
       </div>
     </section>
-
-    <section class="py-12 container text-blackback">
+<!--
+    <section class="py-12 container ">
       <h1 class="text-center text-4xl mb-12">Testimonials</h1>
 
       <no-ssr placeholder="Loading...">
@@ -131,7 +135,7 @@
             :key="index"
             class="p-3">
             <figure class="text-center">
-              <blockquote class="italic font-normal text-2xl mb-3 text-grey">
+              <blockquote class="italic font-normal text-2xl mb-3 text-blackbasic">
                 {{ testimonial.quote }}
                 <figcaption class="uppercase"> <cite class="author font-bold text-sm roman">- {{ testimonial.author }}</cite></figcaption>
             </blockquote></figure>
@@ -139,8 +143,8 @@
         </carousel>
       </no-ssr>
     </section>
-
-    <section class="bg-grey-lightest text-blackback">
+!-->
+    <section class="bg-grey-lightest">
       <div class="container pt-12">
         <div class="max-w-md m-auto text-center">
           <h1 class="mt-0 mb-5 font-bold text-4xl leading-tight">{{ home.contactUs.title }}</h1>
@@ -155,11 +159,11 @@
           <appForm/>
         </div>
         <div class="bg-whiteback p-10  m-5 mt-0 l:w-1/3 border-grey-lighter border-solid border-2 rounded-sm shadow">
-          <h2 class="leading-tight mt-2 mb-4 text-lg font-bold text-navy">{{home.contactUs.text1.header}}</h2>
+          <h2 class="leading-tight mt-2 mb-4 text-lg font-bold ">{{home.contactUs.text1.header}}</h2>
           <p class="leading-normal ma-0 mb-4 f4 text-sm">{{home.contactUs.text1.paragraph}}</p>
-          <h2 class="leading-tight mt-2 mb-4 text-lg font-bold text-navy">{{home.contactUs.text2.header}}</h2>
+          <h2 class="leading-tight mt-2 mb-4 text-lg font-bold">{{home.contactUs.text2.header}}</h2>
           <p class="leading-normal ma-0 f4 mb-4  text-sm">{{home.contactUs.text2.paragraph}}</p>
-          <h2 class="leading-tight mt-2 mb-4 text-lg font-bold text-navy">{{home.contactUs.text3.header}}</h2>
+          <h2 class="leading-tight mt-2 mb-4 text-lg font-bold">{{home.contactUs.text3.header}}</h2>
           <p class="leading-normal ma-0 f4 text-sm">{{home.contactUs.text3.paragraph}}</p>
         </div>
       </div>

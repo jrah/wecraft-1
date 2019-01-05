@@ -19,7 +19,7 @@
         </div>
         <a
           :href="home.contactEmail"
-          class="no-underline inline bg-transparent hover:bg-navy text-whiteback font-bold hover:text-white py-2 px-6 border-2 border-white hover:border-transparent mb-2 border-white">{{ home.button }}</a>
+          class="no-underline inline bg-transparent hover:bg-point text-whiteback font-bold hover:text-whiteback py-2 px-6 border-2 border-whiteback hover:border-transparent mb-2">{{ home.button }}</a>
       </div>
       <div
         class="overlay"

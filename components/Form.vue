@@ -16,7 +16,7 @@
     <div class="mb-3">
       <label
         for="name"
-        class="block text-grey font-bold md:text-right mb-1 md:mb-0 pr-4">Your name</label>
+        class="block text-blackbasic font-bold md:text-right mb-1 md:mb-0 pr-4">Your name</label>
       <input
         v-validate="'required'"
         v-model="name"
@@ -32,7 +32,7 @@
     <div class="mb-3">
       <label
         for="email"
-        class="block text-grey font-bold md:text-right mb-1 md:mb-0 pr-4">Email</label>
+        class="block text-blackbasic font-bold md:text-right mb-1 md:mb-0 pr-4">Email</label>
       <input
         v-validate="'email|required'"
         type="text"
@@ -47,7 +47,7 @@
     <div class="mb-3">
       <label
         for="message"
-        class="block text-grey font-bold md:text-right mb-1 md:mb-0 pr-4">Message:</label>
+        class="block text-blackbasic font-bold md:text-right mb-1 md:mb-0 pr-4">Message:</label>
       <textarea
         v-validate="'required'"
         name="message"
@@ -60,7 +60,7 @@
 
     <div class="flex justify-end">
       <input
-        class="shadow bg-purple hover:bg-purple-light focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded cursor-pointer"
+        class="inline-flex mt-5 no-underline bg-whiteback hover:bg-point text-blackbasic font-semibold hover:text-whiteback py-2 px-6 border rounded hover:border-transparent  border-blackbasic"
         type="submit"
         value="Submit"
         @click="submit">

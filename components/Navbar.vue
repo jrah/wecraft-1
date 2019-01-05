@@ -114,7 +114,7 @@ export default {
       // @apply border-solid border-grey-lightest border-b-1;
       font-size: 1em;
       &:hover {
-        @apply text-red;
+        @apply text-point;
       }
     }
   }

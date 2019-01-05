@@ -74,6 +74,8 @@ collections: # A list of collections the CMS should be able to edit
             widget: object
             fields:
               - {label: Title, name: title, widget: string}
+              - {label: Button, name: button, widget: text}
+              - {label: Link, name: link, widget: text}
               - label: Feature block
                 description: Please only use three blocks. If needs more please make an issue on the repo.
                 name: block
@@ -132,6 +134,10 @@ collections: # A list of collections the CMS should be able to edit
             fields:
               - {label: Quote, name: quote, widget: text}
               - {label: Author, name: author, widget: string}
+      - label: "Process page"
+        name: "home"
+        file: "content/home.json"
+        fields:
           - {label: Intro, name: discrip, widget: string}
           - {label: Intro img, name: logo, widget: image}
           - label: Process
@@ -144,7 +150,6 @@ collections: # A list of collections the CMS should be able to edit
                 name: pro1
                 widget: object
                 fields:
-                  - {label: Number, name: number, widget: image}
                   - {label: Heading, name: header, widget: string}
                   - {label: Paragraph, name: paragraph, widget: text}
                   - {label: Image, name: image, widget: image}
@@ -152,7 +157,6 @@ collections: # A list of collections the CMS should be able to edit
                 name: pro2
                 widget: object
                 fields:
-                  - {label: Number, name: number, widget: image}
                   - {label: Heading, name: header, widget: string}
                   - {label: Paragraph, name: paragraph, widget: text}
                   - {label: Image, name: image, widget: image}
@@ -160,7 +164,6 @@ collections: # A list of collections the CMS should be able to edit
                 name: pro3
                 widget: object
                 fields:
-                  - {label: Number, name: number, widget: image}
                   - {label: Heading, name: header, widget: string}
                   - {label: Paragraph, name: paragraph, widget: text}
                   - {label: Image, name: image, widget: image}
@@ -168,12 +171,9 @@ collections: # A list of collections the CMS should be able to edit
                 name: pro4
                 widget: object
                 fields:
-                  - {label: Number, name: number, widget: image}
                   - {label: Heading, name: header, widget: string}
                   - {label: Paragraph, name: paragraph, widget: text}
                   - {label: Image, name: image, widget: image}
-
-
 
       - label: "General Settings"
         name: "site"

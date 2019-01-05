@@ -74,6 +74,8 @@
   },
   "offers": {
     "title": "Our Process",
+    "button": "Link to Page",
+    "link": "/",
     "block": [
       {
         "icon": "/images/uploads/undraw_scrum_board_cesn.svg",
