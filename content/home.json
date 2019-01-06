@@ -35,23 +35,23 @@
   "process": {
     "title": "WeCraft Process step",
     "pro1": {
-      "header": "WeCraft Process ",
-      "paragraph": "Project Description : There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy. There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy.",
+      "header": "Discovery",
+      "paragraph": "Initial meeting, ideation and check what you would like to make!",
       "image": "/images/uploads/undraw_scrum_board_cesn.svg"
     },
     "pro2": {
-      "header": "WeCraft Process ",
-      "paragraph": "Project Description : There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy. There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy.",
+      "header": "Prototyping",
+      "paragraph": "Set up website development strategy, and finalise the prototype!",
       "image": "/images/uploads/undraw_prototyping_process_rswj-1-.svg"
     },
     "pro3": {
-      "header": "WeCraft Process ",
-      "paragraph": "Project Description : There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy. There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy.",
+      "header": "Design & Develop",
+      "paragraph": "Dig in step by step. Design the user experience and code the website!",
       "image": "/images/uploads/undraw_under_construction_46pa.svg"
     },
     "pro4": {
-      "header": "WeCraft Process ",
-      "paragraph": "Project Description : There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy. There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy.",
+      "header": "Completion",
+      "paragraph": "Final meeting, check whether you are completely satisfied or not!",
       "image": "/images/uploads/undraw_confirmation_2uy0.svg"
     }
   },
