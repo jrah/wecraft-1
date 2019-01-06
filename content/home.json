@@ -133,18 +133,18 @@
   },
   "contactUs": {
     "title": "Contact Us",
-    "paragraph": "Ready to get started? Tell us about your new project. Email us below to get started on your journey.\n",
+    "paragraph": "",
     "text1": {
-      "header": "WeCraft Office",
-      "paragraph": "210 Portobello, Sheffield, South Yorkshire, S1 4DQ, United Kingdom"
+      "header": "Ready to get started?",
+      "paragraph": "Tell us about your new project. Email us below to get started on your journey.\n"
     },
     "text2": {
       "header": "Email",
       "paragraph": "team@wecraft.website"
     },
     "text3": {
-      "header": "",
-      "paragraph": ""
+      "header": "WeCraft Office",
+      "paragraph": "210 Portobello, Sheffield, South Yorkshire, S1 4DQ, United Kingdom"
     }
   },
   "testimonial": [
