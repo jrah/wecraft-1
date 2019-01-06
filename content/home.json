@@ -133,18 +133,18 @@
   },
   "contactUs": {
     "title": "Contact Us",
-    "paragraph": "There are millions of different teas around the world. Let us find the right tea for you, so you can just sit back and relax having the tea that you might really enjoy.Test\n\n",
+    "paragraph": "Ready to get started? Tell us about your new project. Email us below to get started on your journey.\n",
     "text1": {
-      "header": "Corporate Office",
-      "paragraph": "8668 Concord Center Dr.Englewood, CO 80112"
+      "header": "WeCraft Office",
+      "paragraph": "210 Portobello, Sheffield, South Yorkshire, S1 4DQ, United Kingdom"
     },
     "text2": {
-      "header": "Direct Contact",
-      "paragraph": "Phone: 720.974.787 Toll Free: 1.877.929.78 Email: info@choicescreening.com"
+      "header": "Email",
+      "paragraph": "team@wecraft.website"
     },
     "text3": {
-      "header": "Departments",
-      "paragraph": "ustomerservice@choicescreening.com sales@choicescreening.com disputes@choicescreening.com compliance@choicescreening.com"
+      "header": "",
+      "paragraph": ""
     }
   },
   "testimonial": [
