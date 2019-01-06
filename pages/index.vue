@@ -2,8 +2,21 @@
   <div class="content">
     <app-header/>
 
-    <section class=" mb-5 py-10 text-center bg-grey-lightest">
-        <h1 class="mb-12 text-4xl">{{ home.offers.title }}</h1>
+    <section class="py-10 bg-grey-lightest">
+      <h1 class=" text-center text-4xl mb-12">{{ home.clients.title }}</h1>
+      <div class=" container flex justify-around items-center flex-wrap mx-32">
+        <img
+          v-for="(org, index) in home.clients.organisation"
+          :key="index"
+          :name=" '' + index "
+          class="p-4 max-w-md w-48 "
+          :src="org.image"
+          :alt="org.name">
+      </div>
+    </section>
+
+    <section class=" mb-5 py-10 text-center">
+        <h1 class="mb-16 text-4xl">{{ home.offers.title }}</h1>
         <div class="container m:flex l:flex justify-around">
           <div
             v-for="(block, index) in home.offers.block"
@@ -15,27 +28,12 @@
                 :src="block.icon"
                 alt="block.icon">
             </div>
-            <h2 class="leading-normal text-lg mt-1 mb-1">{{ block.heading }}</h2>
+            <h2 class=" leading-normal text-lg mt-1 mb-1">{{ block.heading }}</h2>
             <p class="leading-normal mt-0 mb-5">{{ block.paragraph }}</p>
           </div>
         </div>
-        <a
-          :href="home.offers.link"
-          class="inline-flex no-underline bg-whiteback hover:bg-point text-blackbasic font-semibold hover:text-whiteback py-2 px-6 border rounded hover:border-transparent  border-blackbasic">{{ home.offers.button }}</a>
     </section>
 
-    <section class="py-10 bg-whiteback">
-      <h1 class="text-center text-4xl mb-12">{{ home.clients.title }}</h1>
-      <div class=" flex justify-around items-center flex-wrap mx-32">
-        <img
-          v-for="(org, index) in home.clients.organisation"
-          :key="index"
-          :name=" '' + index "
-          class="p-4 max-w-md w-64 "
-          :src="org.image"
-          :alt="org.name">
-      </div>
-    </section>
 
     <section class="py-10 bg-grey-lightest">
       <div class="text-center">
@@ -44,7 +42,7 @@
       <div class="container l:flex justify-between">
         <div class=" bg-whiteback bg-no-repeat p-0 m-5 l:w-1/2 border-grey-lighter border-solid border-2 rounded-sm shadow">
             <img
-              class="object-cover h-full w-full p-0"
+              class="object-cover h-full w-full p-1"
               :src="home.options.image.icon">
         </div>
         <div class=" text-right mb-5 bg-whiteback p-10 m-5  l:w-1/2 border-grey-lighter border-solid border-2 rounded-sm shadow">
@@ -64,14 +62,14 @@
     </section>
 
     <section class="py-10 bg-whiteback">
-        <h1 class="text-center mb-12 text-4xl">{{ home.features.title }}</h1>
+        <h1 class="text-center mb-16 text-4xl">{{ home.features.title }}</h1>
         <div class="container  m:flex l:flex justify-around">
           <div
             v-for="(block, index) in home.features.block"
             :key="index"
             :name=" '' + index "
             class="text-center ns:w-1/4">
-            <div class="w-24 m-auto">
+            <div class="w-48 m-auto">
               <img
                 :src="block.icon"
                 alt="block.icon">
@@ -103,7 +101,7 @@
         </div>
         <div class=" bg-whiteback bg-no-repeat p-0 m-5 l:w-1/2 border-grey-lighter border-solid border-2 rounded-sm shadow">
             <img
-              class="object-cover h-full w-full p-0"
+              class="object-cover h-full w-full p-1"
               :src="home.options2.image.icon">
         </div>
       </div>
