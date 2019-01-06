@@ -23,7 +23,7 @@
             :key="index"
             :name=" '' + index "
             class="text-center ns:w-1/4">
-            <div class="w-32 m-auto">
+            <div class="w-auto mx-5">
               <img
                 :src="block.icon"
                 alt="block.icon">
@@ -69,7 +69,7 @@
             :key="index"
             :name=" '' + index "
             class="text-center ns:w-1/4">
-            <div class="w-48 m-auto">
+            <div class="w-auto m-auto">
               <img
                 :src="block.icon"
                 alt="block.icon">
