@@ -1,15 +1,6 @@
 {
   "title": "WeCraft",
-  "social": [
-    {
-      "type": "facebook",
-      "href": "www.facebook.com/diversiteabox"
-    },
-    {
-      "type": "instagram",
-      "href": "www.instagram.com/diversiteabox"
-    }
-  ],
+  "social": [],
   "nav": [
     {
       "name": "Home",
