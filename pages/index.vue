@@ -23,12 +23,12 @@
             :key="index"
             :name=" '' + index "
             class="text-center ns:w-1/4">
-            <div class="w-auto mx-5">
+            <div class="w-32 m-auto">
               <img
                 :src="block.icon"
                 alt="block.icon">
             </div>
-            <h2 class=" leading-normal text-lg mt-1 mb-1">{{ block.heading }}</h2>
+            <h2 class="leading-normal text-lg mt-1 mb-1">{{ block.heading }}</h2>
             <p class="leading-normal mt-0 mb-5">{{ block.paragraph }}</p>
           </div>
         </div>
@@ -69,7 +69,7 @@
             :key="index"
             :name=" '' + index "
             class="text-center ns:w-1/4">
-            <div class="w-auto m-auto">
+            <div class="w-48 m-auto">
               <img
                 :src="block.icon"
                 alt="block.icon">
