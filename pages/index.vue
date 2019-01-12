@@ -2,20 +2,8 @@
   <div class="content">
     <app-header/>
 
-    <section class="py-10 bg-grey-lightest">
-      <h1 class=" text-center text-4xl mb-12">{{ home.clients.title }}</h1>
-      <div class=" container flex justify-around items-center flex-wrap mx-32">
-        <img
-          v-for="(org, index) in home.clients.organisation"
-          :key="index"
-          :name=" '' + index "
-          class="p-4 max-w-md w-48 "
-          :src="org.image"
-          :alt="org.name">
-      </div>
-    </section>
 
-    <section class=" mb-5 py-10 text-center">
+    <section class=" mb-5 py-10 text-center bg-grey-lightest">
         <h1 class="mb-16 text-4xl">{{ home.offers.title }}</h1>
         <div class="container m:flex l:flex justify-around">
           <div
@@ -35,12 +23,12 @@
     </section>
 
 
-    <section class="py-10 bg-grey-lightest">
+    <section class="py-10">
       <div class="text-center">
         <h1 class="mb-12 font-bold text-4xl leading-tight">{{ home.options.heading }}</h1>
       </div>
       <div class="container l:flex justify-between">
-        <div class=" bg-whiteback bg-no-repeat p-0 m-5 l:w-1/2 border-grey-lighter border-solid border-2 rounded-sm shadow">
+        <div class="bg-no-repeat p-0 m-5 l:w-1/2">
             <img
               class="object-cover h-full w-full p-1"
               :src="home.options.image.icon">
@@ -61,7 +49,8 @@
       </div>
     </section>
 
-    <section class="py-10 bg-whiteback">
+
+    <section class="py-10 bg-grey-lightest">
         <h1 class="text-center mb-16 text-4xl">{{ home.features.title }}</h1>
         <div class="container  m:flex l:flex justify-around">
           <div
@@ -80,12 +69,12 @@
         </div>
     </section>
 
-    <section class="py-10 bg-grey-lightest">
+    <section class="py-10">
       <div class="text-center">
         <h1 class="mb-12 font-bold text-4xl leading-tight">{{ home.options2.heading }}</h1>
       </div>
-      <div class="container l:flex justify-between">
-        <div class=" text-right mb-5 bg-whiteback p-10 m-5  l:w-1/2 border-grey-lighter border-solid border-2 rounded-sm shadow">
+      <div class="container flex justify-between flex-col ns:flex-row">
+        <div class=" text-right mb-5 bg-whiteback p-10 m-5 m:1/4 l:w-1/2 border-grey-lighter border-solid border-2 rounded-sm shadow">
           <div class= "text-left">
             <h1
               v-if="home.options2"
@@ -99,40 +88,28 @@
             class="mt-5 inline-flex no-underline bg-whiteback hover:bg-point text-blackbasic font-semibold hover:text-whiteback py-2 px-6 border rounded hover:border-transparent  border-blackbasic">{{ home.options2.project.button }}</a>
 
         </div>
-        <div class=" bg-whiteback bg-no-repeat p-0 m-5 l:w-1/2 border-grey-lighter border-solid border-2 rounded-sm shadow">
+        <div class=" bg-whiteback bg-no-repeat p-0 m-5 m:3/4 l:w-1/2">
             <img
               class="object-cover h-full w-full p-1"
               :src="home.options2.image.icon">
         </div>
       </div>
     </section>
-<!--
-    <section class="container mt-5 mb-5 py-10 bg-whiteback">
-      <h1 class="text-center text-4xl mb-12">Testimonials</h1>
 
-      <no-ssr placeholder="Loading...">
-        <carousel
-          :auto-play="true"
-          :pagination-active-color="'#25324e'"
-          :navigation-click-target-size="20"
-          :per-page="1">
-
-          <slide
-            v-for="(testimonial, index) in home.testimonial"
-            :key="index"
-            class="p-3">
-            <figure class="text-center">
-              <blockquote class="italic font-normal text-2xl mb-3 text-blackbasic">
-                {{ testimonial.quote }}
-                <figcaption class="uppercase"> <cite class="author font-bold text-sm roman">- {{ testimonial.author }}</cite></figcaption>
-            </blockquote></figure>
-          </slide>
-        </carousel>
-      </no-ssr>
+    <section class="py-10 bg-grey-lightest">
+      <h1 class=" text-center text-4xl mb-12">{{ home.clients.title }}</h1>
+      <div class=" container flex justify-around items-center flex-wrap mx-32">
+        <img
+          v-for="(org, index) in home.clients.organisation"
+          :key="index"
+          :name=" '' + index "
+          class="p-4 max-w-md w-48 "
+          :src="org.image"
+          :alt="org.name">
+      </div>
     </section>
-!-->
 
-    <section class="py-10 bg-whiteback">
+    <section class="py-10 bg-grey-lightest">
       <div class="max-w-md m-auto text-center">
         <h1 class="mt-0 mb-5 font-bold text-4xl leading-tight">{{ home.contactUs.title }}</h1>
         <p class="leading-normal pb-8">{{ home.contactUs.paragraph }}</p>
