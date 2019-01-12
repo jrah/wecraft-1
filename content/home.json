@@ -1,7 +1,7 @@
 {
-  "discrip": "WeCraft will keep you happy along the way, hassle-free!",
+  "discrip": "We produce quality, design driven applications for customers",
   "clients": {
-    "title": "Past Clients",
+    "title": "Our Clients",
     "organisation": [
       {
         "name": "DiversiTea",
@@ -31,40 +31,17 @@
     ]
   },
   "logo": "logo0",
-  "intro": "Welcome to WeCraft. \n\nWe are formed out of professionals with international appreciation and intuitive understanding of website localisation.",
-  "process": {
-    "title": "WeCraft Process step",
-    "pro1": {
-      "header": "Discovery",
-      "paragraph": "Initial meeting, ideation and check what you would like to make!",
-      "image": "/images/uploads/undraw_scrum_board_cesn.svg"
-    },
-    "pro2": {
-      "header": "Prototyping",
-      "paragraph": "Set up website development strategy, and finalise the prototype!",
-      "image": "/images/uploads/undraw_prototyping_process_rswj-1-.svg"
-    },
-    "pro3": {
-      "header": "Design & Develop",
-      "paragraph": "Dig in step by step. Design the user experience and code the website!",
-      "image": "/images/uploads/undraw_under_construction_46pa.svg"
-    },
-    "pro4": {
-      "header": "Completion",
-      "paragraph": "Final meeting, check whether you are completely satisfied or not!",
-      "image": "/images/uploads/undraw_confirmation_2uy0.svg"
-    }
-  },
+  "intro": "We are a design and development consultancy specialising in web localisation and internationalisation. Let's build something your customers will love.",
   "button": "Let's talk!",
   "options2": {
-    "heading": "Case Study #2",
+    "heading": "KESCA",
     "image": {
-      "icon": "/images/uploads/photo-1520588545521-c6c96637e4c0.jpg"
+      "icon": "/images/uploads/kesca.png"
     },
     "project": {
       "heading": "KESCA",
       "paragraph": "Korea Europe Standards Certification Association (KESCA) is an organisation supported by the South Korean government. WeCraft created a Ruby on Rails website to facilitate mass form applications to KESCA as part of their delivery of GDPR audit and certification.",
-      "button": "Link to page",
+      "button": "Link to website",
       "href": "https://www.kesca.kr"
     }
   },
@@ -76,26 +53,20 @@
       {
         "icon": "/images/uploads/prototyping.svg",
         "heading": "Discovery",
-        "paragraph": "Initial meeting, ideation and check what you would like to make!"
+        "paragraph": "Our initial interview and meeting allows us to have a deeper understanding of the client problems."
       },
       {
         "icon": "/images/uploads/undraw_prototyping_process_rswj-1-.svg",
-        "heading": "Prototyping",
-        "paragraph": "Set up website development strategy, and finalise the prototype!"
+        "heading": "Design",
+        "paragraph": "Starting with sketches and post-it notes, driven by user experience this allows us to focus on the user experience."
       },
       {
-        "icon": "/images/uploads/construction.svg",
-        "heading": "Design & Develop",
-        "paragraph": "Dig in step by step. Design the user experience and code the website!"
-      },
-      {
-        "icon": "/images/uploads/confirmation.svg",
-        "heading": "Completion",
-        "paragraph": "Final meeting, check whether you are completely satisfied or not!"
+        "icon": "/images/uploads/undraw_prototyping_process_rswj-1-.svg",
+        "heading": "Prototype",
+        "paragraph": "We develop an interactive prototype which we use to interview the client with for feedback. "
       }
     ]
   },
-  "subtitle": "Your Creative Guru",
   "title": "WecrAft",
   "image": "/images/uploads/eddy-klaus-33079-unsplash4.jpg",
   "contactEmail": "mailto:team@wecraft.website",
@@ -104,25 +75,25 @@
     "block": [
       {
         "icon": "/images/uploads/mindmap.svg",
-        "heading": "Tailored Website",
-        "paragraph": "WeCraft provides a perfectly tailored solution for each individual or business. Tell us your aims, than we are all here for you"
+        "heading": "Bespoke & Latest Technology",
+        "paragraph": "Each of our projects use the latest techniques and technologies"
       },
       {
         "icon": "/images/uploads/signup.svg",
-        "heading": "Bespoke & Safe",
-        "paragraph": "WeCraft will provide the targeted, most efficient solution for you to meet the goal with fully secured, SSL certified website"
+        "heading": "Localisation",
+        "paragraph": "We specialise in adapting web solutions to international markets"
       },
       {
         "icon": "/images/uploads/havingfun.svg",
-        "heading": "Dedicated with perfection",
-        "paragraph": "We are an experienced team, and you have a personal contact throughout the process to guide you through any queries"
+        "heading": "Ecommerce",
+        "paragraph": "We are experienced with a range of ecommerce solutions, including Shopify and Snipcart"
       }
     ]
   },
   "options": {
-    "heading": "Case Study #1",
+    "heading": "DiversiTea",
     "image": {
-      "icon": "/images/uploads/nik-macmillan-577478-unsplash2-optimised.jpg"
+      "icon": "/images/uploads/diversitea.png"
     },
     "project": {
       "heading": "DiversiTea",
