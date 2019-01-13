@@ -24,7 +24,7 @@
         name="name"
         data-vv-name="name"
         class="bg-grey-lighter appearance-none border-2 border-grey-lighter rounded w-full py-2 px-4 text-grey-darker leading-tight focus:outline-none focus:bg-white focus:border-purple">
-  <!--      <p
+        <!--      <p
         class="bg-red white f7 w-100 pa2 fw8 db mv0">{{ errors.first('name') }}</p> -->
     </div>
 
@@ -39,7 +39,7 @@
         data-vv-as="email"
         name="email"
         class="bg-grey-lighter appearance-none border-2 border-grey-lighter rounded w-full py-2 px-4 text-grey-darker leading-tight focus:outline-none focus:bg-white focus:border-purple ns:1/2">
-  <!--      <p
+        <!--      <p
         class="bg-red white f7 w-100 pa2 fw8 db mv0">{{ errors.first('email') }}</p>  -->
     </div>
 
@@ -54,7 +54,7 @@
         data-vv-as="message"
         class="bg-grey-lighter appearance-none border-2 border-grey-lighter rounded w-full h-32 text-grey-darker leading-tight focus:outline-none focus:bg-white focus:border-purple"
         style="vertical-align: top;"/>
-  <!--      <p
+        <!--      <p
         class="bg-red white f7 w-100 pa2 fw8 db mv0">{{ errors.first('message') }}</p>  -->
     </div>
 
@@ -72,27 +72,27 @@
 <script>
 export default {
   $_veeValidate: {
-    validator: 'new'
+    validator: "new"
   },
   // name: "form",
   data() {
     return {
-      name: '',
-      email: '',
+      name: "",
+      email: "",
       select: null
-    }
+    };
   },
   methods: {
     submit() {
-      this.$validator.validateAll()
+      this.$validator.validateAll();
     },
     clear() {
-      this.name = ''
-      this.email = ''
-      this.select = null
-      this.checkbox = null
-      this.$validator.reset()
+      this.name = "";
+      this.email = "";
+      this.select = null;
+      this.checkbox = null;
+      this.$validator.reset();
     }
   }
-}
+};
 </script>

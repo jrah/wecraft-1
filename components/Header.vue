@@ -2,13 +2,15 @@
   <div>
 
     <div
-    :style="{'background-image' : 'url('+home.image+')'}"
-    class="bg-cover bg-center py-6 relative bg-grey-darkest">
+      :style="{'background-image' : 'url('+home.image+')'}"
+      class="bg-cover bg-center py-6 relative bg-grey-darkest">
       <div class="container py-32 relative z-10">
         <div class="m:w-3/5 l:w-2/5">
           <h1>
             <span class="text-point font-majorMonoDisplay mt-0 f1 mb-2 text-headline leading-tight">{{ home.title }}</span>
-            <span v-if="home.subtitle" class="text-whiteback mt-0 f1 mb-2 text-3xl leading-normal">{{ home.subtitle }}</span>
+            <span 
+              v-if="home.subtitle" 
+              class="text-whiteback mt-0 f1 mb-2 text-3xl leading-normal">{{ home.subtitle }}</span>
           </h1>
           <p
             v-if="home.intro"
@@ -23,21 +25,20 @@
       </div>
       <div
         class="overlay"
-    </div>
-
-  </div>
-</template>
+        </
+        div/>
+</div></div></template>
 
 <script>
-import home from '~/content/home.json'
+import home from "~/content/home.json";
 
 export default {
   data() {
     return {
       home
-    }
+    };
   }
-}
+};
 </script>
 
 <style lang="scss">

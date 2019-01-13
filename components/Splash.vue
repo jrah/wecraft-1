@@ -10,14 +10,14 @@
 </template>
 
 <script>
-import home from '~/content/home.json'
+import home from "~/content/home.json";
 export default {
   data() {
     return {
       home
-    }
+    };
   }
-}
+};
 </script>
 
 <style lang="css">

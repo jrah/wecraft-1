@@ -2,14 +2,12 @@
   <a
     href="/"
     class="no-underline flex items-center text-grey-darkest">
-    <div>
-
-    </div>
+    <div/>
     <img
       :src="require(`~/assets/images/${componentName}.${componentType}`)"
       class="w-16 text-white"
       alt="Logo">
-    <span class="ml-4 text-3xl font-black hidden">{{componentText}}</span>
+    <span class="ml-4 text-3xl font-black hidden">{{ componentText }}</span>
   </a>
 </template>
 
@@ -28,8 +26,8 @@ export default {
     componentType: {
       type: String,
       required: false,
-      default: 'svg'
+      default: "svg"
     }
   }
-}
+};
 </script>
