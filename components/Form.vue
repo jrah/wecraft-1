@@ -60,7 +60,7 @@
 
     <div class="flex justify-end">
       <input
-        class="inline-flex mt-5 no-underline bg-whiteback hover:bg-point text-blackbasic font-semibold hover:text-whiteback py-2 px-6 border rounded hover:border-transparent  border-blackbasic"
+        class="inline-flex cursor-pointer bg-transparent hover:bg-point text-point-dark font-semibold hover:text-white py-2 px-4 border border-point hover:border-transparent rounded"
         type="submit"
         value="Submit"
         @click="submit">
