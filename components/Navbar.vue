@@ -1,16 +1,16 @@
 <template>
 
-  <div class="container py-4 flex justify-between items-center absolute pin-t w-full z-10">
+  <div class="container pt-4 flex justify-between items-center absolute pin-t w-full z-20">
     <app-logo
       :component-name="site.logo.name"
       :component-text="site.logo.text"
       :component-type="site.logo.type"/>
     <nav>
-      <a 
+      <a
         v-for="(item, index) in site.nav"
         :key="`nav-${index}`"
         :href="item.href"
-        class="text-white no-underline hover:text-green text-lg">
+        class="text-white no-underline hover:text-green">
         {{ item.name }}
       </a>
     </nav>
@@ -37,4 +37,13 @@ export default {
 
 <style lang="scss">
 @import "assets/scss/mixins";
+
+nav {
+  & > a {
+    margin-right: 1rem;
+    &:last-child {
+      margin: 0;
+    }
+  }
+}
 </style>
