@@ -1,46 +1,17 @@
 <template>
   <div class="content">
     <app-header/>
+    <app-feature-block
+      :component-background-color="'bg-grey-lightest'"
+      :component-title="home.features.title"
+      :component-loop="home.features.block"/>
 
-    <section class="py-10 text-center bg-grey-lightest">
-      <h1 class="mb-16 text-4xl">{{ home.offers.title }}</h1>
-      <div class="container flex flex-wrap justify-between">
-         <div
-          v-for="(block, index) in home.offers.block"
-          :key="index"
-          :name=" '' + index "
-          class="w-full m:w-1/2 l:w-1/4 px-4">
-          <div class="max-w-xs m-auto">
-            <img
-              :src="block.icon"
-              :alt="block.icon">
-          </div>
-          <h2 class="leading-normal text-lg mt-1 mb-1">{{ block.heading }}</h2>
-          <p class="leading-normal mt-0 mb-5">{{ block.paragraph }}</p>
-        </div>
-      </div>
-    </section>
+    <app-feature-block
+      :component-background-color="'bg-grey-lightest'"
+      :component-title="home.offers.title"
+      :component-loop="home.offers.block"/>
 
 
-
-    <section class="py-10 bg-grey-lightest">
-      <h1 class="text-center mb-16 text-4xl">{{ home.features.title }}</h1>
-      <div class="container  m:flex l:flex justify-around">
-        <div
-          v-for="(block, index) in home.features.block"
-          :key="index"
-          :name=" '' + index "
-          class="text-center ns:w-1/4">
-          <div class="w-48 m-auto">
-            <img
-              :src="block.icon"
-              alt="block.icon">
-          </div>
-          <h2 class="leading-normal text-lg mt-1 mb-1">{{ block.heading }}</h2>
-          <p class="leading-normal mt-0 ">{{ block.paragraph }}</p>
-        </div>
-      </div>
-    </section>
 
 
     <app-case-study
