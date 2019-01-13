@@ -6,21 +6,16 @@
       :component-title="home.features.title"
       :component-loop="home.features.block"/>
 
-    <app-feature-block
-      :component-background-color="'bg-grey-lightest'"
-      :component-title="home.offers.title"
-      :component-loop="home.offers.block"/>
-
-
-
-
     <app-case-study
       :component-sub-heading="home.caseStudyTwo.subheading"
       :component-href="home.caseStudyTwo.href"
       :component-title="home.caseStudyTwo.heading"
       :component-image="home.caseStudyTwo.image"
       :component-paragraph="home.caseStudyTwo.paragraph"/>
-
+    <app-feature-block
+      :component-background-color="'bg-grey-lightest'"
+      :component-title="home.offers.title"
+      :component-loop="home.offers.block"/>
     <app-case-study
       :component-flex-direction="'flex-row-reverse'"
       :component-sub-heading="home.caseStudyOne.subheading"
@@ -30,8 +25,8 @@
       :component-paragraph="home.caseStudyOne.paragraph"/>
 
     <section class="py-10 bg-grey-lightest">
-      <h1 class=" text-center text-4xl mb-12">{{ home.clients.title }}</h1>
-      <div class=" container flex justify-around items-center flex-wrap mx-32">
+      <h1 class="text-center text-4xl mb-12">{{ home.clients.title }}</h1>
+      <div class="container flex justify-around items-center flex-wrap mx-32">
         <img
           v-for="(org, index) in home.clients.organisation"
           :key="index"
@@ -51,13 +46,17 @@
         <div class=" bg-white p-10 m-5 mt-0 l:w-2/3 border-grey-lighter border-solid border-2 rounded-sm shadow">
           <appForm/>
         </div>
-        <div class="bg-whiteback p-10  m-5 mt-0 l:w-1/3 border-grey-lighter border-solid border-2 rounded-sm shadow">
-          <h2 class="leading-tight mt-2 mb-4 text-lg font-bold ">{{ home.contactUs.text1.header }}</h2>
-          <p class="leading-normal ma-0 mb-4 f4 text-sm">{{ home.contactUs.text1.paragraph }}</p>
-          <h2 class="leading-tight mt-2 mb-4 text-lg font-bold">{{ home.contactUs.text2.header }}</h2>
-          <p class="leading-normal ma-0 f4 mb-4  text-sm">{{ home.contactUs.text2.paragraph }}</p>
-          <h2 class="leading-tight mt-2 mb-4 text-lg font-bold">{{ home.contactUs.text3.header }}</h2>
-          <p class="leading-normal ma-0 f4 text-sm">{{ home.contactUs.text3.paragraph }}</p>
+        <div class="bg-white p-10  m-5 mt-0 l:w-1/3 border-grey-lighter border-solid border-2 rounded-sm shadow">
+          <h2 class="leading-tight text-lg mb-3 font-bold ">{{ home.contactUs.text1.header }}</h2>
+          <p class="leading-normal mt-0 mb-5">{{ home.contactUs.text1.paragraph }}</p>
+
+          <address class="font-normal whitespace-pre-line roman mb-4">
+            <span class="font-bold">WeCraft</span>
+            {{ home.contactUs.text3.paragraph }}
+          </address>
+          <a
+            :href="home.contactUs.text2.paragraph"
+            class="leading-normal ma-0 f4 mb-4 text-sm text-point hover:text-point-dark no-underline">{{ home.contactUs.text2.paragraph }}</a>
         </div>
       </div>
     </section>
@@ -72,7 +71,6 @@ import splash from "~/components/Splash.vue";
 import appForm from "~/components/Form.vue";
 import appCaseStudy from "~/components/AppCaseStudy.vue";
 import appFeatureBlock from "~/components/AppFeatureBlock.vue";
-
 
 export default {
   components: {
