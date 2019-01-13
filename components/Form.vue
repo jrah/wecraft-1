@@ -4,6 +4,7 @@
     name="contact"
     action=""
     method="post"
+    @submit.prevent="validateBeforeSubmit"
     netlify-honeypot="bot-field">
     <input
       type="hidden"
@@ -13,57 +14,33 @@
       <label>Don’t fill this out: <input name="bot-field"></label>
     </p>
 
-    <div class="mb-3">
-      <label
-        for="name"
-        class="block text-blackbasic font-bold md:text-right mb-1 md:mb-0 pr-4">Your name</label>
-      <input
-        v-validate="'required'"
-        v-model="name"
-        type="text"
-        name="name"
-        data-vv-name="name"
-        class="bg-grey-lighter appearance-none border-2 border-grey-lighter rounded w-full py-2 px-4 text-grey-darker leading-tight focus:outline-none focus:bg-white focus:border-point">
-        <!--      <p
-        class="bg-red white f7 w-100 pa2 fw8 db mv0">{{ errors.first('name') }}</p> -->
+    <div class="column is-12">
+      <label class="block text-blackbasic font-bold md:text-right mb-1 md:mb-0 pr-4" for="email">Name</label>
+          <input class="appearance-none block w-full bg-grey-lightest text-grey-darker border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" name="email" v-model="email" v-validate="'required|email'" :class="{'input': true, 'border-red': errors.has('email') }" type="text" placeholder="Email">
+          <!-- <i v-show="errors.has('email')" class="fa fa-warning"></i> -->
+          <span v-show="errors.has('email')" class="text-red text-xs italic">{{ errors.first('email') }}</span>
+    </div>
+
+    <div class="column is-12">
+      <label class="block text-blackbasic font-bold md:text-right mb-1 md:mb-0 pr-4" for="email">Email</label>
+          <input class="appearance-none block w-full bg-grey-lightest text-grey-darker border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" name="email" v-model="email" v-validate="'required|email'" :class="{'input': true, 'border-red': errors.has('email') }" type="text" placeholder="Email">
+          <!-- <i v-show="errors.has('email')" class="fa fa-warning"></i> -->
+          <span v-show="errors.has('email')" class="text-red text-xs italic">{{ errors.first('email') }}</span>
     </div>
 
 
-    <div class="mb-3">
-      <label
-        for="email"
-        class="block text-blackbasic font-bold md:text-right mb-1 md:mb-0 pr-4">Email</label>
-      <input
-        v-validate="'email|required'"
-        type="text"
-        data-vv-as="email"
-        name="email"
-        class="bg-grey-lighter appearance-none border-2 border-grey-lighter rounded w-full py-2 px-4 text-grey-darker leading-tight focus:outline-none focus:bg-white focus:border-point ns:1/2">
-        <!--      <p
-        class="bg-red white f7 w-100 pa2 fw8 db mv0">{{ errors.first('email') }}</p>  -->
-    </div>
 
-
-    <div class="mb-3">
-      <label
-        for="message"
-        class="block text-blackbasic font-bold md:text-right mb-1 md:mb-0 pr-4">Message:</label>
-      <textarea
-        v-validate="'required'"
-        name="message"
-        data-vv-as="message"
-        class="bg-grey-lighter appearance-none border-2 border-grey-lighter rounded w-full h-32 text-grey-darker leading-tight focus:outline-none focus:bg-white focus:border-point"
-        style="vertical-align: top;"/>
-        <!--      <p
-        class="bg-red white f7 w-100 pa2 fw8 db mv0">{{ errors.first('message') }}</p>  -->
+    <div class="column is-12">
+      <label class="block text-blackbasic font-bold md:text-right mb-1 md:mb-0 pr-4" for="message">Message</label>
+      <textarea name="message" class="w-full h-32 bg-grey-lightest text-grey-darker border rounded py-3 px-4 mb-3 leading-tight focus:outline-none" style="vertical-align: top;" v-model="message" v-validate="'required|length:360'" :class="{'input': true, 'border-red': errors.has('message') }" type="textarea"></textarea>
+      <!-- <i v-show="errors.has('email')" class="fa fa-warning"></i> -->
+      <span v-show="errors.has('message')" class="text-red text-xs italic">{{ errors.first('message') }}</span>
     </div>
 
     <div class="flex justify-end">
-      <input
+      <button
         class="inline-flex cursor-pointer bg-transparent hover:bg-point text-point-dark font-semibold hover:text-white py-2 px-4 border border-point hover:border-transparent rounded"
-        type="submit"
-        value="Submit"
-        @click="submit">
+        type="submit">Submit</button>
     </div>
 
   </form>
@@ -71,27 +48,23 @@
 </template>
 <script>
 export default {
-  $_veeValidate: {
-    validator: "new"
-  },
-  // name: "form",
-  data() {
-    return {
-      name: "",
-      email: "",
-      select: null
-    };
-  },
+  name: 'contact',
+  data: () => ({
+    email: '',
+    name: '',
+    message: ''
+  }),
   methods: {
-    submit() {
-      this.$validator.validateAll();
-    },
-    clear() {
-      this.name = "";
-      this.email = "";
-      this.select = null;
-      this.checkbox = null;
-      this.$validator.reset();
+    validateBeforeSubmit() {
+      this.$validator.validateAll().then((result) => {
+        if (result) {
+          // eslint-disable-next-line
+          console.log('Form Submitted!');
+          return;
+        }
+
+        console.log('Correct them errors!');
+      });
     }
   }
 };
