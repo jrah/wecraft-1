@@ -1,10 +1,8 @@
 <template>
-  <div>
-
     <div
       :style="{'background-image' : 'url('+home.image+')'}"
-      class="bg-cover bg-center py-6 relative bg-grey-darkest">
-      <div class="container py-32 relative z-10">
+      class="bg-cover bg-center py-6 h-screen relative bg-grey-darkest">
+      <div class="container relative ">
         <div class="m:w-3/5 l:w-2/5">
           <h1>
             <span class="text-point font-majorMonoDisplay mt-0 f1 mb-2 text-5xl l:text-headline leading-tight">{{ home.title }}</span>
@@ -23,11 +21,10 @@
           :href="home.contactEmail"
           class="no-underline inline bg-transparent hover:bg-point text-whiteback font-bold hover:text-whiteback py-2 px-6 border-2 border-whiteback hover:border-transparent mb-2">{{ home.button }}</a>
       </div>
-      <div
-        class="overlay"
-        </
-        div/>
-</div></div></template>
+      <div class="overlay"></div>
+    </div>
+
+</template>
 
 <script>
 import home from "~/content/home.json";
