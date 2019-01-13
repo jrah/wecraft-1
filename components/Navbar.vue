@@ -10,7 +10,7 @@
         v-for="(item, index) in site.nav"
         :key="`nav-${index}`"
         :href="item.href"
-        class="text-white no-underline hover:text-green">
+        class="text-white no-underline hover:text-point">
         {{ item.name }}
       </a>
     </nav>
