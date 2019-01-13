@@ -33,17 +33,12 @@
   "logo": "logo0",
   "intro": "We are a design and development consultancy specialising in web localisation and internationalisation. Let's build something your customers will love.",
   "button": "Let's talk!",
-  "options2": {
+  "caseStudyTwo": {
     "heading": "KESCA",
-    "image": {
-      "icon": "/images/uploads/kesca.png"
-    },
-    "project": {
-      "heading": "KESCA",
-      "paragraph": "Korea Europe Standards Certification Association (KESCA) is an organisation supported by the South Korean government. WeCraft created a Ruby on Rails website to facilitate mass form applications to KESCA as part of their delivery of GDPR audit and certification.",
-      "button": "Link to website",
-      "href": "https://www.kesca.kr"
-    }
+    "image": "/images/uploads/kesca.png",
+    "paragraph": "Korea Europe Standards Certification Association (KESCA) is an organisation supported by the South Korean government. WeCraft created a Ruby on Rails website to facilitate mass form applications to KESCA as part of their delivery of GDPR audit and certification.",
+    "button": "Link to website",
+    "href": "https://www.kesca.kr"
   },
   "offers": {
     "title": "Our Process",
@@ -90,17 +85,12 @@
       }
     ]
   },
-  "options": {
+  "caseStudyOne": {
     "heading": "DiversiTea",
-    "image": {
-      "icon": "/images/uploads/diversitea.png"
-    },
-    "project": {
-      "heading": "DiversiTea",
-      "paragraph": "DiversiTea is a newly started artisan loose leaf tea curation startup. \n\nWeCraft worked with DiversiTea in order to make a stunning website that could help them spread the word and, in turn, allow more people to enjoy diverse teas.",
-      "button": "Link to page",
-      "href": "https://www.diversitea.co"
-    }
+    "image": "/images/uploads/diversitea.png",
+    "paragraph": "DiversiTea is a newly started artisan loose leaf tea curation startup. \n\nWeCraft worked with DiversiTea in order to make a stunning website that could help them spread the word and, in turn, allow more people to enjoy diverse teas.",
+    "button": "Link to page",
+    "href": "https://www.diversitea.co"
   },
   "contactUs": {
     "title": "Contact Us",
