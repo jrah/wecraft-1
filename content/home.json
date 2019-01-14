@@ -63,17 +63,17 @@
       {
         "icon": "/images/uploads/undraw_prototyping_process_rswj-1-.svg",
         "heading": "Test",
-        "paragraph": "We tailor a test suite dependent on your user needs, inclusive of browser testing and form testing"
+        "paragraph": "We tailor a test suite dependent on your user needs, inclusive of browser testing and form testing."
       },
       {
         "icon": "/images/uploads/undraw_prototyping_process_rswj-1-.svg",
         "heading": "Launch",
-        "paragraph": "We tailor a test suite dependent on your user needs, inclusive of browser testing and form testing"
+        "paragraph": "We can take care of the website together, including hosting."
       },
       {
         "icon": "/images/uploads/undraw_prototyping_process_rswj-1-.svg",
-        "heading": "Post Service",
-        "paragraph": "Once you are happy We provide an after service solution so that your needs may be continued to be met."
+        "heading": "Post Solution",
+        "paragraph": "Once you are happy we provide an after service solution so that your needs may be continued to be met."
       }
     ]
   },
@@ -85,8 +85,8 @@
     "block": [
       {
         "icon": "/images/uploads/mindmap.svg",
-        "heading": "Bespoke & Latest Technology",
-        "paragraph": "Each of our projects use the latest techniques and technologies."
+        "heading": "Bespoke & Secure",
+        "paragraph": "Each of our projects use the latest techniques, technologies and are safe."
       },
       {
         "icon": "/images/uploads/signup.svg",
@@ -104,23 +104,18 @@
     "title": "Services",
     "block": [
       {
+        "icon": "/images/uploads/signup.svg",
+        "heading": "Localisation",
+        "paragraph": "We specialise in adapting web solutions to international markets, including seemless multilingual experience and expertise in cross-country marketing channels"
+      },
+      {
         "icon": "/images/uploads/mindmap.svg",
         "heading": "Ecommerce",
         "paragraph": "We are experienced with a range of ecommerce solutions, including Shopify and Snipcart."
       },
       {
-        "icon": "/images/uploads/signup.svg",
-        "heading": "Localisation",
-        "paragraph": "We specialise in adapting web solutions to international markets, including seemless multilingual website and expertise in native marketing channels such as Naver"
-      },
-      {
         "icon": "/images/uploads/havingfun.svg",
         "heading": "User Experience Design",
-        "paragraph": "Our process is user driven, by focusing on the user journey we enable customers to have a seemless experience."
-      },
-      {
-        "icon": "/images/uploads/havingfun.svg",
-        "heading": "User Exp",
         "paragraph": "Our process is user driven, by focusing on the user journey we enable customers to have a seemless experience."
       }
     ]
