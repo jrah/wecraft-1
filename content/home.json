@@ -58,7 +58,7 @@
       {
         "icon": "/images/uploads/undraw_prototyping_process_rswj-1-.svg",
         "heading": "Prototype",
-        "paragraph": "We develop an interactive prototype which we use to interview the client with for feedback. "
+        "paragraph": "We develop an interactive prototype, this is followed by a review conducted for the client."
       },
       {
         "icon": "/images/uploads/undraw_prototyping_process_rswj-1-.svg",
@@ -67,8 +67,13 @@
       },
       {
         "icon": "/images/uploads/undraw_prototyping_process_rswj-1-.svg",
+        "heading": "Launch",
+        "paragraph": "We tailor a test suite dependent on your user needs, inclusive of browser testing and form testing"
+      },
+      {
+        "icon": "/images/uploads/undraw_prototyping_process_rswj-1-.svg",
         "heading": "Post delivery service",
-        "paragraph": "We provide an after service solution so that your needs may be continued to be met."
+        "paragraph": "Once you are happy We provide an after service solution so that your needs may be continued to be met."
       }
     ]
   },
@@ -106,11 +111,16 @@
       {
         "icon": "/images/uploads/signup.svg",
         "heading": "Localisation",
-        "paragraph": "We specialise in adapting web solutions to international markets."
+        "paragraph": "We specialise in adapting web solutions to international markets, including seemless multilingual website and expertise in native marketing channels such as Naver"
       },
       {
         "icon": "/images/uploads/havingfun.svg",
         "heading": "User Experience Design",
+        "paragraph": "Our process is user driven, by focusing on the user journey we enable customers to have a seemless experience."
+      },
+      {
+        "icon": "/images/uploads/havingfun.svg",
+        "heading": "User Exp",
         "paragraph": "Our process is user driven, by focusing on the user journey we enable customers to have a seemless experience."
       }
     ]
