@@ -39,7 +39,7 @@
     </div>
 
     <div class="flex justify-end">
-      <button type="submit">Just tell me already</button>
+      <button type="submit" @click="submit">Just tell me already</button>
     </div>
 
   </form>
