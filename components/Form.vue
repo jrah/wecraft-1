@@ -5,6 +5,7 @@
     name="contact"
     netlify
     method="post"
+    @submit.prevent="validateBeforeSubmit"
     netlify-honeypot="bot-field">
     <input
       type="hidden"
