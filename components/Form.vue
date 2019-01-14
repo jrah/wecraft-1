@@ -5,7 +5,6 @@
     name="contact"
     netlify
     method="post"
-    @submit.prevent="validateBeforeSubmit"
     netlify-honeypot="bot-field">
     <input
       type="hidden"
@@ -62,9 +61,8 @@ export default {
         if (result) {
           // eslint-disable-next-line
           console.log('Form Validated!');
-          return;
         }
-
+        return;
         console.log('Correct them errors!');
       });
     }
