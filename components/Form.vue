@@ -1,9 +1,10 @@
 <template>
 
   <form
-    action=""
     name="contact"
     method="post"
+    netlify
+    @submit.prevent="validateBeforeSubmit"
     netlify-honeypot="bot-field">
     <input
       type="hidden"
@@ -37,9 +38,9 @@
     </div>
 
     <div class="flex justify-end">
-      <input
+      <button
         class="inline-flex cursor-pointer bg-transparent hover:bg-point text-point-dark font-semibold hover:text-white py-2 px-4 border border-point hover:border-transparent rounded"
-        type="button" @click="submit" value="Submit"/>
+        type="submit">Submit</button>
     </div>
 
   </form>
@@ -55,7 +56,7 @@ export default {
   }),
   methods: {
     submit() {
-      alert('Form submitted');
+      alert('submitted')
     },
     validateBeforeSubmit() {
       this.$validator.validateAll().then((result) => {
