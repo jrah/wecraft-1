@@ -3,6 +3,7 @@
   <form
     action=""
     name="contact"
+    netlify
     method="post"
     netlify-honeypot="bot-field">
     <input
