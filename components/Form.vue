@@ -38,7 +38,7 @@
     </div>
 
     <div class="flex justify-end">
-<input @click="submit" class="f5 link pv2 ph3 bg-dark-blue bn white br2 fw8 pointer bg-animate hover-bg-blue"  type="submit" value="Submit"/>
+<input @click="validateBeforeSubmit" class="f5 link pv2 ph3 bg-dark-blue bn white br2 fw8 pointer bg-animate hover-bg-blue"  type="submit" value="Submit"/>
     </div>
 
   </form>
