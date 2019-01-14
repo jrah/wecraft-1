@@ -138,7 +138,7 @@ let colors = {
   point: "#5abdb2",
   "point-light": "#7BCAC1",
 
-  brown: "#F6D9CA",
+  brown: "#F6D9CA"
 };
 
 module.exports = {
