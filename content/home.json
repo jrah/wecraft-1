@@ -71,17 +71,17 @@
       {
         "icon": "/images/uploads/mindmap.svg",
         "heading": "Bespoke & Latest Technology",
-        "paragraph": "Each of our projects use the latest techniques and technologies"
+        "paragraph": "Each of our projects use the latest techniques and technologies."
       },
       {
         "icon": "/images/uploads/signup.svg",
         "heading": "Localisation",
-        "paragraph": "We specialise in adapting web solutions to international markets"
+        "paragraph": "We specialise in adapting web solutions to international markets."
       },
       {
         "icon": "/images/uploads/havingfun.svg",
         "heading": "Ecommerce",
-        "paragraph": "We are experienced with a range of ecommerce solutions, including Shopify and Snipcart"
+        "paragraph": "We are experienced with a range of ecommerce solutions, including Shopify and Snipcart."
       }
     ]
   },
