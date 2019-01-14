@@ -38,9 +38,9 @@
     </div>
 
     <div class="flex justify-end">
-      <button
+      <input
         class="inline-flex cursor-pointer bg-transparent hover:bg-point text-point-dark font-semibold hover:text-white py-2 px-4 border border-point hover:border-transparent rounded"
-        type="button" @click="submit">Submit</button>
+        type="button" @click="submit" value="Submit"/>
     </div>
 
   </form>
