@@ -2,8 +2,8 @@
 
   <form
     name="contact"
-    action=""
     method="post"
+    netlify
     @submit.prevent="validateBeforeSubmit"
     netlify-honeypot="bot-field">
     <input
@@ -59,7 +59,7 @@ export default {
       this.$validator.validateAll().then((result) => {
         if (result) {
           // eslint-disable-next-line
-          console.log('Form Submitted!');
+          console.log('Form Validated!');
           return;
         }
 
