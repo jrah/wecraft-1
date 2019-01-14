@@ -4,7 +4,6 @@
     action=""
     name="contact"
     method="post"
-    @submit.prevent="validateBeforeSubmit"
     netlify-honeypot="bot-field">
     <input
       type="hidden"
@@ -38,9 +37,9 @@
     </div>
 
     <div class="flex justify-end">
-      <button
+      <input
         class="inline-flex cursor-pointer bg-transparent hover:bg-point text-point-dark font-semibold hover:text-white py-2 px-4 border border-point hover:border-transparent rounded"
-        type="submit">Submit</button>
+        type="submit" value="Submit" @click="validateBeforeSubmit"/>
     </div>
 
   </form>
