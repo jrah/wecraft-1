@@ -16,7 +16,7 @@
 
     <div class="column is-12">
       <label class="block text-blackbasic font-bold md:text-right mb-1 md:mb-0 pr-4" for="email">Name</label>
-          <input class="appearance-none block w-full bg-grey-lightest text-grey-darker border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" name="name" v-model="name" v-validate="'required|length:60'" :class="{'input': true, 'border-red': errors.has('email') }" type="text" placeholder="Email">
+          <input class="appearance-none block w-full bg-grey-lightest text-grey-darker border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" name="name" v-model="name" v-validate="'required|max:60'" :class="{'input': true, 'border-red': errors.has('email') }" type="text" placeholder="Email">
           <!-- <i v-show="errors.has('email')" class="fa fa-warning"></i> -->
           <span v-show="errors.has('name')" class="text-red text-xs italic">{{ errors.first('name') }}</span>
     </div>
@@ -32,7 +32,7 @@
 
     <div class="column is-12">
       <label class="block text-blackbasic font-bold md:text-right mb-1 md:mb-0 pr-4" for="message">Message</label>
-      <textarea name="message" class="w-full h-32 bg-grey-lightest text-grey-darker border rounded py-3 px-4 mb-3 leading-tight focus:outline-none" style="vertical-align: top;" v-model="message" v-validate="'required|length:360'" :class="{'input': true, 'border-red': errors.has('message') }" type="textarea"></textarea>
+      <textarea name="message" class="w-full h-32 bg-grey-lightest text-grey-darker border rounded py-3 px-4 mb-3 leading-tight focus:outline-none" style="vertical-align: top;" v-model="message" v-validate="'required|max:360'" :class="{'input': true, 'border-red': errors.has('message') }" type="textarea"></textarea>
       <!-- <i v-show="errors.has('email')" class="fa fa-warning"></i> -->
       <span v-show="errors.has('message')" class="text-red text-xs italic">{{ errors.first('message') }}</span>
     </div>
