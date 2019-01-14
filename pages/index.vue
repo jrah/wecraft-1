@@ -5,6 +5,10 @@
       :component-background-color="'bg-grey-lightest'"
       :component-title="home.features.title"
       :component-loop="home.features.block"/>
+    <app-feature-block
+      :component-background-color="'bg-grey-lightest'"
+      :component-title="home.services.title"
+      :component-loop="home.services.block"/>
 
     <app-case-study
       :component-sub-heading="home.caseStudyTwo.subheading"

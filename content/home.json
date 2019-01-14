@@ -85,6 +85,26 @@
       }
     ]
   },
+  "services": {
+    "title": "Services WeCraft Offers",
+    "block": [
+      {
+        "icon": "/images/uploads/mindmap.svg",
+        "heading": "Ecommerce",
+        "paragraph": "We are experienced with a range of ecommerce solutions, including Shopify and Snipcart."
+      },
+      {
+        "icon": "/images/uploads/signup.svg",
+        "heading": "Localisation",
+        "paragraph": "We specialise in adapting web solutions to international markets."
+      },
+      {
+        "icon": "/images/uploads/havingfun.svg",
+        "heading": "User Experience Design",
+        "paragraph": "Our process is user driven, by focusing on the user journey we enable customers to have a seemless experience."
+      }
+    ]
+  },
   "caseStudyOne": {
     "heading": "DiversiTea",
     "image": "/images/uploads/diversitea.png",
