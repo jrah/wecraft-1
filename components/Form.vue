@@ -39,7 +39,7 @@
     </div>
 
     <div class="flex justify-end">
-<input @click="validateBeforeSubmit" class="f5 link pv2 ph3 bg-dark-blue bn white br2 fw8 pointer bg-animate hover-bg-blue"  type="submit" value="Submit"/>
+      <button type="submit">Just tell me already</button>
     </div>
 
   </form>
