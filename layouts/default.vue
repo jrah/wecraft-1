@@ -7,19 +7,19 @@
 </template>
 
 <script>
-import appNavbar from '~/components/Navbar.vue'
-import appFooter from '~/components/Footer.vue'
+import appNavbar from "~/components/Navbar.vue";
+import appFooter from "~/components/Footer.vue";
 
 export default {
   components: {
     appFooter,
     appNavbar
   }
-}
+};
 </script>
 
 <style lang="scss">
-@import '~assets/scss/mixins';
+@import "~assets/scss/mixins";
 html {
   @apply font-openSans font-normal text-black leading-normal;
 }
@@ -52,7 +52,7 @@ p {
 .link {
   @include mq(ns) {
     &:after {
-      content: '';
+      content: "";
       @apply bg-navy;
       position: absolute;
       left: 0;
