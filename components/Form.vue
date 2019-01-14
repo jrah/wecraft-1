@@ -1,9 +1,9 @@
 <template>
 
   <form
+    action=""
     name="contact"
     method="post"
-    netlify
     @submit.prevent="validateBeforeSubmit"
     netlify-honeypot="bot-field">
     <input
