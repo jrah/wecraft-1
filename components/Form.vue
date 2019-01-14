@@ -40,7 +40,7 @@
     <div class="flex justify-end">
       <button
         class="inline-flex cursor-pointer bg-transparent hover:bg-point text-point-dark font-semibold hover:text-white py-2 px-4 border border-point hover:border-transparent rounded"
-        type="submit">Submit</button>
+        type="button" @click="submit">Submit</button>
     </div>
 
   </form>
@@ -55,6 +55,9 @@ export default {
     message: ''
   }),
   methods: {
+    submit() {
+      alert('Form submitted');
+    },
     validateBeforeSubmit() {
       this.$validator.validateAll().then((result) => {
         if (result) {
