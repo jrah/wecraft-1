@@ -96,8 +96,9 @@
     "title": "Contact Us",
     "paragraph": "",
     "text1": {
-      "header": "Ready to get started?",
-      "paragraph": "Tell us about your new project. Email us below to get started on your journey.\n"
+      "header": "How can we help?",
+      "paragraph": "If you have a project you'd like to discuss with us we'd love to hear from you.",
+      "email": "team@wecraft.website"
     },
     "text2": {
       "header": "Email",
@@ -105,7 +106,7 @@
     },
     "text3": {
       "header": "WeCraft Office",
-      "paragraph": "210 Portobello, Sheffield, South Yorkshire, S1 4DQ, United Kingdom"
+      "paragraph": "210 Portobello, \n Sheffield, \n South Yorkshire, \n S1 4DQ, \n United Kingdom"
     }
   },
   "testimonial": [
