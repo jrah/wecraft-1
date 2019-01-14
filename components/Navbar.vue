@@ -1,6 +1,6 @@
 <template>
 
-  <div class="container pt-4 flex justify-between items-center absolute pin-t w-full z-20">
+  <div class="container pt-4 flex justify-between items-center absolute pin-t pin-x w-full z-20">
     <app-logo
       :component-name="site.logo.name"
       :component-text="site.logo.text"
