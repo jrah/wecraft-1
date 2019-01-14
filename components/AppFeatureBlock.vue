@@ -1,7 +1,7 @@
 <template lang="html">
 
-  <section 
-    :class="componentBackgroundColor" 
+  <section
+    :class="componentBackgroundColor"
     class="bg-grey-lightest">
     <div class="container py-10">
       <h1 class="mb-16 text-4xl text-center">{{ componentTitle }}</h1>
@@ -10,13 +10,13 @@
           v-for="(block, index) in componentLoop"
           :key="index"
           :name=" '' + index "
-          class="w-full m:w-1/2 l:w-1/4 px-4">
+          class="w-full m:w-1/2 l:w-1/4 px-4 text-center">
           <div class="max-w-xs m-auto">
             <img
               :src="block.icon"
               :alt="block.icon">
           </div>
-          <h2 class="leading-normal text-lg mt-1 mb-1">{{ block.heading }}</h2>
+          <h2 class="leading-normal text-lg mt-2 mb-3">{{ block.heading }}</h2>
           <p class="leading-normal mt-0 mb-5">{{ block.paragraph }}</p>
         </div>
       </div>
