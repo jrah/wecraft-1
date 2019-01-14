@@ -37,9 +37,7 @@
     </div>
 
     <div class="flex justify-end">
-      <input
-        class="inline-flex cursor-pointer bg-transparent hover:bg-point text-point-dark font-semibold hover:text-white py-2 px-4 border border-point hover:border-transparent rounded"
-        type="button" @click="submit" value="Submit"/>
+<input @click="submit" class="f5 link pv2 ph3 bg-dark-blue bn white br2 fw8 pointer bg-animate hover-bg-blue"  type="submit" value="Submit"/>
     </div>
 
   </form>
