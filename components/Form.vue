@@ -39,7 +39,7 @@
     <div class="flex justify-end">
       <input
         class="inline-flex cursor-pointer bg-transparent hover:bg-point text-point-dark font-semibold hover:text-white py-2 px-4 border border-point hover:border-transparent rounded"
-        type="button" @click="validateBeforeSubmit" value="Submit"/>
+        type="button" @click="submit" value="Submit"/>
     </div>
 
   </form>
