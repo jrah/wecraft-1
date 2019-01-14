@@ -59,6 +59,16 @@
         "icon": "/images/uploads/undraw_prototyping_process_rswj-1-.svg",
         "heading": "Prototype",
         "paragraph": "We develop an interactive prototype which we use to interview the client with for feedback. "
+      },
+      {
+        "icon": "/images/uploads/undraw_prototyping_process_rswj-1-.svg",
+        "heading": "Test",
+        "paragraph": "We tailor a test suite dependent on your user needs, inclusive of browser testing and form testing"
+      },
+      {
+        "icon": "/images/uploads/undraw_prototyping_process_rswj-1-.svg",
+        "heading": "Post delivery service",
+        "paragraph": "We provide an after service solution so that your needs may be continued to be met."
       }
     ]
   },
@@ -86,7 +96,7 @@
     ]
   },
   "services": {
-    "title": "Services WeCraft Offers",
+    "title": "Services",
     "block": [
       {
         "icon": "/images/uploads/mindmap.svg",

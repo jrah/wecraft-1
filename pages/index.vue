@@ -9,7 +9,6 @@
       :component-background-color="'bg-grey-lightest'"
       :component-title="home.services.title"
       :component-loop="home.services.block"/>
-
     <app-case-study
       :component-sub-heading="home.caseStudyTwo.subheading"
       :component-href="home.caseStudyTwo.href"
