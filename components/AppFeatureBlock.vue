@@ -29,7 +29,7 @@
           v-for="(block, index) in componentLoop"
           :key="index"
           :name=" '' + index "
-          class="w-full m:w-1/2 l:w-1/4">
+          class="w-full m:w-1/2 l:w-1/3">
           <h2 class="leading-normal text-lg mt-2 mb-3"><span class="mr-2">{{index + 1}}</span> <span class="uppercase font-medium border-b-4 border-teal-light">{{ block.heading }}</span></h2>
           <p class="leading-normal mt-0 mb-5 ml-5">{{ block.paragraph }}</p>
         </div>
