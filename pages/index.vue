@@ -12,10 +12,6 @@
       :component-title="home.caseStudyTwo.heading"
       :component-image="home.caseStudyTwo.image"
       :component-paragraph="home.caseStudyTwo.paragraph"/>
-    <app-feature-block
-      :component-background-color="'bg-grey-lightest'"
-      :component-title="home.offers.title"
-      :component-loop="home.offers.block"/>
     <app-case-study
       :component-flex-direction="'flex-row-reverse'"
       :component-sub-heading="home.caseStudyOne.subheading"
@@ -23,7 +19,10 @@
       :component-title="home.caseStudyOne.heading"
       :component-image="home.caseStudyOne.image"
       :component-paragraph="home.caseStudyOne.paragraph"/>
-
+    <app-feature-block
+      :component-background-color="'bg-grey-lightest'"
+      :component-title="home.offers.title"
+      :component-loop="home.offers.block"/>
     <section class="py-10 bg-grey-lightest">
       <h1 class="text-center text-4xl mb-12">{{ home.clients.title }}</h1>
       <div class="container flex justify-around items-center flex-wrap mx-32">
