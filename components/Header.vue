@@ -2,7 +2,7 @@
   <div
     :style="{'background-image' : 'url('+home.image+')'}"
     class="bg-cover bg-center ns:h-screen relative bg-grey-darkest">
-    <div class="container h-full relative ns:inline-flex flex-col justify-center pt-24 pb-12 ns:h-100 z-10">
+    <div class="container h-full relative ns:flex flex-col justify-center pt-24 pb-12 ns:h-100 z-10">
       <div class="m:w-3/5 l:w-2/5">
         <div v-if="home.subtitle">
           <h1>
