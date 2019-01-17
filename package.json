@@ -1,8 +1,8 @@
 {
   "name": "diversiteanuxt",
-  "title": "DiversiTea",
+  "title": "WeCraft",
   "version": "1.0.0",
-  "description": "DiversiTea - Loose leaf tea recommedations",
+  "description": "Design and development consultancy specialising in web localisation and internationalisation",
   "author": "James Home",
   "private": true,
   "scripts": {
