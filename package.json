@@ -23,7 +23,6 @@
     "node-sass": "^4.9.4",
     "nuxt": "^2.0.0",
     "nuxt-purgecss": "^0.0.2",
-    "nuxt-validate": "^0.1.1",
     "sass-loader": "^7.1.0",
     "tailwindcss-gradients": "^1.1.0",
     "tailwindcss-object-fit": "^1.0.1",
