@@ -20,7 +20,7 @@ module.exports = {
       },
       { hid: "og:type", name: "og:type", content: "website" },
       { hid: "og:url", name: "og:url", content: "https://nuxtjs.org" },
-      { name: "og:image", content: "https://i.imgur.com/gRR2pPe.jpg" }
+      { name: "og:image", content: "https://i.imgur.com/MvPn4rJ.jpg" }
     ],
     link: [
       { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
