@@ -10,7 +10,7 @@
         <div class="px-4">
           <img
             :src="componentImage"
-            :alt="componentSubHeading +' Image'">
+            :alt="componentImage +' Image'">
         </div>
       </div>
       <div class="p-10 w-full l:w-1/2 border-grey-lighter border-solid border-2 rounded-sm shadow">
@@ -40,7 +40,8 @@ export default {
     },
     componentSubHeading: {
       type: String,
-      required: false
+      required: false,
+      default: ""
     },
     componentParagraph: {
       type: String,
