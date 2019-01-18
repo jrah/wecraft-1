@@ -1,13 +1,12 @@
 <template lang="html">
 
   <section
-    :class="componentBackgroundColor"
-    class="bg-grey-lightest">
+    :class="componentBackgroundColor">
     <div class="container py-10">
       <h1 class="mb-16 text-4xl text-center">{{ componentTitle }}</h1>
 
-      <div 
-        v-if="componentLoop.length <= 4" 
+      <div
+        v-if="componentLoop.length <= 4"
         class="flex flex-wrap justify-between">
 
         <div
@@ -25,8 +24,8 @@
           <p class="leading-normal mt-0 mb-5">{{ block.paragraph }}</p>
         </div>
       </div>
-      <div 
-        v-else 
+      <div
+        v-else
         class="flex flex-wrap justify-between">
         <div
           v-for="(block, index) in componentLoop"
