@@ -89,12 +89,12 @@
         "paragraph": "Each of our projects are safe and use the latest techniques and technologies."
       },
       {
-        "icon": "/images/uploads/signup.svg",
+        "icon": "/images/uploads/language.svg",
         "heading": "Localisation",
         "paragraph": "We specialise in adapting web solutions to international markets."
       },
       {
-        "icon": "/images/uploads/havingfun.svg",
+        "icon": "/images/uploads/ecommerce.svg",
         "heading": "Ecommerce",
         "paragraph": "We are experienced with a range of ecommerce solutions, including Shopify and Snipcart."
       }
@@ -104,17 +104,17 @@
     "title": "Services",
     "block": [
       {
-        "icon": "/images/uploads/signup.svg",
+        "icon": "/images/uploads/language.svg",
         "heading": "Localisation",
         "paragraph": "We specialise in adapting web solutions to international markets, including seamless multilingual experience and expertise in cross-country marketing channels."
       },
       {
-        "icon": "/images/uploads/mindmap.svg",
+        "icon": "/images/uploads/ecommerce.svg",
         "heading": "Ecommerce",
         "paragraph": "We are experienced with a range of ecommerce solutions, including Shopify and Snipcart."
       },
       {
-        "icon": "/images/uploads/havingfun.svg",
+        "icon": "/images/uploads/userexperience.svg",
         "heading": "User Experience Design",
         "paragraph": "Our process is user driven- by focusing on the user journey, we enable customers to have a seamless experience."
       }
