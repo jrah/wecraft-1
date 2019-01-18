@@ -19,7 +19,6 @@
       :component-image="home.caseStudyOne.image"
       :component-paragraph="home.caseStudyOne.paragraph"/>
     <app-feature-block
-      :component-background-color="'bg-grey-lightest'"
       :component-title="home.offers.title"
       :component-loop="home.offers.block"/>
     <section class="py-10 bg-grey-lightest">

@@ -86,12 +86,12 @@
       {
         "icon": "/images/uploads/mindmap.svg",
         "heading": "Bespoke & Secure",
-        "paragraph": "Each of our projects are safe and use the latest techniques and technologies."
+        "paragraph": "Eveer are bespoke and built to be secure, using the latest techniques and technologies."
       },
       {
         "icon": "/images/uploads/language.svg",
-        "heading": "Localisation",
-        "paragraph": "We specialise in adapting web solutions to international markets."
+        "heading": "Internationalisation",
+        "paragraph": "We specialise in adapting web solutions to international markets, including seamless multilingual experience and expertise in cross-country marketing channels."
       },
       {
         "icon": "/images/uploads/ecommerce.svg",
@@ -101,12 +101,12 @@
     ]
   },
   "services": {
-    "title": "Services",
+    "title": "Our Services",
     "block": [
       {
-        "icon": "/images/uploads/language.svg",
-        "heading": "Localisation",
-        "paragraph": "We specialise in adapting web solutions to international markets, including seamless multilingual experience and expertise in cross-country marketing channels."
+        "icon": "/images/uploads/brochure.svg",
+        "heading": "Web Design & Development",
+        "paragraph": "We design functional and attractive responsive websites that are easy to use."
       },
       {
         "icon": "/images/uploads/ecommerce.svg",
@@ -116,7 +116,7 @@
       {
         "icon": "/images/uploads/userexperience.svg",
         "heading": "User Experience Design",
-        "paragraph": "Our process is user driven- by focusing on the user journey, we enable customers to have a seamless experience."
+        "paragraph": "Our process is user driven by focusing on the user journey, we enable customers to have a seamless experience."
       }
     ]
   },
