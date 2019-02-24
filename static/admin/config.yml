@@ -43,11 +43,13 @@ collections: # A list of collections the CMS should be able to edit
             - label: image
               name: image
               widget: object
+              required: false
               fields:
                 - {label:  image, name: icon, widget: image}
             - label: project
               name: project
               widget: object
+              required: false
               fields:
                 - {label: Heading, name: heading, widget: text}
                 - {label: Paragraph, name: paragraph, widget: text}
