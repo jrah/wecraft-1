@@ -20,6 +20,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Intro image, name: image, widget: image}
           - {label: Intro button, name: button, widget: string}
           - {label: Contact email, name: contactEmail, widget: string}
+          - {label: Markdown sample, name: markdown, widget: markdown}
           - label: client
             name: clients
             required: false
